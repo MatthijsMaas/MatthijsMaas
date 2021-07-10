@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Matthijs Maas
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Postdoctoral Research Associate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: University of Cambridge
+  url: https://www.cser.ac.uk/news/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include AI Governance
 
 # Interests to show in About widget
 interests:
