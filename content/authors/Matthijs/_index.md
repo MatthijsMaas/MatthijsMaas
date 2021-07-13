@@ -14,7 +14,7 @@ organizations:
   url: https://www.cser.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: (TEST)  Matthijs Maas is a postdoctoral research associate at the Centre for the Study of Existential Risk (CSER), University of Cambridge. He works on adaptive global governance approaches for technological risks, with a  focus on regimes and institutions for the governance of Artificial Intelligence. His additional research interests are on the effects of AI technology on international law itself, as well as frameworks for the regulation of uncertain risks. Prior to working at CSER, he has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others.  
+bio: Matthijs Maas is a postdoctoral research associate at the Centre for the Study of Existential Risk (CSER), University of Cambridge. He works on adaptive global governance approaches for technological risks, with a  focus on regimes and institutions for the governance of Artificial Intelligence. His additional research interests are on the effects of AI technology on international law itself, as well as frameworks for the regulation of uncertain risks. Prior to working at CSER, he has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others.  
 
 
 # Interests to show in About widget
@@ -61,9 +61,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: uploads/Academic CV - Matthijs Maas - July 2021 - c.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/Academic CV - Matthijs Maas - July 2021 - c.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
