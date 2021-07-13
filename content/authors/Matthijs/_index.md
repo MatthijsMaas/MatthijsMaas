@@ -14,7 +14,7 @@ organizations:
   url: https://www.cser.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Matthijs Maas is a postdoctoral research associate at the Centre for the Study of Existential Risk (CSER), University of Cambridge. He works on adaptive global governance approaches for technological risks, with a  focus on regimes and institutions for the governance of Artificial Intelligence. His additional research interests are on the effects of AI technology on international law itself, as well as frameworks for the regulation of uncertain risks. Prior to working at CSER, he has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others.  
+bio: Matthijs Maas is a postdoctoral research associate at the Centre for the Study of Existential Risk (CSER), University of Cambridge, working on adaptive global governance approaches for emerging technologies, with a focus on AI.   
 
 
 # Interests to show in About widget
@@ -44,7 +44,8 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: "mailto:mmm71@cam.ac.uk"
+    # '/#contact'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/matthijsMmaas
@@ -66,12 +67,15 @@ social:
 #   link: uploads/Academic CV - Matthijs Maas - July 2021 - c.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "matthijs.m.maas@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Matthijs Maas...
+Matthijs Maas is a postdoctoral research associate at the Centre for the Study of Existential Risk (CSER), University of Cambridge. He works on adaptive global governance approaches for technological risks, with a focus on regimes and institutions for the governance of Artificial Intelligence. His additional research interests are on the effects of AI technology on international law itself, as well as frameworks for the regulation of uncertain risks. 
+
+Prior to working at CSER, he has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others.
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - July 2021 - c.pdf" "newtab" >}}resumé{{< /staticref >}}.
