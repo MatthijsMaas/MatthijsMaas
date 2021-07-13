@@ -63,7 +63,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/resume.pdf
+  link: uploads/Academic CV - Matthijs Maas - July 2021 - c.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -74,4 +74,4 @@ highlight_name: true
 
 Matthijs Maas...
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - July 2021 - c.pdf" "newtab" >}}resumé{{< /staticref >}}.
