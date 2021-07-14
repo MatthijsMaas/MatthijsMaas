@@ -79,6 +79,14 @@ Prior to working at CSER, he has previous experience working at The Hague Centre
 
 TESTING TESTING ---
 First: Accordion
+
+<div id="accordion">
+  <h3>First header</h3>
+  <div>First content panel</div>
+  <h3>Second header</h3>
+  <div>Second content panel</div>
+</div>
+
 <!doctype html>
 <html lang="en">
 <head>
