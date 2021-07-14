@@ -44,8 +44,6 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-- name: Montreal AI Ethics Institute
-  url: https://montrealethics.ai/bridging-the-gap-the-case-for-an-incompletely-theorized-agreement-on-ai-policy-research-summary/ 
 
 url_pdf: ''
 url_code: ''
@@ -68,8 +66,7 @@ url_video: ''
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- Mid-term AI
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
