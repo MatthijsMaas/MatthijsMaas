@@ -44,7 +44,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-
+url: 'https://montrealethics.ai/bridging-the-gap-the-case-for-an-incompletely-theorized-agreement-on-ai-policy-research-summary/'
 url_pdf: 'uploads/Stix and Maas - 2021 - Bridging the gap the case for an ‘Incompletely Th.pdf'
 url_code: ''
 url_dataset: ''
