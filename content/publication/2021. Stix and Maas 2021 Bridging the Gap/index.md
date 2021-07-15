@@ -41,9 +41,9 @@ tags: [AI, policy, governance, AI ethics, epistemic community, incompletely theo
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Montreal AI Ethics
-#   url: 'https://montrealethics.ai/bridging-the-gap-the-case-for-an-incompletely-theorized-agreement-on-ai-policy-research-summary/'
+links:
+- name: Montreal AI Ethics
+  url: 'https://montrealethics.ai/bridging-the-gap-the-case-for-an-incompletely-theorized-agreement-on-ai-policy-research-summary/'
 
 url_pdf: 'uploads/Stix and Maas - 2021 - Bridging the gap the case for an ‘Incompletely Th.pdf'
 url_code: ''
