@@ -44,9 +44,9 @@ featured: true
 links:
 - name: SSRN
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3756437'
-- name: Montreal AI Ethics Institute (summary)
+- name: MAIEI Research Summary
   url: 'https://montrealethics.ai/bridging-the-gap-the-case-for-an-incompletely-theorized-agreement-on-ai-policy-research-summary/'
-- name: (Presentation - Chalmers AI Research Centre)
+- name: Video
   url: 'https://www.youtube.com/watch?v=LRxMY6whdt4'
 
 url_pdf: 'uploads/Stix and Maas - 2021 - Bridging the gap the case for an ‘Incompletely Th.pdf'
