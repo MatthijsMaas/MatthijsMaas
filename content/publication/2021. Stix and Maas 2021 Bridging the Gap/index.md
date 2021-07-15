@@ -42,8 +42,10 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: Montreal AI Ethics
+- name: Montreal AI Ethics Institute (summary)
   url: 'https://montrealethics.ai/bridging-the-gap-the-case-for-an-incompletely-theorized-agreement-on-ai-policy-research-summary/'
+- name: (Presentation - Chalmers AI Research Centre)
+  url: 'https://www.youtube.com/watch?v=LRxMY6whdt4'
 
 url_pdf: 'uploads/Stix and Maas - 2021 - Bridging the gap the case for an ‘Incompletely Th.pdf'
 url_code: ''
