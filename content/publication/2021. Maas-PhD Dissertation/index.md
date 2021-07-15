@@ -40,16 +40,16 @@ tags: [AI, governance, international law, institutional design, governance disru
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Montreal AI Ethics
-#   url: 'https://montrealethics.ai/bridging-the-gap-the-case-for-an-incompletely-theorized-agreement-on-ai-policy-research-summary/'
+links:
+- name: SSRN
+  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3833395'
 
 url_pdf: 'uploads/Maas - 2021 - PhD Dissertation - Artificial Intelligence Governance Under Change - monograph.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'uploads/21.04.21 - PhD - Maas - AI Governance Under Change - TLDR Handout and models.pdf'
 url_source: ''
 url_video: ''
 

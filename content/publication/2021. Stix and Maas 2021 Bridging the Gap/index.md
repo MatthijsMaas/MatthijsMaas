@@ -42,6 +42,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
+- name: SSRN
+  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3756437'
 - name: Montreal AI Ethics Institute (summary)
   url: 'https://montrealethics.ai/bridging-the-gap-the-case-for-an-incompletely-theorized-agreement-on-ai-policy-research-summary/'
 - name: (Presentation - Chalmers AI Research Centre)
