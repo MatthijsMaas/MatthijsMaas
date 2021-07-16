@@ -24,7 +24,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2021-07-15T00:00:00Z"
 
-authors: [Matthijs, Lalitha Sundaram, SJ Beard]
+authors: [Matthijs]
 tags: [Existential Risk, Global Catastrophic Risk, Epistemology, Uncertainty]
 
 # Is this a featured talk? (true/false)
