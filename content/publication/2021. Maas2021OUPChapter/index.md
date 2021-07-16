@@ -40,9 +40,9 @@ tags: [AI, AI policy, AI regulation, sociotechnical change, techlaw, law and tec
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: SSRN
-#   url: ''
+links:
+- name: SSRN
+  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3871635'
 
 url_pdf: 'uploads/Maas - 2021 - Aligning AI Regulation to Sociotechnical Change.pdf'
 url_code: ''
