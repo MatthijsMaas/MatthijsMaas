@@ -1,5 +1,5 @@
 ---
-title: Doom and Doubt: Uncertain Futures & Open Questions about Existential Risk
+title: Doom and Doubt - Uncertain Futures & Open Questions about Existential Risk
 
 event: CSER Summer Panels
 event_url: https://www.youtube.com/watch?v=RuaD1fnr6wQ&t=1s
