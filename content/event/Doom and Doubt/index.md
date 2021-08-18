@@ -2,7 +2,7 @@
 title: Doom and Doubt - Uncertain Futures & Open Questions about Existential Risk
 
 event: CSER Summer Panels
-event_url: https://www.youtube.com/watch?v=RuaD1fnr6wQ&t=1s
+event_url: https://www.youtube.com/watch'v=RuaD1fnr6wQ&t=1s
 
 location: 
 address:
@@ -27,7 +27,7 @@ publishDate: "2021-07-15T00:00:00Z"
 authors: [Matthijs]
 tags: [Existential Risk, Global Catastrophic Risk, Epistemology, Uncertainty]
 
-# Is this a featured talk? (true/false)
+# Is this a featured talk' (true/false)
 featured: false
 
 image:
@@ -42,7 +42,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://www.youtube.com/watch?v=RuaD1fnr6wQ&t=1s"
+url_video: "https://www.youtube.com/watch'v=RuaD1fnr6wQ&t=1s"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
