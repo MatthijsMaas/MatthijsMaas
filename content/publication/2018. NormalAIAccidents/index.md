@@ -1,20 +1,21 @@
 ---
-title: "Regulating for 'Normal AI Accidents': Operational Lessons for the Responsible Governance of Artificial Intelligence Deployment"
+title: "Artificial intelligence and crime: A primer for criminologists"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Keith J. Hayward
 - Matthijs
 
 # Author notes (optional)
 # author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
 # - "Equal contribution"
 
-date: "2018-12-07T00:00:00Z"
-doi: "10.1145/3278721.3278766"
+date: "2020-06-30T00:00:00Z"
+doi: "10.1177/1741659020917434"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021-08-17T00:00:00Z"
@@ -23,20 +24,20 @@ publishDate: "2021-08-17T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society - 223–228
-publication_short: AIES'18
+publication: Crime, Media, Culture 17(2), 209-233
+publication_short: Crime, Media, Culture
 
-abstract: New technologies, particularly those which are deployed rapidly across sectors, or which have to operate in competitive conditions, can disrupt previously stable technology governance regimes. This leads to a precarious need to balance caution against performance while exploring the resulting 'safe operating space'. This paper will argue that Artificial Intelligence is one such critical technology, the responsible deployment of which is likely to prove especially complex, because even narrow AI applications often involve networked (tightly coupled, opaque) systems operating in complex or competitive environments. This ensures such systems are prone to 'normal accident'-type failures which can cascade rapidly, and are hard to contain or even detect in time. Legal and governance approaches to the deployment of AI will have to reckon with the specific causes and features of such 'normal accidents'. While this suggests that large-scale, cascading errors in AI systems are inevitable, an examination of the operational features that lead technologies to exhibit 'normal accidents' enables us to derive both tentative principles for precautionary policymaking, and practical recommendations for the safe(r) deployment of AI systems. This may help enhance the safety and security of these systems in the public sphere, both in the short- and in the long term.
+abstract: This article introduces the concept of Artificial Intelligence (AI) to a criminological audience. After a general review of the phenomenon (including brief explanations of important cognate fields such as 'machine learning', 'deep learning', and 'reinforcement learning'), the paper then turns to the potential application of AI by criminals, including what we term here 'crimes with AI', 'crimes against AI', and 'crimes by AI'. In these sections, our aim is to highlight AI's potential as a criminogenic phenomenon, both in terms of scaling up existing crimes and facilitating new digital transgressions. In the third part of the article, we turn our attention to the main ways the AI paradigm is transforming policing, surveillance, and criminal justice practices via diffuse monitoring modalities based on prediction and prevention. Throughout the paper, we deploy an array of programmatic examples which, collectively, we hope will serve as a useful AI primer for criminologists interested in the tech-crime nexus.
 
 # Summary. An optional shortened abstract.
 summary: 
 
-tags: [AI, AI policy, normal accidents]
+tags: [AI, criminology, AI crime, AI policing, surveillance, facial recognition]
 
-# Display this page in the Featured widget?
+# Display this page in the Featured widget'
 featured: true
 
 # Custom links (uncomment lines below)
@@ -44,12 +45,12 @@ featured: true
 # - name: SSRN
 #   url: ''
 
-url_pdf: 'uploads/Maas - 2018 - Regulating for Normal AI Accidents Operational Lessons.pdf' 
+url_pdf: 'uploads/Hayward and Maas - 2020 - Artificial intelligence and crime A primer for cr.pdf' 
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'uploads/181017 - AI, Crime and Policing -- CCSC 2018 conference -maas -public --.pdf'
 url_source: ''
 url_video: ''
 
