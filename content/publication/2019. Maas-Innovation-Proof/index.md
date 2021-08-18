@@ -39,7 +39,7 @@ summary:
 tags: [AI, military AI, arms control, adaptive technology governance, security regime, international humanitarian law]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:

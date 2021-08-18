@@ -39,7 +39,7 @@ summary:
 tags: [AI, international law, legal development, legal displacement, legal destruction]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:
