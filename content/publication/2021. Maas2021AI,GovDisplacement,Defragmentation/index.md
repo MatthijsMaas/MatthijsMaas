@@ -37,7 +37,7 @@ summary:
 tags: [AI, International Law, Legal Fragmentation, TechLaw, LawTech, Legal Automation]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:

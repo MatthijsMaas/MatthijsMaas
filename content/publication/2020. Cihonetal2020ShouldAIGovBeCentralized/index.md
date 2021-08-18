@@ -40,7 +40,7 @@ summary:
 tags: [AI, AI governance, institutional design, regime complexity, polycentricity, trade regime, security regime, environment regime]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:
