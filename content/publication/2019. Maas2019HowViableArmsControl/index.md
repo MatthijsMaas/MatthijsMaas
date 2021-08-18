@@ -27,7 +27,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: Contemporary Security Policy, 40(3) - 285-311
-publication_short: 
+publication_short: Contemporary Security Policy
 
 abstract: Many observers anticipate “arms races” between states seeking to deploy artificial intelligence (AI) in diverse military applications, some of which raise concerns on ethical and legal grounds, or from the perspective of strategic stability or accident risk. How viable are arms control regimes for military AI? This article draws a parallel with the experience in controlling nuclear weapons, to examine the opportunities and pitfalls of efforts to prevent, channel, or contain the militarization of AI. It applies three analytical lenses to argue that (1) norm institutionalization can counter or slow proliferation; (2) organized “epistemic communities” of experts can effectively catalyze arms control; (3) many military AI applications will remain susceptible to “normal accidents,” such that assurances of “meaningful human control” are largely inadequate. I conclude that while there are key differences, understanding these lessons remains essential to those seeking to pursue or study the next chapter in global arms control.
 
