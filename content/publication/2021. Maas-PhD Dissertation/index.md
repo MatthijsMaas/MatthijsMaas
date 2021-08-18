@@ -34,7 +34,7 @@ abstract: This dissertation explores how we may govern a changing technology, in
 # Summary. An optional shortened abstract.
 summary: 
 
-tags: [AI, governance, international law, institutional design, governance disruption, automation of governance, (feat)]
+tags: [AI, governance, international law, institutional design, governance disruption, automation of governance]
 
 # Display this page in the Featured widget?
 featured: true

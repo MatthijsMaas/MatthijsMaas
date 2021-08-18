@@ -37,7 +37,7 @@ summary: Offers three lessons from nuclear weapons governance for the political 
 tags: [AI, military AI, arms control, nuclear governance, nuclear proliferation, normal accident theory]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
