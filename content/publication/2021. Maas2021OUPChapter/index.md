@@ -34,7 +34,7 @@ abstract: How do we regulate a changing technology, with changing uses, in a cha
 # Summary. An optional shortened abstract.
 summary: 
 
-tags: [AI, AI policy, AI regulation, sociotechnical change, techlaw, law and technology, regulatory rationale, regulatory target, problem logics]
+tags: [AI, AI policy, AI regulation, sociotechnical change, techlaw, law and technology, regulatory rationale, regulatory target, problem logics, (feat)]
 
 # Display this page in the Featured widget?
 featured: true
