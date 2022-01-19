@@ -78,4 +78,4 @@ Dr. Matthijs Maas is a postdoctoral research associate at the Centre for the Stu
 Prior to working at CSER, he has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others.
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV - Matthijs Maas - October 2021 - new.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv - Matthijs Maas - 2022.pdf" "newtab" >}}resumé{{< /staticref >}}.
