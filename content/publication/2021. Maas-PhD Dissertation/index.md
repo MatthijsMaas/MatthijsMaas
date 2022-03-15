@@ -44,7 +44,7 @@ links:
 - name: SSRN
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3833395'
 
-url_pdf: 'uploads/Maas - 2021 - PhD Dissertation - Artificial Intelligence Governance Under Change - monograph.pdf'
+url_pdf: # 'uploads/Maas - 2021 - PhD Dissertation - Artificial Intelligence Governance Under Change - monograph.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
