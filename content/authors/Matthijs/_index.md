@@ -10,11 +10,11 @@ role: Postdoctoral Research Associate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Centre for the Study of Existential Risk, University of Cambridge
-  url: https://www.cser.ac.uk/
+- name: Legal Priorities Project 
+  url: https://www.legalpriorities.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Dr. Matthijs Maas is a postdoctoral research associate at the Centre for the Study of Existential Risk (CSER), University of Cambridge, working on adaptive global governance approaches for emerging technologies, with a focus on AI.   
+bio: Dr. Matthijs Maas is Senior Research Fellow (Law & AI) at the Legal Priorities Project, working on adaptive global governance approaches for emerging technologies, with a focus on AI.   
 
 
 # Interests to show in About widget
@@ -73,9 +73,11 @@ email: "matthijs.m.maas@gmail.com"
 highlight_name: true
 ---
 
-Dr. Matthijs Maas is a postdoctoral research associate at the Centre for the Study of Existential Risk (CSER), University of Cambridge. He works on adaptive global governance approaches for technological risks, with a focus on regimes and institutions for the governance of Artificial Intelligence. His additional research interests are on the effects of AI technology on international law itself, as well as frameworks for the regulation of uncertain risks. 
+Dr. Matthijs Maas is a Senior Research Fellow (Law & AI) and Head of AI Research at the Legal Priorities Project; a research affiliate with the Centre for the Study of Existential Risk (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
 
-Prior to working at CSER, he has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others.
+His work focuses on mapping theories of change for long-term AI governance, different international institutional designs for AI, the effect of AI on international law, and arms control regimes for military uses of AI technology. 
+
+Matthijs received a PhD in Law from the University of Copenhagen, and a MSc in International Relations from the University of Edinburgh. He has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others. 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv - Matthijs Maas - 2022.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - August 2022 -.pdf" "newtab" >}}resumé{{< /staticref >}}.
