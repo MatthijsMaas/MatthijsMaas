@@ -6,7 +6,7 @@ title: Matthijs Maas
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Research Associate
+role: Senior Research Fellow (Law & AI)
 
 # Organizations/Affiliations to show in About widget
 organizations:
