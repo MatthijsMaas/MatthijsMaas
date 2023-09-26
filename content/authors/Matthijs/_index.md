@@ -73,11 +73,11 @@ email: "matthijs.m.maas@gmail.com"
 highlight_name: true
 ---
 
-Dr. Matthijs Maas is a Senior Research Fellow (Law & AI) and Head of AI Research at the Legal Priorities Project; a research affiliate with the Centre for the Study of Existential Risk (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
+Dr. Matthijs Maas is a Senior Research Fellow (Law & AI) at the Legal Priorities Project; a research affiliate with the Centre for the Study of Existential Risk (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
 
 His work focuses on mapping theories of change for long-term AI governance, different international institutional designs for AI, the effect of AI on international law, and arms control regimes for military uses of AI technology. 
 
 Matthijs received a PhD in Law from the University of Copenhagen, and a MSc in International Relations from the University of Edinburgh. He has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others. 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - August 2022 -.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - August 2023.pdf" "newtab" >}}resumé{{< /staticref >}}.
