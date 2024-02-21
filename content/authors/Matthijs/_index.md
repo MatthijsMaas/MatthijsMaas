@@ -6,15 +6,15 @@ title: Matthijs Maas
 superuser: true
 
 # Role/position/tagline
-role: Senior Research Fellow (Law & AI)
+role: Senior Research Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Legal Priorities Project 
-  url: https://www.legalpriorities.org/
+- name: Institute for Law & AI 
+  url: https://law-ai.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Dr. Matthijs Maas is Senior Research Fellow (Law & AI) at the Legal Priorities Project, working on adaptive global governance approaches for emerging technologies, with a focus on AI.   
+bio: Dr. Matthijs Maas is Senior Research Fellow at the Institute for Law & AI, working on adaptive global governance approaches for AI.   
 
 
 # Interests to show in About widget
@@ -73,7 +73,7 @@ email: "matthijs.m.maas@gmail.com"
 highlight_name: true
 ---
 
-Dr. Matthijs Maas is a Senior Research Fellow (Law & AI) at the Legal Priorities Project; a research affiliate with the Centre for the Study of Existential Risk (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
+Dr. Matthijs Maas is a Senior Research Fellow at the Institute for Law & AI; a research affiliate with the Centre for the Study of Existential Risk and the Leverhulme Centre for the Future of Intelligence (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
 
 His work focuses on mapping theories of change for long-term AI governance, different international institutional designs for AI, the effect of AI on international law, and arms control regimes for military uses of AI technology. 
 
