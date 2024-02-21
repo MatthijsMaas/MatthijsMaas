@@ -80,4 +80,4 @@ His work focuses on mapping theories of change for long-term AI governance, diff
 Matthijs received a PhD in Law from the University of Copenhagen, and a MSc in International Relations from the University of Edinburgh. He has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others. 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - August 2023.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - February 2024.pdf" "newtab" >}}resumé{{< /staticref >}}.
