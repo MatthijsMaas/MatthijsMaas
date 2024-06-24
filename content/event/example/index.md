@@ -41,7 +41,7 @@ links:
   url: 
 url_code: ""
 url_pdf: ""
-url_slides: "uploads/21.06.07 - Quo Vadis AI Ethics - Stix and Maas - Bridging the Gap - public.pdf"
+# url_slides: "uploads/21.06.07 - Quo Vadis AI Ethics - Stix and Maas - Bridging the Gap - public.pdf"
 url_video: "https://www.youtube.com/watch?v=LRxMY6whdt4"
 
 # Markdown Slides (optional).
