@@ -73,11 +73,11 @@ email: "matthijs.m.maas@gmail.com"
 highlight_name: true
 ---
 
-Dr. Matthijs Maas is a Senior Research Fellow at the Institute for Law & AI; a research affiliate with the Centre for the Study of Existential Risk and the Leverhulme Centre for the Future of Intelligence (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
+Dr. Matthijs Maas is a Senior Research Fellow at the Institute for Law & AI; an Associate Fellow at the Leverhulme Centre for the Future of Intelligence (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
 
-His work focuses on mapping theories of change for long-term AI governance, different international institutional designs for AI, the effect of AI on international law, and arms control regimes for military uses of AI technology. 
+His work focuses on mapping theories of change for advanced AI governance, international institutional designs for AI, the effect of AI on international law, and arms control regimes for military uses of AI technology. 
 
-Matthijs received a PhD in Law from the University of Copenhagen, and a MSc in International Relations from the University of Edinburgh. He has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others. 
+Matthijs received his PhD in Law from the University of Copenhagen, and a MSc in International Relations from the University of Edinburgh. He has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others. 
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - February 2024.pdf" "newtab" >}}resumé{{< /staticref >}}.
