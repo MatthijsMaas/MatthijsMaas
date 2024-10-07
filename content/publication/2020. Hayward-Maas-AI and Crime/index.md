@@ -50,7 +50,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'uploads/181017 - AI, Crime and Policing -- CCSC 2018 conference -maas -public --.pdf'
+url_slides: ''
 url_source: ''
 url_video: ''
 
