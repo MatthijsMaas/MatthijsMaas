@@ -74,9 +74,9 @@ highlight_name: true
 
 I am a Senior Research Fellow at the Institute for Law & AI; an Associate Fellow at the Leverhulme Centre for the Future of Intelligence (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
 
-I am the author of ["Architectures of Global AI Governance: From Technological Change to Human Choice"](https://global.oup.com/academic/product/architectures-of-global-ai-governance-9780198877837?cc=dk&lang=en&)
+I am the author of ["Architectures of Global AI Governance: From Technological Change to Human Choice"](https://global.oup.com/academic/product/architectures-of-global-ai-governance-9780198877837?cc=dk&lang=en&) (OUP 2025).
 
 My work focuses on mapping theories of change for advanced AI governance, international institutional designs for AI, the effect of AI on international law, and arms control regimes for military uses of AI technology.  
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - February 2024.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - Sep 2025.pdf" "newtab" >}}resumé{{< /staticref >}}.
