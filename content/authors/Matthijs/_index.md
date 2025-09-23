@@ -14,14 +14,13 @@ organizations:
   url: https://law-ai.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Dr. Matthijs Maas is Senior Research Fellow at the Institute for Law & AI, working on adaptive global governance approaches for AI.   
+bio: I am a Senior Research Fellow at the Institute for Law & AI, working on adaptive global governance approaches for AI.  
 
 
 # Interests to show in About widget
 interests:
 - Artificial Intelligence Governance
 - Effects of AI on International Law
-- Existential risk mitigation
 - International Institutional & Regime Design
 
 # Education to show in About widget
@@ -44,7 +43,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:mmm71@cam.ac.uk"
+  link: "mailto:mmm71@cantab.ac.uk"
     # '/#contact'
 - icon: twitter
   icon_pack: fab
@@ -73,11 +72,11 @@ email: "matthijs.m.maas@gmail.com"
 highlight_name: true
 ---
 
-Dr. Matthijs Maas is a Senior Research Fellow at the Institute for Law & AI; an Associate Fellow at the Leverhulme Centre for the Future of Intelligence (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
+I am a Senior Research Fellow at the Institute for Law & AI; an Associate Fellow at the Leverhulme Centre for the Future of Intelligence (University of Cambridge), and a non-residential research associate at King’s College, University of Cambridge.
 
-His work focuses on mapping theories of change for advanced AI governance, international institutional designs for AI, the effect of AI on international law, and arms control regimes for military uses of AI technology. 
+I am the author of ["Architectures of Global AI Governance: From Technological Change to Human Choice"](https://global.oup.com/academic/product/architectures-of-global-ai-governance-9780198877837?cc=dk&lang=en&)
 
-Matthijs received his PhD in Law from the University of Copenhagen, and a MSc in International Relations from the University of Edinburgh. He has previous experience working at The Hague Centre for Strategic Studies and the Dutch Embassy in Beirut, amongst others. 
+My work focuses on mapping theories of change for advanced AI governance, international institutional designs for AI, the effect of AI on international law, and arms control regimes for military uses of AI technology.  
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Academic CV - Matthijs Maas - February 2024.pdf" "newtab" >}}resumé{{< /staticref >}}.
