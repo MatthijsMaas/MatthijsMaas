@@ -32,9 +32,6 @@ education:
   - course: MSc International Relations
     institution: University of Edinburgh
     year: 2013
-  - course: BA in Arts 
-    institution: University College Utrecht, University of Utrecht
-    year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
