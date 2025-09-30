@@ -31,14 +31,12 @@ publication_short:
 
 abstract: As AI systems have become increasingly capable and impactful, there has been significant public and policymaker debate over this technology’s impacts—and the appropriate legal or regulatory responses. Within these debates many have deployed—and contested—a dazzling range of analogies, metaphors, and comparisons for AI systems, their impact, or their regulation.
 
-This report reviews why and how metaphors matter to both the study and practice of AI governance, in order to contribute to more productive dialogue and more reflective policymaking. It first reviews five stages at which different foundational metaphors play a role in shaping the processes of technological innovation, the academic study of their impacts; the regulatory agenda, the terms of the policymaking process, and legislative and judicial responses to new technology. It then surveys a series of cases where the choice of analogy materially influenced the regulation of internet issues, as well as (recent) AI law issues. The report then provides a non-exhaustive survey of 55 analogies that have been given for AI technology, and some of their policy implications. Finally, it discusses the risks of utilizing unreflexive analogies in AI law and regulation.
-
-By disentangling the role of metaphors and frames in these debates, and the space of analogies for AI, this survey does not aim to argue against the use or role of analogies in AI regulation—but rather to facilitate more reflective and productive conversations on these timely challenges.
+This report reviews why and how metaphors matter to both the study and practice of AI governance, in order to contribute to more productive dialogue and more reflective policymaking. It first reviews five stages at which different foundational metaphors play a role in shaping the processes of technological innovation, the academic study of their impacts; the regulatory agenda, the terms of the policymaking process, and legislative and judicial responses to new technology. It then surveys a series of cases where the choice of analogy materially influenced the regulation of internet issues, as well as (recent) AI law issues. The report then provides a non-exhaustive survey of 55 analogies that have been given for AI technology, and some of their policy implications. Finally, it discusses the risks of utilizing unreflexive analogies in AI law and regulation. By disentangling the role of metaphors and frames in these debates, and the space of analogies for AI, this survey does not aim to argue against the use or role of analogies in AI regulation—but rather to facilitate more reflective and productive conversations on these timely challenges.
 
 # Summary. An optional shortened abstract.
 # summary: ... 
 
-tags: [AI, policy, technology law, metaphors]
+tags: [AI, policy, technology law, metaphors, literature review]
 
 # Display this page in the Featured widget?
 featured: true
