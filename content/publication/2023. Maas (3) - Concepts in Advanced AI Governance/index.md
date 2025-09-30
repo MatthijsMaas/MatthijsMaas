@@ -30,12 +30,12 @@ publication_types: ["4"]
 publication: AI Foundations Report 1
 publication_short: 
 
-abstract: The question of how to ensure adequate international governance of artificial intelligence (AI) has come to the center of global attention. This literature review examines the range of institutional models that have been proposed as the basis for new international organizations focused on AI. We review thirty-three commonly invoked examples of these institutional models, twenty-two rarely-explored but promising alternate institutional examples, and forty-eight proposals for new AI institutions. We review and discuss these proposals for new international AI institutions under a taxonomy of seven distinct institutional models that have been offered by scholars and practitioners. The models we include in this review are (1) scientific consensus-building; (2) political consensus-building and norm-setting; (3) coordination of policy and regulation; (4) enforcement of standards or restrictions; (5) stabilization and emergency response; (6) international joint research; and (7) distribution of benefits or access. For each model, we provide (i) a description of the model’s functions and types; (ii) the most common examples of each model; (iii) some examples that are somewhat underexplored in the literature but that show promise; (iv) a review of proposals for the application of that model to the international regulation of AI; and (v) critiques of the model both generally and in its potential application to AI. Finally, we sketch five pathways for further research. 
+abstract: The question of how to ensure adequate international governance of artificial intelligence (AI) has come to the center of global attention. This literature review examines the range of institutional models that have been proposed as the basis for new international organizations focused on AI. We review thirty-three commonly invoked examples of these institutional models, twenty-two rarely-explored but promising alternate institutional examples, and forty-eight proposals for new AI institutions. We review and discuss these proposals for new international AI institutions under a taxonomy of seven distinct institutional models that have been offered by scholars and practitioners. The models we include in this review are (1) scientific consensus-building; (2) political consensus-building and norm-setting; (3) coordination of policy and regulation; (4) enforcement of standards or restrictions; (5) stabilization and emergency response; (6) international joint research; and (7) distribution of benefits or access. For each model, we provide (i) a description of the model’s functions and types; (ii) the most common examples of each model; (iii) some examples that are somewhat underexplored in the literature but that show promise; (iv) a review of proposals for the application of that model to the international regulation of AI; and (v) critiques of the model both generally and in its potential application to AI. Finally, we sketch five pathways for further research.
 
 # Summary. An optional shortened abstract.
 summary: paper reviews thirty-three commonly invoked examples of international institutional models, twenty-two rarely-explored but promising alternate institutional examples, and forty-eight proposals for new AI institutions. 
 
-tags: [AI, policy, international institutions, IAEA, CERN, IPCC, literature review]
+tags: [AI, policy, international institutions, IAEA, CERN, IPCC]
 
 # Display this page in the Featured widget?
 featured: true
@@ -44,10 +44,10 @@ featured: true
 links:
 - name: SSRN
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4579773'
-- name: Institute for Law & AI
-  url: 'https://law-ai.org/international-ai-institutions'
+- name: Legal Priorities Project
+  url: 'https://www.legalpriorities.org/research/international-ai-institutions'
 
-url_pdf: 'uploads/Maas and Villalobos - 2023 - International AI Institutions A literature review.pdf'
+url_pdf: 'uploads/Maas & Villalobos (2023)_International AI Institutions [Public].pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
