@@ -37,7 +37,7 @@ publication_types: ["4"]
 publication: "Oxford Martin AI Governance Initiative and Carnegie Endowment for International Peace"
 publication_short: "Oxford Martin AIGI / Carnegie"
 
-abstract: ""
+abstract: "Effective international coordination to address AI's global impacts demands a shared, scientifically rigorous understanding of AI risks. This paper examines the challenges and opportunities in establishing international scientific consensus in this domain. It analyzes current efforts, including the UK-led International Scientific Report on the Safety of Advanced AI and emerging UN initiatives, identifying key limitations and tradeoffs. The authors propose a two-track approach: 1) a UN-led process focusing on broad AI issues and engaging member states, and 2) an independent annual report specifically focused on advanced AI risks. The paper recommends careful coordination between these efforts to leverage their respective strengths while maintaining their independence. It also evaluates potential hosts for the independent report, including the network of AI Safety Institutes, the OECD, and scientific organizations like the International Science Council. The proposed framework aims to balance scientific rigor, political legitimacy, and timely action to facilitate coordinated international action on AI risks."
 
 tags: [AI governance, international institutions]
 
@@ -49,7 +49,7 @@ links:
 - name: "Carnegie"
   url: "https://carnegieendowment.org/research/2024/08/the-future-of-international-scientific-assessments-of-ais-risks"
 
-url_pdf: ""
+url_pdf: "https://oms-www.files.svdcdn.com/production/downloads/reports/Pouget%20and%20Dennis%20et%20al%20-%20AI%20Risks-2024.pdf?dm=1726643358"
 
 projects: []
 slides: ""

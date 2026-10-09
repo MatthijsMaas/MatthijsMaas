@@ -22,6 +22,12 @@ tags: [international law, existential risk, advanced AI]
 
 featured: false
 
+links:
+- name: "Introduction (SSRN)"
+  url: "https://doi.org/10.2139/ssrn.6764898"
+- name: "Chapter 1 preprint (SSRN)"
+  url: "https://doi.org/10.2139/ssrn.7033960"
+
 url_pdf: ""
 
 projects: []

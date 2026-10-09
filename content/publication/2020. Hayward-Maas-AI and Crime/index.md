@@ -41,9 +41,9 @@ tags: [AI, crime, policing, criminology, surveillance]
 featured: false
 
 # Custom links (uncomment lines below)
-# links:
-# - name: SSRN
-#   url: ''
+links:
+- name: Portuguese translation (2026)
+  url: 'https://doi.org/10.55689/rcpjm.2026.16.003'
 
 url_pdf: 'uploads/Hayward and Maas - 2020 - Artificial intelligence and crime A primer for cr.pdf'
 url_code: ''

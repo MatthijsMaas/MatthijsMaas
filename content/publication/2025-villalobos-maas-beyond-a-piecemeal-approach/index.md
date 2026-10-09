@@ -16,7 +16,7 @@ publication_types: ["6"]
 publication: "In: P. Hacker et al. (eds.), *The Oxford Handbook of the Foundations and Regulation of Generative AI* (Oxford University Press)"
 publication_short: "Oxford Handbook of the Foundations and Regulation of Generative AI"
 
-abstract: ""
+abstract: "Solving the challenges presented by AI requires international co-ordination and co-operation. In response, multiple global initiatives have sought to govern AI. However, few proposals have discussed treaty models or design for AI governance and have therefore neglected the study of framework conventions. This chapter asks whether or how a Framework Convention on AI (FCAI) might serve as a regulatory tool for global AI governance, in contrast with the more traditional piecemeal approach based on individual treaties that govern isolated issues and have no subsequent regime. The chapter considers the structural trade-offs and challenges that an FCAI would face. While imperfect, an FCAI may be the most tractable and appropriate solution for the international governance of AI if it follows a hybrid model that combines a wide scope with specific obligations and implementation mechanisms concerning issues on which states already converge."
 
 tags: [international law, institutional design, AI governance]
 

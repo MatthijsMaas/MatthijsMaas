@@ -17,7 +17,7 @@ publication_types: ["2"]
 publication: "*Journal of International Humanitarian Legal Studies* 11(2)"
 publication_short: "JIHLS"
 
-abstract: ""
+abstract: "This paper explores the ongoing Covid-19 pandemic through the framework of existential risks – a class of extreme risks that threaten the entire future of humanity. In doing so, we tease out three lessons: (1) possible reasons underlying the limits and shortfalls of international law, international institutions and other actors which Covid-19 has revealed, and what they reveal about the resilience or fragility of institutional frameworks in the face of existential risks; (2) using Covid-19 to test and refine our prior ‘Boring Apocalypses’ model for understanding the interplay of hazards, vulnerabilities and exposures in facilitating a particular disaster, or magnifying its effects; and (3) to extrapolate some possible futures for existential risk scholarship and governance."
 
 tags: [existential risk, governance]
 
