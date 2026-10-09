@@ -37,7 +37,7 @@ abstract: As AI systems have become increasingly capable and impactful, there ha
 tags: [AI, policy, technology law, metaphors, literature review]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:

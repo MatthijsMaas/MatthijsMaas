@@ -20,7 +20,7 @@ abstract: "Solving the challenges presented by AI requires international co-ordi
 
 tags: [international law, institutional design, AI governance]
 
-featured: false
+featured: true
 
 links:
 - name: "SSRN"
