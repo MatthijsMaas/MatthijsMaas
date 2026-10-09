@@ -28,7 +28,7 @@ links:
 - name: "LawAI"
   url: "https://law-ai.org/framework-conventions/"
 
-url_pdf: ""
+url_pdf: 'uploads/Villalobos and Maas - Beyond a Piecemeal Approach Prospects for a Frame.pdf'
 
 projects: []
 slides: ""

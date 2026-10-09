@@ -16,7 +16,7 @@ publication_types: ["0"]
 publication: "Institute for Law & AI (blog post)"
 publication_short: "LawAI Blog"
 
-abstract: ""
+abstract: "LawAI’s Legal Frontiers team aims to incubate new law and policy proposals that are anticipatory, actionable, accommodating to a wide variety of worldviews and technological trajectories, and ambitious. This post sets out eight “Future Frontiers” that are already ripe for scholarly attention: regulating government-developed frontier AI; accelerating technologies that defend against risks from AI; regulating internal deployment; fostering legal resilience by rapidly patching legal loopholes; responsibly advancing AI-enabled governance; responsibly automating legal processes; accelerating legal technologies that empower citizens; and approval regulation in a decentralized world."
 
 tags: [AI governance, law and technology]
 
