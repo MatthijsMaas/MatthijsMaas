@@ -38,7 +38,7 @@ abstract: As AI systems have become increasingly capable, policymakers, the publ
 tags: [AI, policy, concepts, terminology, advanced AI, AGI, literature review]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:

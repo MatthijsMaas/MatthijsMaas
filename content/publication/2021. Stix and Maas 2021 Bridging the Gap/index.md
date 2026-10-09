@@ -38,7 +38,7 @@ summary: Paper reviews alleged distinctions between 'near-term' and 'long-term' 
 tags: [AI, policy, governance, AI ethics, epistemic community, incompletely theorized agreement]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:

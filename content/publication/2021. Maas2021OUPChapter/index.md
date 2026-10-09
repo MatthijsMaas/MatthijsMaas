@@ -37,7 +37,7 @@ summary:
 tags: [AI, AI policy, AI regulation, sociotechnical change, techlaw, law and technology, regulatory rationale, regulatory target, problem logics]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:

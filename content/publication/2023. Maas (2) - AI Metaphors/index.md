@@ -37,7 +37,7 @@ abstract: As AI systems have become increasingly capable and impactful, there ha
 tags: [AI, policy, technology law, metaphors, literature review]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:
@@ -46,7 +46,7 @@ links:
 - name: Institute for Law & AI
   url: 'https://law-ai.org/ai-policy-metaphors'
 
-url_pdf: 'uploads/Maas - 2023 - AI is Like... A Literature Review of AI Metaphors.pdf'
+url_pdf: 'uploads/Maas - 2023 - AI is Like... A Literature Review of AI Metaphors .pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

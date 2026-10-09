@@ -19,6 +19,9 @@ main:
   - name: Talks
     url: '#talks'
     weight: 40
+  - name: Blog
+    url: 'https://criticalmaas.substack.com/'
+    weight: 50
   - name: Contact
     url: '#contact'
     weight: 60

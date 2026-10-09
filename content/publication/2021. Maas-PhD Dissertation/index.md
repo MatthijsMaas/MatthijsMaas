@@ -37,7 +37,7 @@ summary:
 tags: [AI, governance, international law, institutional design, governance disruption, automation of governance]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:

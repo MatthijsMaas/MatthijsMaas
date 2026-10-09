@@ -1,4 +1,7 @@
 ---
+# Hidden from the site on request (October 2026). Set `draft: false` to show it again.
+draft: true
+
 title: Bridging the gap - the case for an Incompletely Theorized Agreement on AI policy
 
 event: Quo Vadis, AI Ethics?
