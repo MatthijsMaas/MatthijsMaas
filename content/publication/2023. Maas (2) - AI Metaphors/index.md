@@ -46,7 +46,7 @@ links:
 - name: Institute for Law & AI
   url: 'https://law-ai.org/ai-policy-metaphors'
 
-url_pdf: 'uploads/Maas - 2023 - AI is Like... A Literature Review of AI Metaphors.pdf'
+url_pdf: 'uploads/Maas - 2023 - AI is Like... A Literature Review of AI Metaphors .pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
