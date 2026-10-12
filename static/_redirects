@@ -1,0 +1,14 @@
+# Netlify redirects for addresses from the previous (Wowchemy) design.
+/talk                 /event/          301
+/authors/*            /                301
+/author/*             /publication/    301
+/tag/*                /publication/    301
+/tags/*               /publication/    301
+/category/*           /publication/    301
+/categories/*         /publication/    301
+/publication-type/*   /publication/    301
+/publication_types/*  /publication/    301
+/post/*               /                301
+/project/*            /                301
+/slides/*             /                301
+/admin/*              /                301

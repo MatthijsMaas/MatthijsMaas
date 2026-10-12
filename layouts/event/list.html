@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article>
+<h1>Talks</h1>
+<section>
+{{ range (where site.RegularPages "Section" "event").ByDate.Reverse }}{{ partial "talk-entry.html" . }}{{ end }}
+</section>
+</article>
+{{ end }}

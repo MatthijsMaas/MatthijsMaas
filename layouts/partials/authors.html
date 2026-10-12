@@ -1,0 +1,10 @@
+{{- /* Author list for a page; "Matthijs" (the old profile name) becomes the full name, in bold. */ -}}
+{{- $out := slice -}}
+{{- range .Params.authors -}}
+{{- if or (eq . "Matthijs") (eq . "Matthijs Maas") -}}
+{{- $out = $out | append "<strong>Matthijs Maas</strong>" -}}
+{{- else -}}
+{{- $out = $out | append (htmlEscape .) -}}
+{{- end -}}
+{{- end -}}
+{{- delimit $out ", " | safeHTML -}}

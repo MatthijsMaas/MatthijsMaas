@@ -1,0 +1,18 @@
+{{- /* One publication as a citation paragraph with its links in the margin.
+       Context: dict "p" page "year" bool (show the year) "thumb" bool (show a book cover) */ -}}
+{{- $p := .p -}}
+{{- $isBook := in ($p.Params.publication_types | default slice) "5" -}}
+{{- $venue := strings.TrimSuffix "." (trim ($p.Params.publication | default "") " \n\t") -}}
+<p class="pub{{ if and .thumb $isBook }} has-thumb{{ end }}"><span class="marginnote">
+{{- if and .thumb $isBook -}}
+{{- with $p.Resources.GetMatch "featured.*" }}{{ $img := .Resize "200x" }}<img class="thumb" src="{{ $img.RelPermalink }}" alt="Cover of {{ $p.Title }}">{{ end -}}
+{{- end -}}
+{{ partial "pub-links.html" (dict "p" $p "cite" true) }}</span>
+{{ partial "authors.html" $p }}{{ if .year }} ({{ $p.Date.Format "2006" }}){{ end }}.
+{{ if $isBook -}}
+<a href="{{ $p.RelPermalink }}"><em>{{ $p.Title }}</em></a>.
+{{- else -}}
+“<a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>{{ if not (findRE `[.?!…]$` $p.Title) }}.{{ end }}”
+{{- end }}
+{{ with $venue }}{{ . | markdownify }}.{{ end }}
+<span class="links-inline">{{ partial "pub-links.html" (dict "p" $p "cite" true) }}</span></p>

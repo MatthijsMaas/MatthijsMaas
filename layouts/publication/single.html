@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{- $types := dict "0" "Other" "1" "Conference paper" "2" "Journal article" "3" "Working paper" "4" "Report" "5" "Book" "6" "Book chapter" "7" "Thesis" "8" "Patent" -}}
+{{- $type := "" -}}{{- with .Params.publication_types }}{{ $type = index $types (index . 0) }}{{ end -}}
+{{- $venue := strings.TrimSuffix "." (trim (.Params.publication | default "") " \n\t") -}}
+{{- $bib := .Resources.GetMatch "cite.bib" -}}
+<article>
+<h1>{{ .Title }}</h1>
+<p class="subtitle">{{ partial "authors.html" . }}</p>
+<section>
+<p class="meta">{{ with $type }}{{ . }}. {{ end }}{{ with $venue }}{{ . | markdownify }}. {{ end }}{{ if .Date.Before now }}{{ .Date.Format "January 2006" }}{{ else }}Forthcoming{{ end }}.
+<span class="marginnote">
+{{- $img := .Resources.GetMatch "featured.*" -}}
+{{- $previewOnly := false }}{{ with .Params.image }}{{ $previewOnly = .preview_only | default false }}{{ end -}}
+{{- if and $img (not $previewOnly) }}{{ $r := $img.Resize "480x" }}<img src="{{ $r.RelPermalink }}" alt="{{ if eq $type "Book" }}Cover of {{ .Title }}{{ else }}Illustration for {{ .Title }}{{ end }}">{{ end -}}
+{{ partial "pub-links.html" (dict "p" . "cite" false) }}
+{{- with .Params.author_notes }}{{ $notes := uniq . }}{{ if and (eq (len $notes) 1) (index $notes 0) }}<br>{{ index $notes 0 }} (all authors).{{ end }}{{ end -}}
+</span></p>
+{{ with .Params.abstract }}
+<h2>Abstract</h2>
+{{ $.RenderString (dict "display" "block") . }}
+{{ end }}
+{{ .Content }}
+{{ with $bib }}
+<h2 id="cite">Cite</h2>
+<pre class="bibtex"><code id="bibtex">{{ trim .Content " \n\t" }}</code></pre>
+<p class="cite-actions"><button type="button" class="button copy-bib" data-target="bibtex">Copy</button> <a href="{{ .RelPermalink }}" download>Download .bib</a></p>
+{{ end }}
+<p><a href="{{ "/publication/" | relURL }}">All publications</a></p>
+</section>
+</article>
+{{ end }}
