@@ -1,0 +1,4 @@
+{{- /* One essay as a title and subtitle, with the date in the margin. Context: the essay page. */ -}}
+<p class="pub"><span class="marginnote">{{ .Date.Format "2 January 2006" }}</span>
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.subtitle }}{{ if not (findRE `[.?!…]$` $.Title) }}.{{ end }} <em>{{ . }}</em>{{ end }}
+<span class="links-inline">{{ .Date.Format "2 January 2006" }}</span></p>

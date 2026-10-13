@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="essay">
+<h1>{{ .Title }}</h1>
+{{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+<section>
+<p class="meta">{{ .Date.Format "2 January 2006" }} · {{ .ReadingTime }} min read
+{{- with .Params.substack_url }}<span class="marginnote">First published on my blog <a href="{{ . }}"><em>Critical Maas</em></a>, where you can comment and subscribe.</span>{{ end }}</p>
+{{ .Content }}
+{{ with .Params.substack_url }}<p class="essay-end"><a href="{{ . }}">Comment on Substack</a> · <a href="{{ site.Params.blog }}">Subscribe to <em>Critical Maas</em></a> · <a href="{{ "/essays/" | relURL }}">All essays</a></p>{{ end }}
+</section>
+</article>
+{{ end }}

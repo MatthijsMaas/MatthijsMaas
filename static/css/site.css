@@ -71,6 +71,13 @@ p.cite-actions { display: flex; align-items: center; gap: 1rem; }
 
 p.callout { font-style: italic; }
 
+/* Essays */
+.essay figure { margin: 1.6rem 0; }
+.essay figure img { width: 100%; height: auto; }
+.sidenote img, .marginnote img { max-width: 100%; height: auto; display: block; margin: 0.4rem 0; }
+.note-quote { display: block; margin: 0.3rem 0 0.3rem 0.8rem; font-style: italic; }
+p.essay-end { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(128, 128, 120, 0.6); }
+
 /* Phones: margin notes sit under the text they belong to instead of hiding behind a toggle. */
 @media (max-width: 760px) {
     .sidenote,
@@ -82,8 +89,11 @@ p.callout { font-style: italic; }
         margin: 0.6rem 0 1rem 1.2rem;
         position: static;
     }
+    blockquote .sidenote,
+    blockquote .marginnote { margin-right: 0; min-width: 0; text-align: left; }
     .marginnote img { width: auto; max-width: 70%; }
     .marginnote img.thumb { width: 84px; }
+    .essay figure { max-width: 100%; }
     pre.bibtex, .site-footer { width: 100%; }
     p.pub.has-thumb { min-height: 0; }
     p.pub > .marginnote { display: none; }
