@@ -80,7 +80,11 @@ p.essay-end { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(12
 
 /* Phones: margin notes sit under the text they belong to instead of hiding behind a toggle. */
 @media (max-width: 760px) {
-    .sidenote,
+    /* Numbered sidenotes follow Tufte CSS: hidden until the reader taps the number.
+       Margin notes (portrait, captions, publication links) stay visible under their text. */
+    label.sidenote-number { padding: 0 0.35rem 0 0.1rem; }
+    label.sidenote-number:after { text-decoration: underline; }
+    .margin-toggle:checked + .sidenote { margin: 0.6rem 0 1rem 1.2rem; width: auto; float: none; left: 0; }
     .marginnote {
         display: block;
         float: none;
@@ -91,6 +95,7 @@ p.essay-end { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(12
     }
     blockquote .sidenote,
     blockquote .marginnote { margin-right: 0; min-width: 0; text-align: left; }
+    .margin-toggle:checked + .sidenote { display: block; }
     .marginnote img { width: auto; max-width: 70%; }
     .marginnote img.thumb { width: 84px; }
     .essay figure { max-width: 100%; }
