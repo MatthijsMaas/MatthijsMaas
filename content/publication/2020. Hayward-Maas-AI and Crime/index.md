@@ -27,7 +27,7 @@ publishDate: "2021-07-116T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: Crime, Media, Culture, 17(2), 209-233
+publication: "*Crime, Media, Culture* 17(2): 209–233"
 publication_short: Crime, Media, Culture
 
 abstract: This article introduces the concept of Artificial Intelligence (AI) to a criminological audience. After a general review of the phenomenon (including brief explanations of important cognate fields such as ‘machine learning’, ‘deep learning’, and ‘reinforcement learning’), the paper then turns to the potential application of AI by criminals, including what we term here ‘crimes with AI’, ‘crimes against AI’, and ‘crimes by AI’. In these sections, our aim is to highlight AI’s potential as a criminogenic phenomenon, both in terms of scaling up existing crimes and facilitating new digital transgressions. In the third part of the article, we turn our attention to the main ways the AI paradigm is transforming policing, surveillance, and criminal justice practices via diffuse monitoring modalities based on prediction and prevention. Throughout the paper, we deploy an array of programmatic examples which, collectively, we hope will serve as a useful AI primer for criminologists interested in the ‘tech-crime nexus’.

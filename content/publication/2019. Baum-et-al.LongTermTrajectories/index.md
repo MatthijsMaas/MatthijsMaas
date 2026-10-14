@@ -51,7 +51,7 @@ publishDate: "2021-07-116T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: Foresight, 21(1), 53-83
+publication: "*Foresight* 21(1): 53–83"
 publication_short: Foresight
 
 abstract: "This paper aims to formalize long-term trajectories of human civilization as a scientific and ethical field of study. The long-term trajectory of human civilization can be defined as the path that human civilization takes during the entire future time period in which human civilization could continue to exist.

@@ -29,7 +29,7 @@ publishDate: "2021-07-116T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 2020 - 228-234
+publication: "*Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 2020*: 228–234"
 publication_short: AIES '20
 
 abstract: "Can effective international governance for artificial intelligence remain fragmented, or is there a need for a centralised international organisation for AI? We draw on the history of other international regimes to identify advantages and disadvantages in centralising AI governance. Some considerations, such as efficiency and political power, speak in favour of centralisation. Conversely, the risk of creating a slow and brittle institution speaks against it, as does the difficulty in securing participation while creating stringent rules. Other considerations depend on the specific design of a centralised institution. A well-designed body may be able to deter forum shopping and ensure policy coordination. However, forum shopping can be beneficial and a fragmented landscape of institutions can be self-organising. Centralisation entails trade-offs and the details matter. We conclude with two core recommendations. First, the outcome will depend on the exact design of a central institution. A well-designed centralised regime covering a set of coherent issues could be beneficial. But locking-in an inadequate structure may pose a fate worse than fragmentation. Second, for now fragmentation will likely persist. This should be closely monitored to see if it is self-organising or simply inadequate."
