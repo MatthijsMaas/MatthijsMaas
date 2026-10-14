@@ -2,6 +2,7 @@
 {{- $pubs := where site.RegularPages "Section" "publication" -}}
 {{- $featured := (where $pubs "Params.featured" true).ByDate.Reverse -}}
 {{- $talks := (where site.RegularPages "Section" "event").ByDate.Reverse -}}
+{{- $essays := (where site.RegularPages "Section" "essays").ByDate.Reverse -}}
 <article>
 <section id="about">
 {{ .Content }}
@@ -13,7 +14,13 @@
 <p><a href="{{ "/publication/" | relURL }}">All {{ len $pubs }} publications</a></p>
 </section>
 
-<section id="talks">
+{{ with $essays }}<section id="essays">
+<h2>Recent essays</h2>
+{{ range first 3 . }}{{ partial "essay-entry.html" . }}{{ end }}
+<p><a href="{{ "/essays/" | relURL }}">All {{ len $essays }} essays</a></p>
+</section>
+
+{{ end }}<section id="talks">
 <h2>Recent talks</h2>
 {{ range first 5 $talks }}{{ partial "talk-entry.html" . }}{{ end }}
 {{ if gt (len $talks) 5 }}<p><a href="{{ "/event/" | relURL }}">All talks</a></p>{{ end }}

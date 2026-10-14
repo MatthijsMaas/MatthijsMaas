@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article>
+<h1>{{ .Title }}</h1>
+<section>
+<p>Longer pieces from my blog <a href="{{ site.Params.blog }}"><em>Critical Maas</em></a>, newest first. The monthly link roundups, comments and subscription live on Substack.<span class="marginnote">{{ len .Pages }} essays, dated by first publication.</span></p>
+{{ range .Pages.ByDate.Reverse }}{{ partial "essay-entry.html" . }}{{ end }}
+</section>
+</article>
+{{ end }}

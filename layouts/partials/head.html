@@ -3,12 +3,12 @@
 {{- $title := site.Title -}}
 {{- if not .IsHome }}{{ $title = printf "%s | %s" .Title site.Title }}{{ end -}}
 {{- $desc := site.Params.description -}}
-{{- with .Description }}{{ $desc = . }}{{ else }}{{ with .Params.abstract }}{{ $desc = . | markdownify | plainify | truncate 180 }}{{ end }}{{ end -}}
+{{- with .Description }}{{ $desc = . }}{{ else }}{{ with .Params.subtitle }}{{ $desc = . }}{{ end }}{{ with .Params.abstract }}{{ $desc = . | markdownify | plainify | truncate 180 }}{{ end }}{{ end -}}
 {{- $image := site.Params.portrait | absURL -}}
 {{- with .Resources.GetMatch "featured.*" }}{{ $image = (.Resize "1200x").Permalink }}{{ end -}}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Params.substack_url | default .Permalink }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
