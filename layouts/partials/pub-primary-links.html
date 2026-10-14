@@ -1,0 +1,20 @@
+{{- /* The one or two most useful links for a publication, shown after the entry on phones:
+       the PDF if there is one; otherwise its custom links (e.g. Open Access, Print, SSRN); otherwise the DOI. Context: the page. */ -}}
+{{- $p := . -}}
+{{- $links := slice -}}
+{{- with $p.Params.url_pdf -}}
+{{- $u := . -}}{{- if not (findRE `^https?://` $u) }}{{ $u = $u | relURL }}{{ end -}}
+{{- $links = $links | append (dict "n" "PDF" "u" $u) -}}
+{{- end -}}
+{{- if not $links -}}
+{{- range $p.Params.links -}}
+{{- if and .name .url -}}
+{{- $u := .url -}}{{- if not (findRE `^(https?:|mailto:)` $u) }}{{ $u = $u | relURL }}{{ end -}}
+{{- $links = $links | append (dict "n" .name "u" $u) -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- if not $links -}}{{ with $p.Params.doi }}{{ $links = $links | append (dict "n" "DOI" "u" (printf "https://doi.org/%s" .)) }}{{ end }}{{- end -}}
+{{- $html := slice -}}
+{{- range $links }}{{ $html = $html | append (printf `<a href="%s">%s</a>` .u (htmlEscape .n)) }}{{ end -}}
+{{- delimit $html "&nbsp;· " | safeHTML -}}

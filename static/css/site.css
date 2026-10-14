@@ -103,6 +103,7 @@ p.essay-end { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(12
     p.pub.has-thumb { min-height: 0; }
     p.pub > .marginnote { display: none; }
     p.pub > .links-inline { display: block; margin: 0.4rem 0 0 1.2rem; font-size: 1.1rem; line-height: 1.6; }
+    p.pub > .links-primary { display: inline; margin: 0; font-size: inherit; line-height: inherit; }
     .site-header { padding-top: 2rem; }
     #about .marginnote img { max-width: 220px; }
     .site-nav { font-size: 1.15rem; gap: 0.1rem 1.2rem; }
