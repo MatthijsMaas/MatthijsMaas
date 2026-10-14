@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+{{ partial "head.html" . }}
+</head>
+<body>
+{{ partial "header.html" . }}
+<main>
+{{ block "main" . }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+<script>
+(function () {
+  var root = document.documentElement;
+  var button = document.getElementById('theme-toggle');
+  function current() {
+    var t = root.getAttribute('data-theme');
+    if (t) return t;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function label() { if (button) button.textContent = current() === 'dark' ? 'Light mode' : 'Dark mode'; }
+  if (button) {
+    label();
+    button.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      label();
+    });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('button.copy-bib'), function (b) {
+    b.addEventListener('click', function () {
+      var src = document.getElementById(b.getAttribute('data-target'));
+      if (!src || !navigator.clipboard) return;
+      navigator.clipboard.writeText(src.textContent).then(function () { b.textContent = 'Copied'; });
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{{- /* One talk as a paragraph, with date, place and links in the margin. Context: the talk page. */ -}}
+<p class="pub"><span class="marginnote">{{ partial "talk-date.html" . }}. {{ partial "pub-links.html" (dict "p" . "cite" false) }}</span>
+“<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if not (findRE `[.?!…]$` .Title) }}.{{ end }}”
+{{ with .Params.event }}{{ . }}{{ end }}{{ with .Params.location }}, {{ . }}{{ end }}.
+<span class="links-inline">{{ partial "talk-date.html" . }}. {{ partial "pub-links.html" (dict "p" . "cite" false) }}</span></p>

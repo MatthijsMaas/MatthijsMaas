@@ -1,0 +1,1 @@
+<a href="{{ .Get 0 | relURL }}"{{ if eq (.Get 1) "newtab" }} target="_blank" rel="noopener"{{ end }}>{{ .Inner }}</a>

@@ -1,0 +1,14 @@
+{{- /* "19 February 2026", or "6–8 August 2025" for a multi-day event */ -}}
+{{- $s := .Date -}}
+{{- with .Params.date_end -}}
+{{- $e := time . -}}
+{{- if and (eq $s.Year $e.Year) (eq $s.Month $e.Month) (ne $s.Day $e.Day) -}}
+{{ $s.Format "2" }}–{{ $e.Format "2 January 2006" }}
+{{- else if ne ($s.Format "2006-01-02") ($e.Format "2006-01-02") -}}
+{{ $s.Format "2 January 2006" }} – {{ $e.Format "2 January 2006" }}
+{{- else -}}
+{{ $s.Format "2 January 2006" }}
+{{- end -}}
+{{- else -}}
+{{ $s.Format "2 January 2006" }}
+{{- end -}}

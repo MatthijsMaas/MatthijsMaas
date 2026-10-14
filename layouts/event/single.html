@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article>
+<h1>{{ .Title }}</h1>
+<p class="subtitle">{{ partial "authors.html" . }}</p>
+<section>
+<p class="meta">{{ with .Params.event }}{{ if $.Params.event_url }}<a href="{{ $.Params.event_url }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}. {{ end }}{{ partial "talk-date.html" . }}{{ with .Params.location }}, {{ . }}{{ end }}.
+<span class="marginnote">
+{{- $img := .Resources.GetMatch "featured.*" -}}
+{{- $previewOnly := false }}{{ with .Params.image }}{{ $previewOnly = .preview_only | default false }}{{ end -}}
+{{- if and $img (not $previewOnly) }}{{ $r := $img.Resize "480x" }}<img src="{{ $r.RelPermalink }}" alt="Image for {{ .Title }}">{{ end -}}
+{{ partial "pub-links.html" (dict "p" . "cite" false) }}</span></p>
+{{ with .Params.abstract }}{{ $.RenderString (dict "display" "block") . }}{{ end }}
+{{ .Content }}
+<p><a href="{{ "/event/" | relURL }}">All talks</a></p>
+</section>
+</article>
+{{ end }}

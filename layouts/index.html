@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{- $pubs := where site.RegularPages "Section" "publication" -}}
+{{- $featured := (where $pubs "Params.featured" true).ByDate.Reverse -}}
+{{- $talks := (where site.RegularPages "Section" "event").ByDate.Reverse -}}
+<article>
+<section id="about">
+{{ .Content }}
+</section>
+
+<section id="selected">
+<h2>Selected work</h2>
+{{ range $featured }}{{ partial "pub-entry.html" (dict "p" . "year" true "thumb" true) }}{{ end }}
+<p><a href="{{ "/publication/" | relURL }}">All {{ len $pubs }} publications</a></p>
+</section>
+
+<section id="talks">
+<h2>Recent talks</h2>
+{{ range first 5 $talks }}{{ partial "talk-entry.html" . }}{{ end }}
+{{ if gt (len $talks) 5 }}<p><a href="{{ "/event/" | relURL }}">All talks</a></p>{{ end }}
+</section>
+</article>
+{{ end }}

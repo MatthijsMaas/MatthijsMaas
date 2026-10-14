@@ -1,0 +1,93 @@
+/* Site-specific additions on top of tufte.css (https://github.com/edwardtufte/tufte-css, MIT). */
+
+/* Light/dark: follows the device by default (tufte.css); the button stores an explicit choice. */
+:root[data-theme="light"] body { background-color: #fffff8; color: #111; }
+:root[data-theme="dark"] body { background-color: #151515; color: #ddd; }
+
+a:hover { color: #b0503a; }
+
+/* Header and navigation */
+.site-header { padding-top: 3.5rem; }
+.site-header h1 { margin-top: 0; margin-bottom: 0.4rem; }
+.site-header .subtitle { margin-top: 0.4rem; }
+.site-header .site-name { font-size: 1.9rem; line-height: 1.2; margin: 0; }
+.site-header .site-name a { text-decoration: none; }
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.2rem 1.6rem;
+    margin: 1.4rem 0 0;
+    font-size: 1.25rem;
+}
+.site-nav a { padding: 0.5rem 0; }
+
+.button {
+    font: inherit;
+    font-size: 1.1rem;
+    color: inherit;
+    background: transparent;
+    border: 1px solid rgba(128, 128, 120, 0.7);
+    border-radius: 2px;
+    padding: 0.35rem 0.9rem;
+    min-height: 44px;
+    cursor: pointer;
+}
+
+article { padding-top: 2.5rem; }
+main > article > h1 { margin-top: 0; }
+
+/* Publication and talk entries */
+p.pub { margin-top: 0.9rem; margin-bottom: 0.9rem; }
+p.pub.has-thumb { min-height: 10.5rem; }
+/* Entry links: in the margin on wide screens, under the entry on phones. */
+.links-inline { display: none; }
+p.meta { margin-top: 0.6rem; }
+.marginnote img { display: block; margin-bottom: 0.6rem; }
+.marginnote img.thumb { width: 84px; }
+#about .marginnote img { max-width: 75%; }
+
+/* Citation block */
+pre.bibtex {
+    width: 55%;
+    box-sizing: border-box;
+    margin: 1rem 0 0.4rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid rgba(128, 128, 120, 0.6);
+    font-size: 0.95rem;
+    line-height: 1.45;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+pre.bibtex > code { width: auto; font-size: inherit; margin: 0; }
+p.cite-actions { display: flex; align-items: center; gap: 1rem; }
+
+.site-footer {
+    width: 55%;
+    margin: 2rem 0 5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(128, 128, 120, 0.6);
+}
+
+p.callout { font-style: italic; }
+
+/* Phones: margin notes sit under the text they belong to instead of hiding behind a toggle. */
+@media (max-width: 760px) {
+    .sidenote,
+    .marginnote {
+        display: block;
+        float: none;
+        clear: both;
+        width: auto;
+        margin: 0.6rem 0 1rem 1.2rem;
+        position: static;
+    }
+    .marginnote img { width: auto; max-width: 70%; }
+    .marginnote img.thumb { width: 84px; }
+    pre.bibtex, .site-footer { width: 100%; }
+    p.pub.has-thumb { min-height: 0; }
+    p.pub > .marginnote { display: none; }
+    p.pub > .links-inline { display: block; margin: 0.4rem 0 0 1.2rem; font-size: 1.1rem; line-height: 1.6; }
+    .site-header { padding-top: 2rem; }
+    .site-nav { font-size: 1.15rem; gap: 0.1rem 1.2rem; }
+}

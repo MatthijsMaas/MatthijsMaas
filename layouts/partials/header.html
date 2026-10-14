@@ -1,0 +1,17 @@
+<header class="site-header">
+{{- if .IsHome }}
+<h1>{{ site.Title }}</h1>
+<p class="subtitle">{{ site.Params.role }}, <a href="{{ site.Params.organisation_url }}">{{ site.Params.organisation }}</a></p>
+{{- else }}
+<p class="site-name"><a href="{{ "/" | relURL }}">{{ site.Title }}</a></p>
+{{- end }}
+<nav class="site-nav" aria-label="Main">
+<a href="{{ "/" | relURL }}">Home</a>
+<a href="{{ "/publication/" | relURL }}">Publications</a>
+<a href="{{ "/event/" | relURL }}">Talks</a>
+<a href="{{ site.Params.blog }}">Blog</a>
+<a href="{{ site.Params.cv | relURL }}">CV</a>
+<a href="{{ "/#contact" | relURL }}">Contact</a>
+<button type="button" id="theme-toggle" class="button">Dark mode</button>
+</nav>
+</header>

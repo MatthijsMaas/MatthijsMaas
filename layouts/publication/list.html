@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{- $pubs := where site.RegularPages "Section" "publication" -}}
+<article>
+<h1>{{ .Title }}</h1>
+<section>
+<p>Books, articles, chapters, reports and working papers, newest first.<span class="marginnote">{{ len $pubs }} items. Each title leads to a page with the abstract and a citation.</span></p>
+</section>
+{{ range $pubs.GroupByDate "2006" }}
+<section>
+<h2>{{ .Key }}</h2>
+{{ range .Pages }}{{ partial "pub-entry.html" (dict "p" . "year" false "thumb" false) }}{{ end }}
+</section>
+{{ end }}
+</article>
+{{ end }}
