@@ -27,7 +27,7 @@ publishDate: "2021-08-17T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society
+publication: "*Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society*"
 publication_short: AIES'18
 
 abstract: "New technologies, particularly those which are deployed rapidly across sectors, or which have to operate in competitive conditions, can disrupt previously stable technology governance regimes. This leads to a precarious need to balance caution against performance while exploring the resulting 'safe operating space'. This paper will argue that Artificial Intelligence is one such critical technology, the responsible deployment of which is likely to prove especially complex, because even narrow AI applications often involve networked (tightly coupled, opaque) systems operating in complex or competitive environments. This ensures such systems are prone to 'normal accident'-type failures which can cascade rapidly, and are hard to contain or even detect in time. Legal and governance approaches to the deployment of AI will have to reckon with the specific causes and features of such 'normal accidents'. While this suggests that large-scale, cascading errors in AI systems are inevitable, an examination of the operational features that lead technologies to exhibit 'normal accidents' enables us to derive both tentative principles for precautionary policymaking, and practical recommendations for the safe(r) deployment of AI systems. This may help enhance the safety and security of these systems in the public sphere, both in the short- and in the long term."
