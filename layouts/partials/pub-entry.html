@@ -15,4 +15,4 @@
 “<a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>{{ if not (findRE `[.?!…]$` $p.Title) }}.{{ end }}”
 {{- end }}
 {{ with $venue }}{{ . | markdownify }}.{{ end }}
-<span class="links-inline">{{ partial "pub-links.html" (dict "p" $p "cite" true) }}</span></p>
+{{ with partial "pub-primary-links.html" $p }}<span class="links-inline links-primary">{{ . }}</span>{{ end }}</p>
