@@ -9,7 +9,7 @@
 {{- range $p.Params.links -}}
 {{- if and .name .url -}}
 {{- $u := .url -}}{{- if not (findRE `^(https?:|mailto:)` $u) }}{{ $u = $u | relURL }}{{ end -}}
-{{- $links = $links | append (dict "n" .name "u" $u) -}}
+{{- $links = $links | append (dict "n" .name "u" $u "i" (.icon | default "")) -}}
 {{- end -}}
 {{- end -}}
 {{- range slice (slice "url_slides" "Slides") (slice "url_video" "Video") (slice "url_code" "Code") (slice "url_dataset" "Data") (slice "url_poster" "Poster") (slice "url_source" "Source") -}}
@@ -22,5 +22,5 @@
 {{- end -}}
 {{- if and .cite ($p.Resources.GetMatch "cite.bib") }}{{ $links = $links | append (dict "n" "Cite" "u" (printf "%s#cite" $p.RelPermalink)) }}{{ end -}}
 {{- $html := slice -}}
-{{- range $links }}{{ if .n }}{{ $html = $html | append (printf `<a href="%s">%s</a>` .u (htmlEscape .n)) }}{{ end }}{{ end -}}
+{{- range $links }}{{ if .n }}{{ $html = $html | append (printf `<a href="%s">%s%s</a>` .u (cond (ne (.i | default "") "") (printf `<img class="link-icon" src="%s" alt="" width="16" height="16">` (relURL .i)) "") (htmlEscape .n)) }}{{ end }}{{ end -}}
 {{- delimit $html " · " | safeHTML -}}

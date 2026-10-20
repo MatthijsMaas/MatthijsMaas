@@ -10,11 +10,11 @@
 {{- range $p.Params.links -}}
 {{- if and .name .url -}}
 {{- $u := .url -}}{{- if not (findRE `^(https?:|mailto:)` $u) }}{{ $u = $u | relURL }}{{ end -}}
-{{- $links = $links | append (dict "n" .name "u" $u) -}}
+{{- $links = $links | append (dict "n" .name "u" $u "i" (.icon | default "")) -}}
 {{- end -}}
 {{- end -}}
 {{- end -}}
 {{- if not $links -}}{{ with $p.Params.doi }}{{ $links = $links | append (dict "n" "DOI" "u" (printf "https://doi.org/%s" .)) }}{{ end }}{{- end -}}
 {{- $html := slice -}}
-{{- range $links }}{{ $html = $html | append (printf `<a href="%s">%s</a>` .u (htmlEscape .n)) }}{{ end -}}
+{{- range $links }}{{ $html = $html | append (printf `<a href="%s">%s%s</a>` .u (cond (ne (.i | default "") "") (printf `<img class="link-icon" src="%s" alt="" width="16" height="16">` (relURL .i)) "") (htmlEscape .n)) }}{{ end -}}
 {{- delimit $html "&nbsp;· " | safeHTML -}}
