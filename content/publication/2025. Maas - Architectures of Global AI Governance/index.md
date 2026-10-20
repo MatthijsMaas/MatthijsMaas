@@ -45,6 +45,9 @@ links:
   url: 'https://academic.oup.com/book/61416'
 - name: Print
   url: 'https://global.oup.com/academic/product/architectures-of-global-ai-governance-9780198877837?cc=gb&lang=en&'
+- name: Goodreads
+  url: 'https://www.goodreads.com/book/show/238715414-architectures-of-global-ai-governance'
+  icon: img/goodreads.png
 
 url_pdf: ''
 url_code: ''

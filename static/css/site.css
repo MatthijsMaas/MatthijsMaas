@@ -71,6 +71,9 @@ p.cite-actions { display: flex; align-items: center; gap: 1rem; }
 
 p.callout { font-style: italic; }
 
+/* Small service icons inside link labels (e.g. Goodreads) */
+img.link-icon, .marginnote img.link-icon { display: inline; width: 0.95em; height: 0.95em; max-width: none; margin: 0 0.25em 0 0; vertical-align: -0.1em; border-radius: 2px; }
+
 /* Essays */
 .essay figure { margin: 1.6rem 0; }
 .essay figure img { width: 100%; height: auto; }
