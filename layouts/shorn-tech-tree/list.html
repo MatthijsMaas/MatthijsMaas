@@ -3,7 +3,7 @@
 {{- $m := $d.meta -}}
 {{- $primer := .Content | replaceRE "^\\s*<p>" "" | replaceRE "</p>\\s*$" "" -}}
 <article class="stt">
-<h1>{{ .Title }}</h1>
+<h1 id="stt-top" tabindex="-1">{{ .Title }}</h1>
 {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
 
 <section class="stt-intro">
@@ -84,6 +84,23 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 {{ end }}{{ end }}
 </section>
 {{ end }}{{ end }}
+
+{{- /* Corner navigation: shown by stt.js once the reader is past the intro; without JavaScript it stays hidden.
+     The chevrons are drawn, not typed: ET Book shows ‹ and › as the ligatures ffi and ffl. */}}
+<nav class="stt-dock" id="stt-dock" aria-label="Catalogue navigation" hidden>
+<div class="stt-dock-bar">
+<a class="stt-dock-top" href="#stt-top">Top</a>
+<button type="button" class="stt-dock-prev" aria-label="Previous category" disabled><svg class="stt-chev" viewBox="0 0 10 16" width="9" height="14" aria-hidden="true" focusable="false"><path d="M7.5 2.5 2.5 8l5 5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<button type="button" class="stt-dock-cur" aria-expanded="false" aria-controls="stt-dock-panel"><span class="stt-dock-curname">Categories</span></button>
+<div class="stt-dock-panel" id="stt-dock-panel" hidden>
+{{- range $d.nav }}
+<p class="stt-dock-zone">{{ .name }}</p>
+<ul>{{ range .cats }}<li><a href="#cat-{{ .key }}" data-cat="{{ .key }}"><span class="t">{{ .name }}</span><span class="n">{{ .count }}</span></a></li>{{ end }}</ul>
+{{- end }}
+</div>
+<button type="button" class="stt-dock-next" aria-label="Next category"><svg class="stt-chev" viewBox="0 0 10 16" width="9" height="14" aria-hidden="true" focusable="false"><path d="M2.5 2.5 7.5 8l-5 5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+</div>
+</nav>
 
 <section id="changelog">
 <h2>Changelog</h2>
