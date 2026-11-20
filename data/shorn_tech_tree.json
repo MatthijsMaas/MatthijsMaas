@@ -3863,6 +3863,114 @@
    "glyph_label": "Unknown losses: the field held back what might have been."
   }
  ],
+ "nav": [
+  {
+   "zone": "summit",
+   "name": "Summit",
+   "cats": [
+    {
+     "key": "steep",
+     "name": "Steep plateaus",
+     "count": 19
+    }
+   ]
+  },
+  {
+   "zone": "high",
+   "name": "High branches",
+   "cats": [
+    {
+     "key": "atrophied",
+     "name": "Locally atrophied branches",
+     "count": 7
+    }
+   ]
+  },
+  {
+   "zone": "branches",
+   "name": "Branches",
+   "cats": [
+    {
+     "key": "withered",
+     "name": "Withered branches",
+     "count": 84
+    },
+    {
+     "key": "inferior",
+     "name": "Inferior leaps",
+     "count": 1
+    },
+    {
+     "key": "underpowered",
+     "name": "Underpowered dreams",
+     "count": 43
+    },
+    {
+     "key": "protracted",
+     "name": "Protracted adoption",
+     "count": 2
+    },
+    {
+     "key": "falsedawn",
+     "name": "False first dawns",
+     "count": 28
+    }
+   ]
+  },
+  {
+   "zone": "trunk",
+   "name": "Trunk",
+   "cats": [
+    {
+     "key": "forlorn",
+     "name": "Forlorn prototypes",
+     "count": 98
+    },
+    {
+     "key": "devhell",
+     "name": "Development hell",
+     "count": 50
+    },
+    {
+     "key": "abandoned",
+     "name": "Abandoned development",
+     "count": 73
+    },
+    {
+     "key": "deadends",
+     "name": "Dead ends and science fictions",
+     "count": 18
+    }
+   ]
+  },
+  {
+   "zone": "roots",
+   "name": "Roots",
+   "cats": [
+    {
+     "key": "crushed",
+     "name": "Crushed seeds",
+     "count": 50
+    },
+    {
+     "key": "performative",
+     "name": "Performative proposals",
+     "count": 20
+    }
+   ]
+  },
+  {
+   "zone": "soil",
+   "name": "Soil",
+   "cats": [
+    {
+     "key": "darkmatter",
+     "name": "Lost ‘dark matter’ innovations",
+     "count": 2
+    }
+   ]
+  }
+ ],
  "cases": {
   "STT-0475": {
    "id": "STT-0475",
