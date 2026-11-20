@@ -1,0 +1,4 @@
+{{- /* Provenance totals for the Shorn Tech Tree, from data/shorn_tech_tree.json */ -}}
+{{- with site.Data.shorn_tech_tree.meta -}}
+Each case says who selected it and who wrote its description. Of the {{ .n_cases }} descriptions in this draft, I wrote {{ .n_text_own }}, rewrote {{ .n_text_rewritten }} from AI drafts, and approved {{ .n_text_ai }} drafted with AI. {{ .n_found_agents }} cases were found by Benjamin Brady's research agents; I selected the rest.
+{{- end -}}

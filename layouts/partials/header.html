@@ -9,6 +9,9 @@
 <a href="{{ "/" | relURL }}">Home</a>
 <a href="{{ "/publication/" | relURL }}">Publications</a>
 <a href="{{ "/essays/" | relURL }}">Essays</a>
+{{- if site.Params.shorn_tech_tree_in_menu }}
+<a href="{{ "/shorn-tech-tree/" | relURL }}">Shorn Tech Tree</a>
+{{- end }}
 <a href="{{ "/event/" | relURL }}">Talks</a>
 <a href="{{ site.Params.blog }}">Substack</a>
 <a href="{{ site.Params.cv | relURL }}">CV</a>

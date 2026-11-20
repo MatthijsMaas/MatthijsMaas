@@ -34,3 +34,4 @@ params:
   cv: uploads/Academic CV - Matthijs Maas - Sep 2025.pdf
   blog: https://criticalmaas.substack.com/
   portrait: img/portrait.jpg
+  shorn_tech_tree_in_menu: true   # set to false to keep the page live but out of the menu (quiet phase)

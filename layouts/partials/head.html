@@ -21,3 +21,9 @@
 <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}</script>
 <link rel="stylesheet" href="{{ "css/tufte.css" | relURL }}">
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+{{- with .Params.robots }}
+<meta name="robots" content="{{ . }}">
+{{- end }}
+{{- if eq .Section "shorn-tech-tree" }}
+<link rel="stylesheet" href="{{ "css/stt.css" | relURL }}">
+{{- end }}
