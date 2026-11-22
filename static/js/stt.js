@@ -93,11 +93,46 @@
   if (cause) cause.addEventListener('change', function () { state.cause = cause.value; apply(); });
   var clear = document.getElementById('stt-clear');
   if (clear) clear.addEventListener('click', function () { state = { cat: '', group: '', by: '', q: '', cause: '' }; if (q) q.value = ''; if (by) by.value = ''; if (cause) cause.value = ''; apply(); });
-  var expand = document.getElementById('stt-expand');
-  if (expand) expand.addEventListener('click', function () {
-    var open = expand.textContent === 'Open all';
-    each('.stt-case:not(.stt-hidden) details', function (d) { d.open = open; });
-    expand.textContent = open ? 'Close all' : 'Open all';
+  // Open all / Close all: the button above the list and the one in the corner bar share one state. They act on the
+  // entries the filters show, and the label follows what is open, including entries opened or closed by hand.
+  var foldBtns = Array.prototype.slice.call(document.querySelectorAll('.stt-fold-all'));
+  function shownDetails() { return Array.prototype.slice.call(document.querySelectorAll('.stt-case:not(.stt-hidden) details')); }
+  function allOpen(s) { return s.length > 0 && s.every(function (d) { return d.open; }); }
+  function syncFold() {
+    var label = allOpen(shownDetails()) ? 'Close all' : 'Open all';
+    foldBtns.forEach(function (b) { if (b.textContent !== label) b.textContent = label; });
+  }
+  var foldPending = false;
+  function syncFoldSoon() {
+    if (foldPending) return;
+    foldPending = true;
+    window.requestAnimationFrame(function () { foldPending = false; syncFold(); });
+  }
+  foldBtns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var s = shownDetails(), open = !allOpen(s);
+      // keep the entry at the top of the screen where it is (Safari does not anchor the scroll position itself)
+      var anchor = null, before = 0;
+      for (var i = 0; i < s.length; i++) {
+        var r = s[i].getBoundingClientRect();
+        if (r.bottom > 0) { anchor = s[i]; before = r.top; break; }
+      }
+      s.forEach(function (d) { d.open = open; });
+      if (anchor && b.closest('.stt-dock')) window.scrollBy(0, anchor.getBoundingClientRect().top - before);
+      syncFold();
+    });
+  });
+  document.addEventListener('toggle', syncFoldSoon, true);
+  onApply.push(syncFold);
+  // Printing (or saving as PDF from the browser) shows every entry the filters show, then restores the page.
+  var openedForPrint = [];
+  window.addEventListener('beforeprint', function () {
+    openedForPrint = shownDetails().filter(function (d) { return !d.open; });
+    openedForPrint.forEach(function (d) { d.open = true; });
+  });
+  window.addEventListener('afterprint', function () {
+    openedForPrint.forEach(function (d) { d.open = false; });
+    openedForPrint = [];
   });
   var review = document.getElementById('stt-review');
   if (review) review.addEventListener('click', function () {
