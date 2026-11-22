@@ -59,7 +59,7 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 <select id="stt-group" aria-label="Domain"><option value="">All domains</option>{{ range $t := $d.tiers }}<optgroup label="{{ $t.name }}">{{ range where $d.groups "tier" $t.name }}<option value="{{ .key }}">{{ .full }}</option>{{ end }}</optgroup>{{ end }}</select>
 <select id="stt-by" aria-label="Who wrote the description"><option value="">All descriptions</option><option value="mm">Written by me</option><option value="mr">Rewritten by me from an AI draft</option><option value="ai">Drafted with AI, approved by me</option></select>
 <button type="button" class="button" id="stt-clear">Clear filters</button>
-<button type="button" class="button" id="stt-expand">Open all</button>
+<button type="button" class="button stt-fold-all" id="stt-expand">Open all</button>
 {{ if .Params.review_overlay }}<button type="button" class="button" id="stt-review" aria-pressed="false">Show review status</button>
 <select id="stt-cause" aria-label="Stated causes of abandonment (review lists)"><option value="">All entries</option><option value="A">List A: stated cause, never checked</option><option value="B">List B: cause not supported by its source</option></select>{{ end }}
 </section>
@@ -90,9 +90,11 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 <nav class="stt-dock" id="stt-dock" aria-label="Catalogue navigation" hidden>
 <div class="stt-dock-bar">
 <a class="stt-dock-top" href="#stt-top">Top</a>
+<button type="button" class="stt-dock-fold stt-fold-all">Open all</button>
 <button type="button" class="stt-dock-prev" aria-label="Previous category" disabled><svg class="stt-chev" viewBox="0 0 10 16" width="9" height="14" aria-hidden="true" focusable="false"><path d="M7.5 2.5 2.5 8l5 5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 <button type="button" class="stt-dock-cur" aria-expanded="false" aria-controls="stt-dock-panel"><span class="stt-dock-curname">Categories</span></button>
 <div class="stt-dock-panel" id="stt-dock-panel" hidden>
+<button type="button" class="stt-dock-fold-p stt-fold-all">Open all</button>
 {{- range $d.nav }}
 <p class="stt-dock-zone">{{ .name }}</p>
 <ul>{{ range .cats }}<li><a href="#cat-{{ .key }}" data-cat="{{ .key }}"><span class="t">{{ .name }}</span><span class="n">{{ .count }}</span></a></li>{{ end }}</ul>

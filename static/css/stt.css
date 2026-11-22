@@ -170,7 +170,10 @@ p.stt-key { width: auto; display: flex; flex-wrap: wrap; align-items: center; ga
     margin: 0; padding: 0.3rem 0.75rem; min-height: 2.4rem; cursor: pointer; text-decoration: none; }
 .stt-dock-bar > .stt-dock-prev, .stt-dock-bar > .stt-dock-next { padding: 0 0.85rem; }
 .stt-chev { display: block; }
-.stt-dock-bar > .stt-dock-prev, .stt-dock-bar > .stt-dock-cur, .stt-dock-bar > .stt-dock-next { border-left: 1px solid var(--stt-rule); }
+.stt-dock-bar > .stt-dock-fold, .stt-dock-bar > .stt-dock-prev, .stt-dock-bar > .stt-dock-cur, .stt-dock-bar > .stt-dock-next { border-left: 1px solid var(--stt-rule); }
+/* Open all / Close all: in the bar on wide screens; on phones, where the bar is full, at the top of the category panel */
+.stt-dock-fold { min-width: 5.6rem; justify-content: center; }
+.stt-dock-fold-p { display: none; }
 .stt-dock-cur { max-width: 16rem; }
 .stt-dock-curname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .stt-dock-cur::after { content: ""; flex: none; margin-left: 0.5rem; border: 0.27rem solid transparent; border-bottom-color: currentColor;
@@ -196,6 +199,9 @@ p.stt-dock-zone { font-size: 0.72rem; line-height: 1.2; text-transform: uppercas
     .stt-dock { right: max(0.5rem, env(safe-area-inset-right)); bottom: max(0.5rem, env(safe-area-inset-bottom)); }
     .stt-dock-bar > a, .stt-dock-bar > button { min-height: 2.75rem; }
     .stt-dock-cur { max-width: 44vw; }
+    .stt-dock-bar > .stt-dock-fold { display: none; }
+    .stt-dock-fold-p { display: block; width: 100%; margin: 0 0 0.5rem; padding: 0.55rem 0.4rem; font: inherit; color: inherit;
+        text-align: left; background: none; border: 0; border-bottom: 1px solid var(--stt-rule); cursor: pointer; }
 }
 @media (prefers-reduced-motion: reduce) { .stt-dock, .stt-dock.on { transition: none; transform: none; } }
 @media print { .stt-dock { display: none !important; } }
