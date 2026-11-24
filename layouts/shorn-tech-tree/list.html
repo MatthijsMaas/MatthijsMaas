@@ -7,7 +7,15 @@
 {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
 
 <section class="stt-intro">
-<div class="stt-primer"><p>{{ $primer | safeHTML }}</p></div>
+<div class="stt-primer"><p>{{ $primer | safeHTML }}</p>
+{{- with site.GetPage "/shorn-tech-tree/about" }}
+<div class="stt-about">
+{{- range sort (.Resources.ByType "page") "Name" }}
+<details class="stt-fold"><summary>{{ .Title }}</summary><div class="stt-fold-body">{{ .Content }}</div></details>
+{{- end }}
+</div>
+{{- end }}
+</div>
 <aside class="stt-info" aria-label="About this draft">
 <p>Public draft v{{ $m.version }}<br>
 Last updated on: {{ dateFormat "2 January 2006" $m.updated }}<br>
@@ -17,18 +25,17 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 <a class="stt-mail" href="#" data-u="{{ . }}" data-d="{{ $.Params.report_email_domain }}">Report an error or suggest a case</a>: {{ . }}[at]{{ replace $.Params.report_email_domain "." "[dot]" }}<br>
 {{- end }}
 <a href="#changelog">Changelog</a></p>
-{{- with site.GetPage "/shorn-tech-tree/about" }}
-<div class="stt-about">
-{{- range sort (.Resources.ByType "page") "Name" }}
-<details class="stt-fold"><summary>{{ .Title }}</summary><div class="stt-fold-body">{{ .Content }}</div></details>
-{{- end }}
-</div>
-{{- end }}
 </aside>
 </section>
 
 <figure class="fullwidth stt-fig">
+<div class="stt-fighead">
 <p class="stt-figtitle">Where the branches were cut</p>
+<div class="stt-search-top" role="search">
+<input type="search" id="stt-q-top" class="stt-q" placeholder="Search the {{ $m.n_cases }} cases, e.g. airship" aria-label="Search the cases" autocomplete="off">
+<p class="stt-q-note" id="stt-q-note" aria-live="polite" hidden></p>
+</div>
+</div>
 <p class="stt-key"><span class="stt-key-lead">Key:</span>{{ range $d.legend }} <span class="stt-key-item">{{ .svg | safeHTML }}{{ .label }}</span>{{ end }}</p>
 <div class="stt-matrix-wrap">
 <table class="stt-matrix stt-tree">
@@ -49,13 +56,13 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 </table>
 </div>
 <figcaption>
-<details class="stt-fold stt-fold-caption"><summary>How to read this figure</summary><div class="stt-fold-body"><p>Rows are types of abandonment, arranged as a tree: the higher the row, the further a technology got before it was cut. The roots hold ideas that never left paper; the trunk, research and prototypes; the branches, technologies that were deployed and then lost or stunted; the summit, the few that only one or two parties ever achieved. The soil holds losses that cannot be pinned to single projects. The line beside each row sketches the typical path, with ticks for the checkpoints it passed (key above). Columns are domains; dot area shows the number of cases. Click a row, a column or a dot to filter the list below.</p></div></details>
+<details class="stt-fold stt-fold-caption"><summary>How to read this figure</summary><div class="stt-fold-body"><p>Rows are types of abandonment, arranged as a tree: the higher the row, the further a technology got before it was cut. The roots hold ideas that never left paper; the trunk, research and prototypes; the branches, technologies that were deployed and then lost or stunted; the summit, the few that only one or two parties ever achieved. The soil holds losses that cannot be pinned to single projects. The line beside each row sketches the typical path, with ticks for the checkpoints it passed (key above). A yellow post where the line leaves the ground marks active pursuit: every row of the tree has one, the roots do not. Columns are domains; dot area shows the number of cases. Click a row, a column or a dot to filter the list below. While you search, the dots and counts show only the matching cases.</p></div></details>
 <details class="stt-fold stt-fold-caption"><summary>A note on case selection</summary><div class="stt-fold-body"><p>{{ $m.n_milaero }} of the {{ $m.n_cases }} cases are military, nuclear or aerospace projects. That reflects the sources used so far (cancelled defence and space projects are unusually well documented) and should not be read as a finding. For the same reason, an empty or thin cell says little about whether such cases exist; biotechnology in particular is probably under-represented.</p></div></details>
 </figcaption>
 </figure>
 
-<section class="stt-controls" aria-label="Filter the list">
-<input type="search" id="stt-q" placeholder="Search, e.g. airship" aria-label="Search the cases">
+<section class="stt-controls" id="stt-controls" aria-label="Filter the list">
+<input type="search" id="stt-q" class="stt-q" placeholder="Search, e.g. airship" aria-label="Search the cases" autocomplete="off">
 <select id="stt-group" aria-label="Domain"><option value="">All domains</option>{{ range $t := $d.tiers }}<optgroup label="{{ $t.name }}">{{ range where $d.groups "tier" $t.name }}<option value="{{ .key }}">{{ .full }}</option>{{ end }}</optgroup>{{ end }}</select>
 <select id="stt-by" aria-label="Who wrote the description"><option value="">All descriptions</option><option value="mm">Written by me</option><option value="mr">Rewritten by me from an AI draft</option><option value="ai">Drafted with AI, approved by me</option></select>
 <button type="button" class="button" id="stt-clear">Clear filters</button>
@@ -106,6 +113,7 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 
 <section id="changelog">
 <h2>Changelog</h2>
+<p>24 November 2026: a search box beside the figure, which also reshapes the figure; the figure marks active pursuit (yellow posts); the key says "natural limit" (was "hard limit") and "active pursuit" (was "decision to pursue"); the notes on scope, sources and definitions sit under the introduction. No cases added, removed or changed.</p>
 <p>22 November 2026: corrections to three entries (STT-0100, STT-0336, STT-0337); British spelling throughout, except in quotations and names.</p>
 <p>v{{ $m.version }} ({{ dateFormat "2 January 2006" $m.date }}): first public draft, {{ $m.n_cases }} cases. My own entries, plus the entries and candidates finished in the review so far. Case IDs (STT-0001 and so on) are permanent: they will not change when an entry is edited, moved or renamed.</p>
 </section>

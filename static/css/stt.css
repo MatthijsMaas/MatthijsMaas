@@ -8,7 +8,13 @@
 .stt-primer p { width: auto; margin-top: 0.4rem; }
 .stt-info { grid-column: 3; font-size: 1.05rem; line-height: 1.45; }
 .stt-info > p { width: auto; font-size: 1.05rem; line-height: 1.5; margin: 0.6rem 0 0.7rem; }
-.stt-about { border-top: 1px solid var(--stt-rule); padding-top: 0.35rem; }
+/* The fold-outs sit under the primer as one wrapping row (24 Nov), so the intro is no taller than the primer and the
+   figure starts higher. An open fold-out takes the full width of the column, and its text reads at the column's width. */
+.stt-about { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.1rem 1.3rem; margin-top: 0.9rem; padding-top: 0.45rem; border-top: 1px solid var(--stt-rule); }
+.stt-about details.stt-fold { flex: 0 0 auto; }
+.stt-about details.stt-fold[open] { flex-basis: 100%; }
+.stt-about details.stt-fold > summary { font-size: 1.05rem; margin-left: 0.95rem; }
+.stt-about .stt-fold-body { font-size: 1.05rem; max-width: 40rem; }
 
 /* Fold-outs: margin sections and the note under the figure */
 details.stt-fold > summary { cursor: pointer; line-height: 1.55; list-style-position: outside; margin-left: 1rem; padding: 0.1rem 0; }
@@ -27,8 +33,17 @@ details.stt-fold[open] > summary { font-style: italic; }
 .stt-fold-caption .stt-fold-body { max-width: 34rem; }
 
 /* Matrix figure */
-.stt-fig { margin-top: 2rem; }
+.stt-fig { margin-top: 1.6rem; }
 .stt-figtitle { font-style: italic; margin: 0 0 0.5rem; font-size: 1.2rem; }
+/* Figure title with the search beside it: typing reshapes the dots below and filters the list (24 Nov) */
+.stt-fighead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 1.6rem; margin: 0 0 0.35rem; }
+.stt-fighead .stt-figtitle { margin: 0; }
+.stt-search-top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.9rem; flex: 1 1 22rem; }
+.stt-search-top input { flex: 0 1 22rem; min-width: 12rem; font: inherit; font-size: 1.05rem; color: inherit; background: transparent; border: 1px solid rgba(128, 128, 120, 0.7); border-radius: 2px; padding: 0.3rem 0.6rem; min-height: 40px; }
+.stt-q-note { width: auto; margin: 0; font-size: 1rem; color: var(--stt-faint); }
+.stt-q-note a { color: inherit; }
+.stt-matrix td.cell.zero .dot, .stt-matrix tr.zero .stt-row, .stt-matrix tr.zero td.num { opacity: 0.3; }
+.stt-matrix td.num.q { font-style: italic; }
 .stt-matrix-wrap { overflow-x: auto; }
 table.stt-matrix { border-collapse: separate; border-spacing: 0; font-size: 0.95rem; line-height: 1.2; width: auto; }
 .stt-matrix th, .stt-matrix td { padding: 0; text-align: center; vertical-align: middle; font-weight: normal; }

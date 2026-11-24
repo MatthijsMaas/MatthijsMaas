@@ -2,7 +2,7 @@
  "meta": {
   "version": "0.1",
   "date": "2026-11-20",
-  "updated": "2026-11-22",
+  "updated": "2026-11-24",
   "n_cases": 495,
   "n_own": 441,
   "n_desk": 54,
@@ -320,7 +320,7 @@
    "zone_name": "Summit",
    "zone_first": true,
    "zone_n": 1,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M44.0,36.0 C46.7,34.7 49.3,33.4 52.0,32.0 C54.7,30.6 57.3,29.0 60.0,27.5\" class=\"ln\" opacity=\"0.38\"/><path d=\"M76.0,36.0 C78.7,34.5 81.3,33.2 84.0,31.5 C86.7,29.8 89.3,27.8 92.0,26.0\" class=\"ln\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.8 9.3,36.0 12.0,34.5 C16.0,32.3 20.0,6.0 24.0,5.0 C28.0,4.0 32.0,4.0 36.0,4.0 C62.7,4.0 89.3,4.0 116.0,4.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M12.3,22.0 H22.3\"/><path class=\"tk k-dep\" d=\"M14.6,14.0 H24.6\"/><path class=\"tk k-imp\" d=\"M17.9,6.0 H27.9\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M44.0,36.0 C46.7,34.7 49.3,33.4 52.0,32.0 C54.7,30.6 57.3,29.0 60.0,27.5\" class=\"ln\" opacity=\"0.38\"/><path d=\"M76.0,36.0 C78.7,34.5 81.3,33.2 84.0,31.5 C86.7,29.8 89.3,27.8 92.0,26.0\" class=\"ln\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.8 9.3,36.0 12.0,34.5 C16.0,32.3 20.0,6.0 24.0,5.0 C28.0,4.0 32.0,4.0 36.0,4.0 C62.7,4.0 89.3,4.0 116.0,4.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M12.3,22.0 H22.3\"/><path class=\"tk k-dep\" d=\"M14.6,14.0 H24.6\"/><path class=\"tk k-imp\" d=\"M17.9,6.0 H27.9\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Climbs past prototype, deployment and significant impact; most other attempts fall short."
   },
   {
@@ -473,7 +473,7 @@
    "zone_name": "High branches",
    "zone_first": true,
    "zone_n": 2,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,35.9 12.0,34.5 C18.0,31.3 24.0,19.9 30.0,16.0 C34.7,12.9 39.3,12.6 44.0,12.0 C48.0,11.5 52.0,11.6 56.0,11.5\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M18.9,22.0 H28.9\"/><path class=\"tk k-dep\" d=\"M29.0,14.0 H39.0\"/><path class=\"tk k-cut\" d=\"M53.4,15.9 L58.6,7.1\"/><path class=\"ln\" opacity=\"0.38\" d=\"M58,13 L59,35\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,35.9 12.0,34.5 C18.0,31.3 24.0,19.9 30.0,16.0 C34.7,12.9 39.3,12.6 44.0,12.0 C48.0,11.5 52.0,11.6 56.0,11.5\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M18.9,22.0 H28.9\"/><path class=\"tk k-dep\" d=\"M29.0,14.0 H39.0\"/><path class=\"tk k-cut\" d=\"M53.4,15.9 L58.6,7.1\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path class=\"ln\" opacity=\"0.38\" d=\"M58,13 L59,35\"/></svg>",
    "glyph_label": "Reaches prototype and deployment, then collapses in procurement or roll-out."
   },
   {
@@ -626,7 +626,7 @@
    "zone_name": "High branches",
    "zone_first": false,
    "zone_n": 2,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-atrophied-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"104.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.580\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,12.8 28.0,11.5 C32.0,10.5 36.0,10.5 40.0,10.5 C46.7,10.5 53.3,10.5 60.0,11.0 C65.3,11.4 70.7,18.7 76.0,22.0 C82.0,25.7 88.0,29.4 94.0,32.0 C97.3,33.4 100.7,34.0 104.0,35.0\" class=\"ln dot\" style=\"stroke:url(#stt-fade-atrophied-0)\"/><path class=\"tk k-pro\" d=\"M15.3,22.0 H25.3\"/><path class=\"tk k-dep\" d=\"M19.9,14.0 H29.9\"/><path class=\"tk k-cut\" d=\"M59.4,15.9 L64.6,7.1\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-atrophied-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"104.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.580\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,12.8 28.0,11.5 C32.0,10.5 36.0,10.5 40.0,10.5 C46.7,10.5 53.3,10.5 60.0,11.0 C65.3,11.4 70.7,18.7 76.0,22.0 C82.0,25.7 88.0,29.4 94.0,32.0 C97.3,33.4 100.7,34.0 104.0,35.0\" class=\"ln dot\" style=\"stroke:url(#stt-fade-atrophied-0)\"/><path class=\"tk k-pro\" d=\"M15.3,22.0 H25.3\"/><path class=\"tk k-dep\" d=\"M19.9,14.0 H29.9\"/><path class=\"tk k-cut\" d=\"M59.4,15.9 L64.6,7.1\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "As a withered branch, but only locally (dotted): others still build it."
   },
   {
@@ -779,7 +779,7 @@
    "zone_name": "Branches",
    "zone_first": true,
    "zone_n": 5,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-withered-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"104.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.580\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,12.8 28.0,11.5 C32.0,10.5 36.0,10.5 40.0,10.5 C46.7,10.5 53.3,10.5 60.0,11.0 C65.3,11.4 70.7,18.7 76.0,22.0 C82.0,25.7 88.0,29.4 94.0,32.0 C97.3,33.4 100.7,34.0 104.0,35.0\" class=\"ln\" style=\"stroke:url(#stt-fade-withered-0)\"/><path class=\"tk k-pro\" d=\"M15.3,22.0 H25.3\"/><path class=\"tk k-dep\" d=\"M19.9,14.0 H29.9\"/><path class=\"tk k-cut\" d=\"M59.4,15.9 L64.6,7.1\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-withered-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"104.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.580\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,12.8 28.0,11.5 C32.0,10.5 36.0,10.5 40.0,10.5 C46.7,10.5 53.3,10.5 60.0,11.0 C65.3,11.4 70.7,18.7 76.0,22.0 C82.0,25.7 88.0,29.4 94.0,32.0 C97.3,33.4 100.7,34.0 104.0,35.0\" class=\"ln\" style=\"stroke:url(#stt-fade-withered-0)\"/><path class=\"tk k-pro\" d=\"M15.3,22.0 H25.3\"/><path class=\"tk k-dep\" d=\"M19.9,14.0 H29.9\"/><path class=\"tk k-cut\" d=\"M59.4,15.9 L64.6,7.1\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Reaches prototype and (limited) deployment, then is cut and fades out."
   },
   {
@@ -932,7 +932,7 @@
    "zone_name": "Branches",
    "zone_first": false,
    "zone_n": 5,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C16.7,31.9 21.3,15.7 26.0,11.0 C29.3,7.6 32.7,7.9 36.0,7.5 C40.7,7.0 45.3,7.1 50.0,7.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M49.4,11.4 L54.6,2.6\"/><path d=\"M16.0,36.0 C19.3,35.4 22.7,35.9 26.0,34.0 C32.0,30.6 38.0,18.2 44.0,15.0 C48.7,12.5 53.3,12.6 58.0,12.5 C77.3,12.0 96.7,12.1 116.0,12.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M31.9,22.0 H41.9\"/><path class=\"tk k-dep\" d=\"M41.3,14.0 H51.3\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C16.7,31.9 21.3,15.7 26.0,11.0 C29.3,7.6 32.7,7.9 36.0,7.5 C40.7,7.0 45.3,7.1 50.0,7.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M49.4,11.4 L54.6,2.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path d=\"M16.0,36.0 C19.3,35.4 22.7,35.9 26.0,34.0 C32.0,30.6 38.0,18.2 44.0,15.0 C48.7,12.5 53.3,12.6 58.0,12.5 C77.3,12.0 96.7,12.1 116.0,12.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M31.9,22.0 H41.9\"/><path class=\"tk k-dep\" d=\"M41.3,14.0 H51.3\"/></svg>",
    "glyph_label": "Cut off after deployment while a lower competitor carries on."
   },
   {
@@ -1085,7 +1085,7 @@
    "zone_name": "Branches",
    "zone_first": false,
    "zone_n": 5,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M30.0,12.0 C35.3,10.2 40.7,8.1 46.0,6.5 C50.7,5.1 55.3,4.2 60.0,3.0\" class=\"ln dot\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,36.0 12.0,34.5 C18.0,31.2 24.0,13.7 30.0,12.0 C35.3,10.5 40.7,10.6 46.0,10.5 C69.3,10.0 92.7,10.2 116.0,10.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.4,22.0 H26.4\"/><path class=\"tk k-dep\" d=\"M22.1,14.0 H32.1\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M30.0,12.0 C35.3,10.2 40.7,8.1 46.0,6.5 C50.7,5.1 55.3,4.2 60.0,3.0\" class=\"ln dot\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,36.0 12.0,34.5 C18.0,31.2 24.0,13.7 30.0,12.0 C35.3,10.5 40.7,10.6 46.0,10.5 C69.3,10.0 92.7,10.2 116.0,10.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.4,22.0 H26.4\"/><path class=\"tk k-dep\" d=\"M22.1,14.0 H32.1\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Reaches prototype and deployment, but never the significant impact expected (dotted)."
   },
   {
@@ -1238,7 +1238,7 @@
    "zone_name": "Branches",
    "zone_first": false,
    "zone_n": 5,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,35.9 12.0,34.5 C16.0,32.3 20.0,21.2 24.0,20.0 C27.3,19.0 30.7,19.0 34.0,19.0 C48.7,18.9 63.3,19.0 78.0,18.5 C84.0,18.3 90.0,15.4 96.0,13.0 C101.3,10.9 106.7,6.7 112.0,5.0 C113.3,4.6 114.7,4.7 116.0,4.5\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.4,22.0 H26.4\"/><path class=\"tk k-dep\" d=\"M88.6,14.0 H98.6\"/><path class=\"tk k-imp\" d=\"M104.4,6.0 H114.4\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,35.9 12.0,34.5 C16.0,32.3 20.0,21.2 24.0,20.0 C27.3,19.0 30.7,19.0 34.0,19.0 C48.7,18.9 63.3,19.0 78.0,18.5 C84.0,18.3 90.0,15.4 96.0,13.0 C101.3,10.9 106.7,6.7 112.0,5.0 C113.3,4.6 114.7,4.7 116.0,4.5\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.4,22.0 H26.4\"/><path class=\"tk k-dep\" d=\"M88.6,14.0 H98.6\"/><path class=\"tk k-imp\" d=\"M104.4,6.0 H114.4\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Reaches a prototype early, stalls for a long time, then slowly reaches deployment and significant impact."
   },
   {
@@ -1391,7 +1391,7 @@
    "zone_name": "Branches",
    "zone_first": false,
    "zone_n": 5,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-falsedawn-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"52.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.542\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.0,35.7 8.0,36.0 10.0,34.5 C14.0,31.6 18.0,13.0 22.0,11.0 C24.0,10.0 26.0,10.0 28.0,10.0 C30.0,10.0 32.0,10.1 34.0,12.0 C37.3,15.2 40.7,23.9 44.0,28.0 C46.7,31.3 49.3,32.7 52.0,35.0\" class=\"ln\" style=\"stroke:url(#stt-fade-falsedawn-0)\"/><path class=\"tk k-pro\" d=\"M11.2,22.0 H21.2\"/><path class=\"tk k-dep\" d=\"M14.6,14.0 H24.6\"/><path d=\"M58.0,36.0 C60.0,35.6 62.0,36.0 64.0,34.5 C68.7,31.1 73.3,12.8 78.0,11.0 C80.7,10.0 83.3,10.0 86.0,10.0 C96.0,10.0 106.0,10.0 116.0,10.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M66.1,22.0 H76.1\"/><path class=\"tk k-dep\" d=\"M70.1,14.0 H80.1\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-falsedawn-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"52.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.542\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.0,35.7 8.0,36.0 10.0,34.5 C14.0,31.6 18.0,13.0 22.0,11.0 C24.0,10.0 26.0,10.0 28.0,10.0 C30.0,10.0 32.0,10.1 34.0,12.0 C37.3,15.2 40.7,23.9 44.0,28.0 C46.7,31.3 49.3,32.7 52.0,35.0\" class=\"ln\" style=\"stroke:url(#stt-fade-falsedawn-0)\"/><path class=\"tk k-pro\" d=\"M11.2,22.0 H21.2\"/><path class=\"tk k-dep\" d=\"M14.6,14.0 H24.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path d=\"M58.0,36.0 C60.0,35.6 62.0,36.0 64.0,34.5 C68.7,31.1 73.3,12.8 78.0,11.0 C80.7,10.0 83.3,10.0 86.0,10.0 C96.0,10.0 106.0,10.0 116.0,10.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M66.1,22.0 H76.1\"/><path class=\"tk k-dep\" d=\"M70.1,14.0 H80.1\"/></svg>",
    "glyph_label": "Reaches prototype and deployment, then fades; a later attempt gets there and stays."
   },
   {
@@ -1544,7 +1544,7 @@
    "zone_name": "Trunk",
    "zone_first": true,
    "zone_n": 4,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.5 9.3,35.9 12.0,34.5 C18.0,31.4 24.0,20.5 30.0,19.0 C34.0,18.0 38.0,18.0 42.0,18.0 C52.0,18.0 62.0,18.0 72.0,18.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M20.1,22.0 H30.1\"/><path class=\"tk k-cut\" d=\"M69.4,22.4 L74.6,13.6\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.5 9.3,35.9 12.0,34.5 C18.0,31.4 24.0,20.5 30.0,19.0 C34.0,18.0 38.0,18.0 42.0,18.0 C52.0,18.0 62.0,18.0 72.0,18.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M20.1,22.0 H30.1\"/><path class=\"tk k-cut\" d=\"M69.4,22.4 L74.6,13.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Reaches a working prototype, then is cut."
   },
   {
@@ -1697,7 +1697,7 @@
    "zone_name": "Trunk",
    "zone_first": false,
    "zone_n": 4,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-devhell-0\" gradientUnits=\"userSpaceOnUse\" x1=\"24.0\" y1=\"0\" x2=\"54.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.600\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient><linearGradient id=\"stt-fade-devhell-1\" gradientUnits=\"userSpaceOnUse\" x1=\"72.0\" y1=\"0\" x2=\"102.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.600\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.0,35.0 8.0,34.5 10.0,33.0 C12.7,31.0 15.3,27.7 18.0,25.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M15.4,29.4 L20.6,20.6\"/><path d=\"M24.0,36.0 C26.0,34.7 28.0,33.8 30.0,32.0 C32.7,29.6 35.3,23.7 38.0,23.0 C40.0,22.5 42.0,22.5 44.0,22.5 C47.3,22.5 50.7,24.2 54.0,25.0\" class=\"ln\" style=\"stroke:url(#stt-fade-devhell-0)\"/><path d=\"M52.0,36.0 C54.0,34.7 56.0,33.5 58.0,32.0 C60.7,29.9 63.3,27.3 66.0,25.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M63.4,29.4 L68.6,20.6\"/><path d=\"M72.0,36.0 C74.0,34.7 76.0,34.0 78.0,32.0 C80.7,29.4 83.3,22.2 86.0,21.5 C88.0,21.0 90.0,21.0 92.0,21.0 C95.3,21.0 98.7,22.7 102.0,23.5\" class=\"ln\" style=\"stroke:url(#stt-fade-devhell-1)\"/><path d=\"M98.0,36.0 C100.0,34.7 102.0,33.7 104.0,32.0 C106.7,29.8 109.3,25.7 112.0,24.0 C113.3,23.2 114.7,23.3 116.0,23.0\" class=\"ln\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-devhell-0\" gradientUnits=\"userSpaceOnUse\" x1=\"24.0\" y1=\"0\" x2=\"54.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.600\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient><linearGradient id=\"stt-fade-devhell-1\" gradientUnits=\"userSpaceOnUse\" x1=\"72.0\" y1=\"0\" x2=\"102.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.600\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.0,35.0 8.0,34.5 10.0,33.0 C12.7,31.0 15.3,27.7 18.0,25.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M15.4,29.4 L20.6,20.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path d=\"M24.0,36.0 C26.0,34.7 28.0,33.8 30.0,32.0 C32.7,29.6 35.3,23.7 38.0,23.0 C40.0,22.5 42.0,22.5 44.0,22.5 C47.3,22.5 50.7,24.2 54.0,25.0\" class=\"ln\" style=\"stroke:url(#stt-fade-devhell-0)\"/><path d=\"M52.0,36.0 C54.0,34.7 56.0,33.5 58.0,32.0 C60.7,29.9 63.3,27.3 66.0,25.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M63.4,29.4 L68.6,20.6\"/><path d=\"M72.0,36.0 C74.0,34.7 76.0,34.0 78.0,32.0 C80.7,29.4 83.3,22.2 86.0,21.5 C88.0,21.0 90.0,21.0 92.0,21.0 C95.3,21.0 98.7,22.7 102.0,23.5\" class=\"ln\" style=\"stroke:url(#stt-fade-devhell-1)\"/><path d=\"M98.0,36.0 C100.0,34.7 102.0,33.7 104.0,32.0 C106.7,29.8 109.3,25.7 112.0,24.0 C113.3,23.2 114.7,23.3 116.0,23.0\" class=\"ln\"/></svg>",
    "glyph_label": "Repeated attempts, cut off or fading; still being tried."
   },
   {
@@ -1850,8 +1850,8 @@
    "zone_name": "Trunk",
    "zone_first": false,
    "zone_n": 4,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.5 9.3,35.7 12.0,34.5 C16.7,32.5 21.3,26.4 26.0,25.0 C29.3,24.0 32.7,24.0 36.0,24.0 C49.3,24.0 62.7,24.0 76.0,24.0\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M13.5,30.0 H23.5\"/><path class=\"tk k-cut\" d=\"M73.4,28.4 L78.6,19.6\"/></svg>",
-   "glyph_label": "Passes the decision to pursue it, then is cut during development."
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.5 9.3,35.7 12.0,34.5 C16.7,32.5 21.3,26.4 26.0,25.0 C29.3,24.0 32.7,24.0 36.0,24.0 C49.3,24.0 62.7,24.0 76.0,24.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M73.4,28.4 L78.6,19.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
+   "glyph_label": "Actively pursued, then cut during development, before a working prototype."
   },
   {
    "cat": "deadends",
@@ -2003,8 +2003,8 @@
    "zone_name": "Trunk",
    "zone_first": false,
    "zone_n": 4,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><rect class=\"bar\" x=\"6\" y=\"22.4\" width=\"108\" height=\"3.4\" rx=\"0.6\"/><path d=\"M8.0,36.0 C10.0,34.7 12.0,33.3 14.0,32.0 C16.7,30.2 19.3,28.5 22.0,26.8\" class=\"ln\"/><path d=\"M36.0,36.0 C38.0,34.7 40.0,33.3 42.0,32.0 C44.7,30.2 47.3,28.5 50.0,26.8\" class=\"ln\"/><path d=\"M64.0,36.0 C66.0,34.7 68.0,33.3 70.0,32.0 C72.7,30.2 75.3,28.5 78.0,26.8\" class=\"ln\"/><path d=\"M92.0,36.0 C94.0,34.7 96.0,33.3 98.0,32.0 C100.7,30.2 103.3,28.5 106.0,26.8\" class=\"ln\"/></svg>",
-   "glyph_label": "Every attempt stops at the same hard limit."
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><rect class=\"bar\" x=\"6\" y=\"22.4\" width=\"108\" height=\"3.4\" rx=\"0.6\"/><path d=\"M8.0,36.0 C10.0,34.7 12.0,33.3 14.0,32.0 C16.7,30.2 19.3,28.5 22.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M8.0,35.4 V28.4\"/><path d=\"M36.0,36.0 C38.0,34.7 40.0,33.3 42.0,32.0 C44.7,30.2 47.3,28.5 50.0,26.8\" class=\"ln\"/><path d=\"M64.0,36.0 C66.0,34.7 68.0,33.3 70.0,32.0 C72.7,30.2 75.3,28.5 78.0,26.8\" class=\"ln\"/><path d=\"M92.0,36.0 C94.0,34.7 96.0,33.3 98.0,32.0 C100.7,30.2 103.3,28.5 106.0,26.8\" class=\"ln\"/></svg>",
+   "glyph_label": "Actively pursued, but every attempt stops at the same natural limit."
   },
   {
    "cat": "crushed",
@@ -2157,7 +2157,7 @@
    "zone_first": true,
    "zone_n": 2,
    "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C7.3,35.5 10.7,35.2 14.0,34.6 C18.7,33.8 23.3,32.6 28.0,31.6\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M25.4,36.0 L30.6,27.2\"/></svg>",
-   "glyph_label": "Cut before any decision to pursue it."
+   "glyph_label": "Cut before anyone actively pursued it."
   },
   {
    "cat": "performative",
@@ -2468,8 +2468,8 @@
  ],
  "legend": [
   {
-   "svg": "<svg class=\"stt-glyph stt-key-sw\" viewBox=\"0 0 18 18\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path class=\"tk k-dec\" d=\"M3,9 H15\"/></svg>",
-   "label": "decision to pursue"
+   "svg": "<svg class=\"stt-glyph stt-key-sw\" viewBox=\"0 0 18 18\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path class=\"tk k-dec\" d=\"M9,13.6 V5.6\"/></svg>",
+   "label": "active pursuit"
   },
   {
    "svg": "<svg class=\"stt-glyph stt-key-sw\" viewBox=\"0 0 18 18\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path class=\"tk k-pro\" d=\"M3,9 H15\"/></svg>",
@@ -2489,7 +2489,7 @@
   },
   {
    "svg": "<svg class=\"stt-glyph stt-key-sw\" viewBox=\"0 0 18 18\" width=\"18\" height=\"18\" aria-hidden=\"true\"><rect class=\"bar\" x=\"2\" y=\"7.3\" width=\"14\" height=\"3.4\" rx=\"0.6\"/></svg>",
-   "label": "hard limit"
+   "label": "natural limit"
   }
  ],
  "categories": [
@@ -2570,7 +2570,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M44.0,36.0 C46.7,34.7 49.3,33.4 52.0,32.0 C54.7,30.6 57.3,29.0 60.0,27.5\" class=\"ln\" opacity=\"0.38\"/><path d=\"M76.0,36.0 C78.7,34.5 81.3,33.2 84.0,31.5 C86.7,29.8 89.3,27.8 92.0,26.0\" class=\"ln\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.8 9.3,36.0 12.0,34.5 C16.0,32.3 20.0,6.0 24.0,5.0 C28.0,4.0 32.0,4.0 36.0,4.0 C62.7,4.0 89.3,4.0 116.0,4.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M12.3,22.0 H22.3\"/><path class=\"tk k-dep\" d=\"M14.6,14.0 H24.6\"/><path class=\"tk k-imp\" d=\"M17.9,6.0 H27.9\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M44.0,36.0 C46.7,34.7 49.3,33.4 52.0,32.0 C54.7,30.6 57.3,29.0 60.0,27.5\" class=\"ln\" opacity=\"0.38\"/><path d=\"M76.0,36.0 C78.7,34.5 81.3,33.2 84.0,31.5 C86.7,29.8 89.3,27.8 92.0,26.0\" class=\"ln\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.8 9.3,36.0 12.0,34.5 C16.0,32.3 20.0,6.0 24.0,5.0 C28.0,4.0 32.0,4.0 36.0,4.0 C62.7,4.0 89.3,4.0 116.0,4.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M12.3,22.0 H22.3\"/><path class=\"tk k-dep\" d=\"M14.6,14.0 H24.6\"/><path class=\"tk k-imp\" d=\"M17.9,6.0 H27.9\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Climbs past prototype, deployment and significant impact; most other attempts fall short."
   },
   {
@@ -2580,7 +2580,7 @@
    "def_line": 1366,
    "count": 0,
    "domains": [],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,35.9 12.0,34.5 C18.0,31.3 24.0,19.9 30.0,16.0 C34.7,12.9 39.3,12.6 44.0,12.0 C48.0,11.5 52.0,11.6 56.0,11.5\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M18.9,22.0 H28.9\"/><path class=\"tk k-dep\" d=\"M29.0,14.0 H39.0\"/><path class=\"tk k-cut\" d=\"M53.4,15.9 L58.6,7.1\"/><path class=\"ln\" opacity=\"0.38\" d=\"M58,13 L59,35\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,35.9 12.0,34.5 C18.0,31.3 24.0,19.9 30.0,16.0 C34.7,12.9 39.3,12.6 44.0,12.0 C48.0,11.5 52.0,11.6 56.0,11.5\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M18.9,22.0 H28.9\"/><path class=\"tk k-dep\" d=\"M29.0,14.0 H39.0\"/><path class=\"tk k-cut\" d=\"M53.4,15.9 L58.6,7.1\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path class=\"ln\" opacity=\"0.38\" d=\"M58,13 L59,35\"/></svg>",
    "glyph_label": "Reaches prototype and deployment, then collapses in procurement or roll-out."
   },
   {
@@ -2618,7 +2618,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-atrophied-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"104.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.580\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,12.8 28.0,11.5 C32.0,10.5 36.0,10.5 40.0,10.5 C46.7,10.5 53.3,10.5 60.0,11.0 C65.3,11.4 70.7,18.7 76.0,22.0 C82.0,25.7 88.0,29.4 94.0,32.0 C97.3,33.4 100.7,34.0 104.0,35.0\" class=\"ln dot\" style=\"stroke:url(#stt-catfade-atrophied-0)\"/><path class=\"tk k-pro\" d=\"M15.3,22.0 H25.3\"/><path class=\"tk k-dep\" d=\"M19.9,14.0 H29.9\"/><path class=\"tk k-cut\" d=\"M59.4,15.9 L64.6,7.1\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-atrophied-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"104.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.580\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,12.8 28.0,11.5 C32.0,10.5 36.0,10.5 40.0,10.5 C46.7,10.5 53.3,10.5 60.0,11.0 C65.3,11.4 70.7,18.7 76.0,22.0 C82.0,25.7 88.0,29.4 94.0,32.0 C97.3,33.4 100.7,34.0 104.0,35.0\" class=\"ln dot\" style=\"stroke:url(#stt-catfade-atrophied-0)\"/><path class=\"tk k-pro\" d=\"M15.3,22.0 H25.3\"/><path class=\"tk k-dep\" d=\"M19.9,14.0 H29.9\"/><path class=\"tk k-cut\" d=\"M59.4,15.9 L64.6,7.1\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "As a withered branch, but only locally (dotted): others still build it."
   },
   {
@@ -2808,7 +2808,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-withered-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"104.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.580\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,12.8 28.0,11.5 C32.0,10.5 36.0,10.5 40.0,10.5 C46.7,10.5 53.3,10.5 60.0,11.0 C65.3,11.4 70.7,18.7 76.0,22.0 C82.0,25.7 88.0,29.4 94.0,32.0 C97.3,33.4 100.7,34.0 104.0,35.0\" class=\"ln\" style=\"stroke:url(#stt-catfade-withered-0)\"/><path class=\"tk k-pro\" d=\"M15.3,22.0 H25.3\"/><path class=\"tk k-dep\" d=\"M19.9,14.0 H29.9\"/><path class=\"tk k-cut\" d=\"M59.4,15.9 L64.6,7.1\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-withered-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"104.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.580\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,12.8 28.0,11.5 C32.0,10.5 36.0,10.5 40.0,10.5 C46.7,10.5 53.3,10.5 60.0,11.0 C65.3,11.4 70.7,18.7 76.0,22.0 C82.0,25.7 88.0,29.4 94.0,32.0 C97.3,33.4 100.7,34.0 104.0,35.0\" class=\"ln\" style=\"stroke:url(#stt-catfade-withered-0)\"/><path class=\"tk k-pro\" d=\"M15.3,22.0 H25.3\"/><path class=\"tk k-dep\" d=\"M19.9,14.0 H29.9\"/><path class=\"tk k-cut\" d=\"M59.4,15.9 L64.6,7.1\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Reaches prototype and (limited) deployment, then is cut and fades out."
   },
   {
@@ -2825,7 +2825,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C16.7,31.9 21.3,15.7 26.0,11.0 C29.3,7.6 32.7,7.9 36.0,7.5 C40.7,7.0 45.3,7.1 50.0,7.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M49.4,11.4 L54.6,2.6\"/><path d=\"M16.0,36.0 C19.3,35.4 22.7,35.9 26.0,34.0 C32.0,30.6 38.0,18.2 44.0,15.0 C48.7,12.5 53.3,12.6 58.0,12.5 C77.3,12.0 96.7,12.1 116.0,12.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M31.9,22.0 H41.9\"/><path class=\"tk k-dep\" d=\"M41.3,14.0 H51.3\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.7 9.3,36.0 12.0,34.5 C16.7,31.9 21.3,15.7 26.0,11.0 C29.3,7.6 32.7,7.9 36.0,7.5 C40.7,7.0 45.3,7.1 50.0,7.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M49.4,11.4 L54.6,2.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path d=\"M16.0,36.0 C19.3,35.4 22.7,35.9 26.0,34.0 C32.0,30.6 38.0,18.2 44.0,15.0 C48.7,12.5 53.3,12.6 58.0,12.5 C77.3,12.0 96.7,12.1 116.0,12.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M31.9,22.0 H41.9\"/><path class=\"tk k-dep\" d=\"M41.3,14.0 H51.3\"/></svg>",
    "glyph_label": "Cut off after deployment while a lower competitor carries on."
   },
   {
@@ -2959,7 +2959,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M30.0,12.0 C35.3,10.2 40.7,8.1 46.0,6.5 C50.7,5.1 55.3,4.2 60.0,3.0\" class=\"ln dot\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,36.0 12.0,34.5 C18.0,31.2 24.0,13.7 30.0,12.0 C35.3,10.5 40.7,10.6 46.0,10.5 C69.3,10.0 92.7,10.2 116.0,10.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.4,22.0 H26.4\"/><path class=\"tk k-dep\" d=\"M22.1,14.0 H32.1\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M30.0,12.0 C35.3,10.2 40.7,8.1 46.0,6.5 C50.7,5.1 55.3,4.2 60.0,3.0\" class=\"ln dot\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,36.0 12.0,34.5 C18.0,31.2 24.0,13.7 30.0,12.0 C35.3,10.5 40.7,10.6 46.0,10.5 C69.3,10.0 92.7,10.2 116.0,10.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.4,22.0 H26.4\"/><path class=\"tk k-dep\" d=\"M22.1,14.0 H32.1\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Reaches prototype and deployment, but never the significant impact expected (dotted)."
   },
   {
@@ -2982,7 +2982,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,35.9 12.0,34.5 C16.0,32.3 20.0,21.2 24.0,20.0 C27.3,19.0 30.7,19.0 34.0,19.0 C48.7,18.9 63.3,19.0 78.0,18.5 C84.0,18.3 90.0,15.4 96.0,13.0 C101.3,10.9 106.7,6.7 112.0,5.0 C113.3,4.6 114.7,4.7 116.0,4.5\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.4,22.0 H26.4\"/><path class=\"tk k-dep\" d=\"M88.6,14.0 H98.6\"/><path class=\"tk k-imp\" d=\"M104.4,6.0 H114.4\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,35.9 12.0,34.5 C16.0,32.3 20.0,21.2 24.0,20.0 C27.3,19.0 30.7,19.0 34.0,19.0 C48.7,18.9 63.3,19.0 78.0,18.5 C84.0,18.3 90.0,15.4 96.0,13.0 C101.3,10.9 106.7,6.7 112.0,5.0 C113.3,4.6 114.7,4.7 116.0,4.5\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.4,22.0 H26.4\"/><path class=\"tk k-dep\" d=\"M88.6,14.0 H98.6\"/><path class=\"tk k-imp\" d=\"M104.4,6.0 H114.4\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Reaches a prototype early, stalls for a long time, then slowly reaches deployment and significant impact."
   },
   {
@@ -3091,7 +3091,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-falsedawn-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"52.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.542\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.0,35.7 8.0,36.0 10.0,34.5 C14.0,31.6 18.0,13.0 22.0,11.0 C24.0,10.0 26.0,10.0 28.0,10.0 C30.0,10.0 32.0,10.1 34.0,12.0 C37.3,15.2 40.7,23.9 44.0,28.0 C46.7,31.3 49.3,32.7 52.0,35.0\" class=\"ln\" style=\"stroke:url(#stt-catfade-falsedawn-0)\"/><path class=\"tk k-pro\" d=\"M11.2,22.0 H21.2\"/><path class=\"tk k-dep\" d=\"M14.6,14.0 H24.6\"/><path d=\"M58.0,36.0 C60.0,35.6 62.0,36.0 64.0,34.5 C68.7,31.1 73.3,12.8 78.0,11.0 C80.7,10.0 83.3,10.0 86.0,10.0 C96.0,10.0 106.0,10.0 116.0,10.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M66.1,22.0 H76.1\"/><path class=\"tk k-dep\" d=\"M70.1,14.0 H80.1\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-falsedawn-0\" gradientUnits=\"userSpaceOnUse\" x1=\"4.0\" y1=\"0\" x2=\"52.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.542\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.0,35.7 8.0,36.0 10.0,34.5 C14.0,31.6 18.0,13.0 22.0,11.0 C24.0,10.0 26.0,10.0 28.0,10.0 C30.0,10.0 32.0,10.1 34.0,12.0 C37.3,15.2 40.7,23.9 44.0,28.0 C46.7,31.3 49.3,32.7 52.0,35.0\" class=\"ln\" style=\"stroke:url(#stt-catfade-falsedawn-0)\"/><path class=\"tk k-pro\" d=\"M11.2,22.0 H21.2\"/><path class=\"tk k-dep\" d=\"M14.6,14.0 H24.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path d=\"M58.0,36.0 C60.0,35.6 62.0,36.0 64.0,34.5 C68.7,31.1 73.3,12.8 78.0,11.0 C80.7,10.0 83.3,10.0 86.0,10.0 C96.0,10.0 106.0,10.0 116.0,10.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M66.1,22.0 H76.1\"/><path class=\"tk k-dep\" d=\"M70.1,14.0 H80.1\"/></svg>",
    "glyph_label": "Reaches prototype and deployment, then fades; a later attempt gets there and stays."
   },
   {
@@ -3285,7 +3285,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.5 9.3,35.9 12.0,34.5 C18.0,31.4 24.0,20.5 30.0,19.0 C34.0,18.0 38.0,18.0 42.0,18.0 C52.0,18.0 62.0,18.0 72.0,18.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M20.1,22.0 H30.1\"/><path class=\"tk k-cut\" d=\"M69.4,22.4 L74.6,13.6\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.5 9.3,35.9 12.0,34.5 C18.0,31.4 24.0,20.5 30.0,19.0 C34.0,18.0 38.0,18.0 42.0,18.0 C52.0,18.0 62.0,18.0 72.0,18.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M20.1,22.0 H30.1\"/><path class=\"tk k-cut\" d=\"M69.4,22.4 L74.6,13.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Reaches a working prototype, then is cut."
   },
   {
@@ -3421,7 +3421,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-devhell-0\" gradientUnits=\"userSpaceOnUse\" x1=\"24.0\" y1=\"0\" x2=\"54.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.600\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient><linearGradient id=\"stt-catfade-devhell-1\" gradientUnits=\"userSpaceOnUse\" x1=\"72.0\" y1=\"0\" x2=\"102.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.600\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.0,35.0 8.0,34.5 10.0,33.0 C12.7,31.0 15.3,27.7 18.0,25.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M15.4,29.4 L20.6,20.6\"/><path d=\"M24.0,36.0 C26.0,34.7 28.0,33.8 30.0,32.0 C32.7,29.6 35.3,23.7 38.0,23.0 C40.0,22.5 42.0,22.5 44.0,22.5 C47.3,22.5 50.7,24.2 54.0,25.0\" class=\"ln\" style=\"stroke:url(#stt-catfade-devhell-0)\"/><path d=\"M52.0,36.0 C54.0,34.7 56.0,33.5 58.0,32.0 C60.7,29.9 63.3,27.3 66.0,25.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M63.4,29.4 L68.6,20.6\"/><path d=\"M72.0,36.0 C74.0,34.7 76.0,34.0 78.0,32.0 C80.7,29.4 83.3,22.2 86.0,21.5 C88.0,21.0 90.0,21.0 92.0,21.0 C95.3,21.0 98.7,22.7 102.0,23.5\" class=\"ln\" style=\"stroke:url(#stt-catfade-devhell-1)\"/><path d=\"M98.0,36.0 C100.0,34.7 102.0,33.7 104.0,32.0 C106.7,29.8 109.3,25.7 112.0,24.0 C113.3,23.2 114.7,23.3 116.0,23.0\" class=\"ln\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-devhell-0\" gradientUnits=\"userSpaceOnUse\" x1=\"24.0\" y1=\"0\" x2=\"54.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.600\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient><linearGradient id=\"stt-catfade-devhell-1\" gradientUnits=\"userSpaceOnUse\" x1=\"72.0\" y1=\"0\" x2=\"102.0\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.600\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.0,35.0 8.0,34.5 10.0,33.0 C12.7,31.0 15.3,27.7 18.0,25.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M15.4,29.4 L20.6,20.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path d=\"M24.0,36.0 C26.0,34.7 28.0,33.8 30.0,32.0 C32.7,29.6 35.3,23.7 38.0,23.0 C40.0,22.5 42.0,22.5 44.0,22.5 C47.3,22.5 50.7,24.2 54.0,25.0\" class=\"ln\" style=\"stroke:url(#stt-catfade-devhell-0)\"/><path d=\"M52.0,36.0 C54.0,34.7 56.0,33.5 58.0,32.0 C60.7,29.9 63.3,27.3 66.0,25.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M63.4,29.4 L68.6,20.6\"/><path d=\"M72.0,36.0 C74.0,34.7 76.0,34.0 78.0,32.0 C80.7,29.4 83.3,22.2 86.0,21.5 C88.0,21.0 90.0,21.0 92.0,21.0 C95.3,21.0 98.7,22.7 102.0,23.5\" class=\"ln\" style=\"stroke:url(#stt-catfade-devhell-1)\"/><path d=\"M98.0,36.0 C100.0,34.7 102.0,33.7 104.0,32.0 C106.7,29.8 109.3,25.7 112.0,24.0 C113.3,23.2 114.7,23.3 116.0,23.0\" class=\"ln\"/></svg>",
    "glyph_label": "Repeated attempts, cut off or fading; still being tried."
   },
   {
@@ -3585,8 +3585,8 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.5 9.3,35.7 12.0,34.5 C16.7,32.5 21.3,26.4 26.0,25.0 C29.3,24.0 32.7,24.0 36.0,24.0 C49.3,24.0 62.7,24.0 76.0,24.0\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M13.5,30.0 H23.5\"/><path class=\"tk k-cut\" d=\"M73.4,28.4 L78.6,19.6\"/></svg>",
-   "glyph_label": "Passes the decision to pursue it, then is cut during development."
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C6.7,35.5 9.3,35.7 12.0,34.5 C16.7,32.5 21.3,26.4 26.0,25.0 C29.3,24.0 32.7,24.0 36.0,24.0 C49.3,24.0 62.7,24.0 76.0,24.0\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M73.4,28.4 L78.6,19.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/></svg>",
+   "glyph_label": "Actively pursued, then cut during development, before a working prototype."
   },
   {
    "key": "deadends",
@@ -3654,8 +3654,8 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><rect class=\"bar\" x=\"6\" y=\"22.4\" width=\"108\" height=\"3.4\" rx=\"0.6\"/><path d=\"M8.0,36.0 C10.0,34.7 12.0,33.3 14.0,32.0 C16.7,30.2 19.3,28.5 22.0,26.8\" class=\"ln\"/><path d=\"M36.0,36.0 C38.0,34.7 40.0,33.3 42.0,32.0 C44.7,30.2 47.3,28.5 50.0,26.8\" class=\"ln\"/><path d=\"M64.0,36.0 C66.0,34.7 68.0,33.3 70.0,32.0 C72.7,30.2 75.3,28.5 78.0,26.8\" class=\"ln\"/><path d=\"M92.0,36.0 C94.0,34.7 96.0,33.3 98.0,32.0 C100.7,30.2 103.3,28.5 106.0,26.8\" class=\"ln\"/></svg>",
-   "glyph_label": "Every attempt stops at the same hard limit."
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><rect class=\"bar\" x=\"6\" y=\"22.4\" width=\"108\" height=\"3.4\" rx=\"0.6\"/><path d=\"M8.0,36.0 C10.0,34.7 12.0,33.3 14.0,32.0 C16.7,30.2 19.3,28.5 22.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M8.0,35.4 V28.4\"/><path d=\"M36.0,36.0 C38.0,34.7 40.0,33.3 42.0,32.0 C44.7,30.2 47.3,28.5 50.0,26.8\" class=\"ln\"/><path d=\"M64.0,36.0 C66.0,34.7 68.0,33.3 70.0,32.0 C72.7,30.2 75.3,28.5 78.0,26.8\" class=\"ln\"/><path d=\"M92.0,36.0 C94.0,34.7 96.0,33.3 98.0,32.0 C100.7,30.2 103.3,28.5 106.0,26.8\" class=\"ln\"/></svg>",
+   "glyph_label": "Actively pursued, but every attempt stops at the same natural limit."
   },
   {
    "key": "crushed",
@@ -3776,7 +3776,7 @@
     }
    ],
    "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M4.0,36.0 C7.3,35.5 10.7,35.2 14.0,34.6 C18.7,33.8 23.3,32.6 28.0,31.6\" class=\"ln\"/><path class=\"tk k-cut\" d=\"M25.4,36.0 L30.6,27.2\"/></svg>",
-   "glyph_label": "Cut before any decision to pursue it."
+   "glyph_label": "Cut before anyone actively pursued it."
   },
   {
    "key": "performative",
