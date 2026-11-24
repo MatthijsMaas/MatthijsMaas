@@ -112,10 +112,13 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 </nav>
 
 <section id="changelog">
-<h2>Changelog</h2>
-<p>24 November 2026: a search box beside the figure, which also reshapes the figure; the figure marks active pursuit (yellow posts); the key says "natural limit" (was "hard limit") and "active pursuit" (was "decision to pursue"); the notes on scope, sources and definitions sit under the introduction. No cases added, removed or changed.</p>
-<p>22 November 2026: corrections to three entries (STT-0100, STT-0336, STT-0337); British spelling throughout, except in quotations and names.</p>
-<p>v{{ $m.version }} ({{ dateFormat "2 January 2006" $m.date }}): first public draft, {{ $m.n_cases }} cases. My own entries, plus the entries and candidates finished in the review so far. Case IDs (STT-0001 and so on) are permanent: they will not change when an entry is edited, moved or renamed.</p>
+<details class="stt-fold stt-changelog"><summary><h2>Changelog</h2></summary>
+<ul>
+<li>24 November 2026: a search box beside the figure, which also reshapes the figure; the figure marks active pursuit (yellow posts); the key says ‘natural limit’ (was ‘hard limit’) and ‘active pursuit’ (was ‘decision to pursue’); the notes on scope, sources and definitions sit under the introduction; each attempt in the Dead ends figure is marked as pursued; this changelog folds out. No cases added, removed or changed.</li>
+<li>22 November 2026: corrections to three entries (STT-0100, STT-0336, STT-0337); British spelling throughout, except in quotations and names.</li>
+<li>v{{ $m.version }} ({{ dateFormat "2 January 2006" $m.date }}): first public draft, {{ $m.n_cases }} cases. My own entries, plus the entries and candidates finished in the review so far. Case IDs (STT-0001 and so on) are permanent: they will not change when an entry is edited, moved or renamed.</li>
+</ul>
+</details>
 </section>
 </article>
 <script src="{{ "js/stt.js" | relURL }}" defer></script>

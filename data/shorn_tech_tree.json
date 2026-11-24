@@ -2003,7 +2003,7 @@
    "zone_name": "Trunk",
    "zone_first": false,
    "zone_n": 4,
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><rect class=\"bar\" x=\"6\" y=\"22.4\" width=\"108\" height=\"3.4\" rx=\"0.6\"/><path d=\"M8.0,36.0 C10.0,34.7 12.0,33.3 14.0,32.0 C16.7,30.2 19.3,28.5 22.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M8.0,35.4 V28.4\"/><path d=\"M36.0,36.0 C38.0,34.7 40.0,33.3 42.0,32.0 C44.7,30.2 47.3,28.5 50.0,26.8\" class=\"ln\"/><path d=\"M64.0,36.0 C66.0,34.7 68.0,33.3 70.0,32.0 C72.7,30.2 75.3,28.5 78.0,26.8\" class=\"ln\"/><path d=\"M92.0,36.0 C94.0,34.7 96.0,33.3 98.0,32.0 C100.7,30.2 103.3,28.5 106.0,26.8\" class=\"ln\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><rect class=\"bar\" x=\"6\" y=\"22.4\" width=\"108\" height=\"3.4\" rx=\"0.6\"/><path d=\"M8.0,36.0 C10.0,34.7 12.0,33.3 14.0,32.0 C16.7,30.2 19.3,28.5 22.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M8.0,35.4 V28.4\"/><path d=\"M36.0,36.0 C38.0,34.7 40.0,33.3 42.0,32.0 C44.7,30.2 47.3,28.5 50.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M36.0,35.4 V28.4\"/><path d=\"M64.0,36.0 C66.0,34.7 68.0,33.3 70.0,32.0 C72.7,30.2 75.3,28.5 78.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M64.0,35.4 V28.4\"/><path d=\"M92.0,36.0 C94.0,34.7 96.0,33.3 98.0,32.0 C100.7,30.2 103.3,28.5 106.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M92.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Actively pursued, but every attempt stops at the same natural limit."
   },
   {
@@ -3654,7 +3654,7 @@
      ]
     }
    ],
-   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><rect class=\"bar\" x=\"6\" y=\"22.4\" width=\"108\" height=\"3.4\" rx=\"0.6\"/><path d=\"M8.0,36.0 C10.0,34.7 12.0,33.3 14.0,32.0 C16.7,30.2 19.3,28.5 22.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M8.0,35.4 V28.4\"/><path d=\"M36.0,36.0 C38.0,34.7 40.0,33.3 42.0,32.0 C44.7,30.2 47.3,28.5 50.0,26.8\" class=\"ln\"/><path d=\"M64.0,36.0 C66.0,34.7 68.0,33.3 70.0,32.0 C72.7,30.2 75.3,28.5 78.0,26.8\" class=\"ln\"/><path d=\"M92.0,36.0 C94.0,34.7 96.0,33.3 98.0,32.0 C100.7,30.2 103.3,28.5 106.0,26.8\" class=\"ln\"/></svg>",
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><rect class=\"bar\" x=\"6\" y=\"22.4\" width=\"108\" height=\"3.4\" rx=\"0.6\"/><path d=\"M8.0,36.0 C10.0,34.7 12.0,33.3 14.0,32.0 C16.7,30.2 19.3,28.5 22.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M8.0,35.4 V28.4\"/><path d=\"M36.0,36.0 C38.0,34.7 40.0,33.3 42.0,32.0 C44.7,30.2 47.3,28.5 50.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M36.0,35.4 V28.4\"/><path d=\"M64.0,36.0 C66.0,34.7 68.0,33.3 70.0,32.0 C72.7,30.2 75.3,28.5 78.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M64.0,35.4 V28.4\"/><path d=\"M92.0,36.0 C94.0,34.7 96.0,33.3 98.0,32.0 C100.7,30.2 103.3,28.5 106.0,26.8\" class=\"ln\"/><path class=\"tk k-dec\" d=\"M92.0,35.4 V28.4\"/></svg>",
    "glyph_label": "Actively pursued, but every attempt stops at the same natural limit."
   },
   {

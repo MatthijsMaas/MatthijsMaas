@@ -168,6 +168,12 @@
   });
   document.addEventListener('toggle', syncFoldSoon, true);
   onApply.push(syncFold);
+  // The changelog is folded; links to it (the 'Changelog' link in the margin, or #changelog in the address) open it
+  var changelog = document.querySelector('#changelog details');
+  function openChangelog() { if (changelog && location.hash === '#changelog') changelog.open = true; }
+  window.addEventListener('hashchange', openChangelog);
+  openChangelog();
+  each('a[href="#changelog"]', function (a) { a.addEventListener('click', function () { if (changelog) changelog.open = true; }); });
   // Printing (or saving as PDF from the browser) shows every entry the filters show, then restores the page.
   var openedForPrint = [];
   window.addEventListener('beforeprint', function () {

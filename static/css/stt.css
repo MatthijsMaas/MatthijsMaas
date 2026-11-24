@@ -220,3 +220,9 @@ p.stt-dock-zone { font-size: 0.72rem; line-height: 1.2; text-transform: uppercas
 }
 @media (prefers-reduced-motion: reduce) { .stt-dock, .stt-dock.on { transition: none; transform: none; } }
 @media print { .stt-dock { display: none !important; } }
+
+/* Changelog: folded by default (24 Nov), smaller, one bullet per update */
+.stt-changelog > summary { list-style-position: outside; margin-left: 1rem; }
+.stt-changelog > summary h2 { display: inline; margin: 0; }
+.stt-changelog ul { font-size: 1rem; line-height: 1.45; margin: 0.5rem 0 0 1rem; padding-left: 1.05rem; max-width: 40rem; }
+.stt-changelog li { margin: 0.35rem 0; }
