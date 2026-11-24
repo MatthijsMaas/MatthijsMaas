@@ -3,14 +3,14 @@
   "version": "0.1",
   "date": "2026-11-20",
   "updated": "2026-11-24",
-  "n_cases": 495,
-  "n_own": 441,
-  "n_desk": 54,
+  "n_cases": 498,
+  "n_own": 442,
+  "n_desk": 56,
   "n_unchecked": 258,
-  "n_text_own": 441,
+  "n_text_own": 442,
   "n_text_rewritten": 32,
-  "n_text_ai": 22,
-  "n_found_agents": 5,
+  "n_text_ai": 24,
+  "n_found_agents": 6,
   "n_milaero": 298
  },
  "tiers": [
@@ -632,7 +632,7 @@
   {
    "cat": "withered",
    "name": "Withered branches",
-   "total": 84,
+   "total": 85,
    "cells": [
     {
      "g": "milair",
@@ -713,7 +713,7 @@
     },
     {
      "g": "energy",
-     "n": 6,
+     "n": 7,
      "full": "Energy",
      "first": true,
      "d": 12
@@ -1244,7 +1244,7 @@
   {
    "cat": "falsedawn",
    "name": "False first dawns",
-   "total": 28,
+   "total": 29,
    "cells": [
     {
      "g": "milair",
@@ -1311,10 +1311,10 @@
     },
     {
      "g": "land",
-     "n": 2,
+     "n": 3,
      "full": "Transport & land vehicles",
      "first": false,
-     "d": 9
+     "d": 10
     },
     {
      "g": "maritime",
@@ -1703,7 +1703,7 @@
   {
    "cat": "abandoned",
    "name": "Abandoned development",
-   "total": 73,
+   "total": 74,
    "cells": [
     {
      "g": "milair",
@@ -1812,10 +1812,10 @@
     },
     {
      "g": "agri",
-     "n": 0,
+     "n": 1,
      "full": "Agriculture",
      "first": false,
-     "d": 0
+     "d": 8
     },
     {
      "g": "health",
@@ -2626,7 +2626,7 @@
    "name": "Withered branches",
    "definition": "Technologies that saw only (very) limited societal adoption or deployment before being (almost or entirely) phased out, without being replaced by a successor technology that obviously outperforms them.",
    "def_line": 871,
-   "count": 84,
+   "count": 85,
    "domains": [
     {
      "name": "Transport & land vehicles",
@@ -2737,7 +2737,8 @@
       "STT-0436",
       "STT-0437",
       "STT-0438",
-      "STT-0439"
+      "STT-0439",
+      "STT-0496"
      ]
     },
     {
@@ -2990,13 +2991,14 @@
    "name": "False first dawns",
    "definition": "Technologies that had a ‘false dawn’, initially failing and then dwindling in obscurity for (often) decades, before they later found another opportunity and eventually gained more traction, in different circumstances.",
    "def_line": 1155,
-   "count": 28,
+   "count": 29,
    "domains": [
     {
      "name": "Transport & land vehicles",
      "ids": [
       "STT-0309",
-      "STT-0310"
+      "STT-0310",
+      "STT-0497"
      ]
     },
     {
@@ -3429,7 +3431,7 @@
    "name": "Abandoned development",
    "definition": "Technologies that were researched and developed, sometimes at very large sunk costs, before being abandoned for reasons ranging from the technical to the political to budgetary.",
    "def_line": 248,
-   "count": 73,
+   "count": 74,
    "domains": [
     {
      "name": "Civil aircraft",
@@ -3558,6 +3560,12 @@
      "name": "Construction, architecture & infrastructure",
      "ids": [
       "STT-0138"
+     ]
+    },
+    {
+     "name": "Agriculture",
+     "ids": [
+      "STT-0498"
      ]
     },
     {
@@ -3893,7 +3901,7 @@
     {
      "key": "withered",
      "name": "Withered branches",
-     "count": 84
+     "count": 85
     },
     {
      "key": "inferior",
@@ -3913,7 +3921,7 @@
     {
      "key": "falsedawn",
      "name": "False first dawns",
-     "count": 28
+     "count": 29
     }
    ]
   },
@@ -3934,7 +3942,7 @@
     {
      "key": "abandoned",
      "name": "Abandoned development",
-     "count": 73
+     "count": 74
     },
     {
      "key": "deadends",
@@ -4405,7 +4413,7 @@
    "group": "industry",
    "title": "Interchangeable-parts manufacture of musket locks in France (Blanc system)",
    "label": "Honoré Blanc's interchangeable musket locks, France, 1790-1806",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "Honoré Blanc assembled muskets from randomly drawn parts in Paris in 1790; interchangeability of flintlock parts was later achieved on a large scale at Roanne. In 1806 the French government scrapped the method (<a href=\"https://web.archive.org/web/20250518075400/https://www.open.edu/openlearn/science-maths-technology/introducing-engineering/content-section-1.2.3\">open.edu</a>).",
    "subs_html": "",
    "notes_html": "",
@@ -4949,7 +4957,7 @@
    "group": "biochem",
    "title": "Battlefield chemical weapons in major-power militaries",
    "label": "Chlorine, mustard gas and nerve agents (sarin), WWI to Cold War; US no-first-use 1969",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "Battlefield chemical agents (chlorine, mustard gas, sarin), used massively in WWI and stockpiled through the Cold War, abandoned by major militaries: US no-first-use 1969; US and Russian stockpiles largely destroyed. Reasons: cheap masks and suits, persistence hindering manoeuvre, short nerve-agent shelf-life, inferiority to high explosives.",
    "subs_html": "",
    "notes_html": "",
@@ -5383,6 +5391,23 @@
    "text_by": "Matthijs",
    "by_line": "Selected and written by me"
   },
+  "STT-0496": {
+   "id": "STT-0496",
+   "kind": "desk",
+   "cat": "withered",
+   "dom": "Energy",
+   "group": "energy",
+   "title": "Small US Army nuclear reactors",
+   "label": "Army Nuclear Power Program / SMRs",
+   "qualifier": "",
+   "desc_html": "Army Nuclear Power Program: eight small 1950s–60s reactors, several at remote sites (Antarctica, Greenland, Army bases). Cancelled in 1976 because developing compact nuclear plants proved expensive and time-consuming and diesel generators could replace them. The idea is now revived as small modular reactors (SMRs).",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://spectrum.ieee.org/the-forgotten-history-of-small-nuclear-reactors\" title=\"Small US Army nuclear reactors\">IEEE Spectrum</a>",
+   "sel": "Matthijs",
+   "text_by": "AI draft, approved by Matthijs",
+   "by_line": "Selected by me; description drafted with AI, approved by me"
+  },
   "STT-0440": {
    "id": "STT-0440",
    "kind": "own",
@@ -5595,7 +5620,7 @@
    "group": "agri",
    "title": "DDT insecticide for agriculture and vector control",
    "label": "",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "Synthetic insecticide discovered in 1939 by Paul Müller's team at Geigy; it underpinned national malaria-spraying campaigns. Insect resistance emerged from 1947, and documented harms to birds, fish and wildlife, publicised by Rachel Carson's Silent Spring (1962), led to agricultural phase-outs and bans in many countries.",
    "subs_html": "",
    "notes_html": "",
@@ -5799,7 +5824,7 @@
    "group": "consumer",
    "title": "IMAX 15/70 rolling-loop film projectors",
    "label": "IMAX 15/70 film projector (Peter Jones rolling loop, William Shaw), 1970 to 2000s; 41 rooms in 2026",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "The IMAX 15/70 film projector, built on Peter Jones's late-1960s rolling-loop film transport and scaled by William Shaw, was hand-made a few units yearly for museums. IMAX ended production as institutional demand faded and it pivoted to digital from 2007; 41 rooms remained in 2026.",
    "subs_html": "",
    "notes_html": "",
@@ -5816,7 +5841,7 @@
    "group": "consumer",
    "title": "Long-life household incandescent lamps",
    "label": "Pre-1925 long-life incandescent lamps, replaced by the Phoebus cartel's 1,000-hour standard, 1925-1939",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "Household bulbs of 1924 could burn for 2,500 hours or more. By early 1925 the Phoebus cartel had codified 1,000 hours for a pear-shaped household bulb and fined factories whose bulbs lasted longer or shorter than the regulated life (<a href=\"https://en.wikipedia.org/wiki/Phoebus_cartel\">Wikipedia</a>).",
    "subs_html": "",
    "notes_html": "",
@@ -5833,7 +5858,7 @@
    "group": "consumer",
    "title": "Telephone newspapers and theatre-by-telephone services",
    "label": "1890-1944",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "Telephone newspapers transmitted news and entertainment to subscribers: Paris from 1890, Budapest from 1893, London from 1895. Radio supplanted most; London closed in 1925 and Paris in 1932; Budapest's wire network, destroyed in World War II, ended in 1944 (<a href=\"https://en.wikipedia.org/wiki/Telephone_newspaper\">Wikipedia</a>).",
    "subs_html": "",
    "notes_html": "",
@@ -5850,7 +5875,7 @@
    "group": "computing",
    "title": "OSI X.400 message handling with built-in encryption",
    "label": "",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "Message Handling System of the telecom-industry OSI protocol suite (published 1984; 1988 Blue Book), using ASN.1 encoding and X.500/X.509 directory-based public keys for end-to-end encryption. More efficient than many alternatives but lost to SMTP internet email, because ASN.1 messaging failed and no global directory materialised; survives in military, ICAO aviation, EDI.",
    "subs_html": "",
    "notes_html": "",
@@ -6598,7 +6623,7 @@
    "group": "health",
    "title": "Citrus juice against scurvy in the Royal Navy",
    "label": "James Lind's citrus trial (1747) and the Royal Navy's lemon-juice ration (sanctioned 1795)",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "Lind's trial favoured citrus, but the Sick and Hurt Board rejected a fruit-juice proposal the year after his 1753 findings. The Admiralty sanctioned lemon juice in 1795, a 42-year lag; by 1815 scurvy had almost disappeared from the fleet (<a href=\"https://en.wikipedia.org/wiki/Scurvy\">Wikipedia</a>).",
    "subs_html": "",
    "notes_html": "",
@@ -6616,7 +6641,7 @@
    "title": "Engineered microorganisms for open environmental use",
    "label": "",
    "qualifier": "",
-   "desc_html": "<a href=\"https://worksinprogress.co/issue/all-the-microbes-you-cant-have/\">Environmental release of genetically engineered microbes in the US</a> Engineered microorganisms for open environmental use. In 1986 US officials placed them under the 1976 Toxic Substances Control Act. Of more than 240 applications filed between 1987 and 2018, only a few were approved for wide use, partly because EPA never published its data requirements.",
+   "desc_html": "<a href=\"https://worksinprogress.co/issue/all-the-microbes-you-cant-have/\">Environmental release of genetically engineered microbes in the US</a> In 1986 US officials placed them under the 1976 Toxic Substances Control Act. Of more than 240 applications filed between 1987 and 2018, only a few were approved for wide use, partly because EPA never published its data requirements.",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"https://worksinprogress.co/issue/all-the-microbes-you-cant-have/\" title=\"Environmental release of genetically engineered microbes in the US\">Works in Progress</a>",
@@ -6657,6 +6682,23 @@
    "sel": "Matthijs",
    "text_by": "Matthijs",
    "by_line": "Selected and written by me"
+  },
+  "STT-0497": {
+   "id": "STT-0497",
+   "kind": "own",
+   "cat": "falsedawn",
+   "dom": "Transport & land vehicles",
+   "group": "land",
+   "title": "Tilting high-speed train",
+   "label": "British Rail Advanced Passenger Train (APT)",
+   "qualifier": "arguably",
+   "desc_html": "1981 162 mph West Coast demonstrator killed by motion sickness and tilt reliability; problems addressed and returned to service in 1984, but project ended in 1985/6 as management and political support collapsed amid competition from the High Speed Train. Inspired other tilting trains, such as the Pendolino, two decades later.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Advanced_Passenger_Train\" title=\"Tilting high-speed train\">Wikipedia</a>",
+   "sel": "Matthijs",
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check"
   },
   "STT-0311": {
    "id": "STT-0311",
@@ -10789,6 +10831,23 @@
    "text_by": "Matthijs",
    "by_line": "Selected and written by me"
   },
+  "STT-0498": {
+   "id": "STT-0498",
+   "kind": "candidate",
+   "cat": "abandoned",
+   "dom": "Agriculture",
+   "group": "agri",
+   "title": "Genetic use restriction technology ('Terminator' sterile seeds)",
+   "label": "Technology Protection System (USDA ARS and Delta & Pine Land, US Patent 5,723,765, granted 1998)",
+   "qualifier": "",
+   "desc_html": "A 1990s USDA and Delta &amp; Pine Land system to make second-generation seeds infertile or lose traits, patented in 1998; in 2001 an FAO study found it not yet realised, though several components worked. After protest from farmers, environmental groups and development agencies, <a href=\"https://www.nature.com/articles/nbt1199_1054\">Monsanto pledged in October 1999</a> not to commercialise it. A <a href=\"https://www.cbd.int/decision/cop/?id=7147\">2000 CBD recommendation</a>, reaffirmed in 2006, asks parties to approve neither field tests nor commercial use until scientific assessments are done; <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm\">Brazil</a> bans its use, sale, registration, patenting and licensing, and <a href=\"https://www.wipo.int/wipolex/en/text/339105\">India</a> bars registering such varieties. Never commercialised, which <a href=\"https://en.wikipedia.org/wiki/Genetic_use_restriction_technology\">Wikipedia</a> ties to the political and scientific controversy.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://www.nature.com/articles/nbt1199_1054\" title=\"Monsanto pledged in October 1999\">Nature</a>, <a href=\"https://www.cbd.int/decision/cop/?id=7147\" title=\"2000 CBD recommendation\">cbd.int</a>, <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm\" title=\"Brazil\">planalto.gov.br</a>, <a href=\"https://www.wipo.int/wipolex/en/text/339105\" title=\"India\">wipo.int</a>, <a href=\"https://en.wikipedia.org/wiki/Genetic_use_restriction_technology\" title=\"Wikipedia\">Wikipedia</a>, <a href=\"https://www.fao.org/tempref/docrep/fao/meeting/014/y7661f.pdf\" title=\"Genetic use restriction technology (&#x27;Terminator&#x27; sterile-seed system)\">fao.org</a>",
+   "sel": "Benjamin Brady's agents",
+   "text_by": "AI draft by the agents, approved by Matthijs",
+   "by_line": "Found by Benjamin Brady's agents; description drafted by the agents, approved by me"
+  },
   "STT-0139": {
    "id": "STT-0139",
    "kind": "desk",
@@ -11597,13 +11656,13 @@
    "title": "Military moon bases",
    "label": "e.g. Project Horizon",
    "qualifier": "",
-   "desc_html": "Shelved by JFK who wanted to avoid militarisation of space; later follow-ups barred by the 1967 Outer Space Treaty",
+   "desc_html": "Shelved by Eisenhower in order to avoid militarisation of space; later follow-ups barred by the 1967 Outer Space Treaty",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"https://nationalinterest.org/blog/buzz/when-the-us-army-wanted-to-build-a-moon-base\" title=\"military moon bases\">The National Interest</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me"
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check"
   },
   "STT-0046": {
    "id": "STT-0046",
@@ -11906,7 +11965,7 @@
    "desc_html": "1990s US Navy/DARPA concept for a kilometre-long modular floating sea base built from semi-submersible platforms that could be moved or towed together to form an airfield and logistics hub anywhere in the world; \"the largest floating offshore structure ever conceived by maritime engineers\". Studies in the late 90's concluded it was technically feasible and could be built by the US defence industry, at a full cost (for a 2km long MOB) $5–8 billion.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.globalsecurity.org/military/systems/ship/mob.htm\" title=\"MOB\">GlobalSecurity.org</a>",
+   "sources_html": "<a href=\"https://www.globalsecurity.org/military/systems/ship/mob.htm\" title=\"MOB\">GlobalSecurity.org</a>, <a href=\"https://en.wikipedia.org/wiki/Mobile_offshore_base\" title=\"Mobile offshore base\">Wikipedia</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs",
    "by_line": "Selected and written by me"
@@ -12157,7 +12216,7 @@
    "group": "naval",
    "title": "'Trump-class battleship'",
    "label": "",
-   "qualifier": "",
+   "qualifier": "arguably",
    "desc_html": "Proposed nuclear-powered, guided-missile warship armed with nuclear-armed cruise missiles, hypersonic missiles, railguns, and laser cannons, along with a hangar for VTOL aircraft. Widely <a href=\"https://www.laserwars.net/p/trump-laser-battleship-mirage\">considered</a> a <a href=\"https://www.csis.org/analysis/golden-fleets-battleship-will-never-sail\">fledgling vanity project</a> that a future administration will cut before it is ever laid down",
    "subs_html": "",
    "notes_html": "",
