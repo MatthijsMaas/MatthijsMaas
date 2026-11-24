@@ -14,6 +14,7 @@
   if (!cases.length) return;
   var state = { cat: '', group: '', by: '', q: '', cause: '' };
   var q = document.getElementById('stt-q');
+  var qs = Array.prototype.slice.call(document.querySelectorAll('input.stt-q'));   // above the figure and above the list: one search
   var group = document.getElementById('stt-group');
   var by = document.getElementById('stt-by');
   var count = document.getElementById('stt-count');
@@ -30,6 +31,42 @@
     }
     c._text = text.toLowerCase();
   });
+
+  // The figure follows the search and the 'who wrote it' and review filters (not the row and column picks, which it
+  // shows itself): each dot is resized to the matching cases, on the same scale as the full figure, and empty rows fade.
+  var cellN = {}, maxN = 0;
+  cases.forEach(function (c) { var k = c.dataset.cat + '|' + c.dataset.group; cellN[k] = (cellN[k] || 0) + 1; });
+  Object.keys(cellN).forEach(function (k) { if (cellN[k] > maxN) maxN = cellN[k]; });
+  function dotSize(n) { return n ? Math.round(5 + 12 * Math.sqrt(n / maxN)) : 0; }
+  var note = document.getElementById('stt-q-note');
+  function shapeMatrix() {
+    var on = !!(state.q || state.by || state.cause), n = {}, all = 0;
+    cases.forEach(function (c) {
+      if ((!state.by || c.dataset.by === state.by) && (!state.cause || c.dataset.cause === state.cause) &&
+          (!state.q || c._text.indexOf(state.q) !== -1)) {
+        var k = c.dataset.cat + '|' + c.dataset.group; n[k] = (n[k] || 0) + 1; all++;
+      }
+    });
+    each('.stt-matrix tr[data-cat]', function (r) {
+      var tot = 0, num = r.querySelector('td.num');
+      Array.prototype.forEach.call(r.querySelectorAll('td.cell'), function (td) {
+        var k = r.dataset.cat + '|' + td.dataset.group, m = on ? (n[k] || 0) : (cellN[k] || 0), dot = td.querySelector('.dot');
+        tot += m;
+        if (dot) { var d = dotSize(m); dot.style.width = dot.style.height = d + 'px'; }
+        td.classList.toggle('zero', on && !m && !!dot);
+      });
+      if (num) {
+        if (num.dataset.n === undefined) num.dataset.n = num.textContent;
+        num.textContent = on ? tot : num.dataset.n;
+        num.classList.toggle('q', on);
+      }
+      r.classList.toggle('zero', on && !tot && !!num && num.dataset.n !== '0');
+    });
+    if (note) {
+      note.hidden = !state.q;
+      if (state.q) note.innerHTML = all ? all + (all === 1 ? ' case matches' : ' cases match') + ' · <a href="#stt-controls">show the list</a>' : 'No case matches';
+    }
+  }
 
   var onApply = [];   // functions to run after each filter change (the corner navigation's counts)
   function apply() {
@@ -51,6 +88,7 @@
     each('section.stt-cat', function (s) {
       s.classList.toggle('stt-hidden', !s.querySelector('.stt-case:not(.stt-hidden)'));
     });
+    shapeMatrix();
     each('.stt-matrix tr[data-cat]', function (r) { r.classList.toggle('on', r.dataset.cat === state.cat); });
     each('.stt-matrix button.stt-row', function (b) { b.classList.toggle('on', b.dataset.cat === state.cat); });
     each('.stt-matrix button.stt-col', function (b) { b.classList.toggle('on', b.dataset.group === state.group); });
@@ -87,12 +125,18 @@
     td.addEventListener('click', pick);
     td.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(); } });
   });
-  if (q) q.addEventListener('input', function () { state.q = q.value.trim().toLowerCase(); apply(); });
+  qs.forEach(function (box) {
+    box.addEventListener('input', function () {
+      qs.forEach(function (other) { if (other !== box) other.value = box.value; });
+      state.q = box.value.trim().toLowerCase();
+      apply();
+    });
+  });
   if (group) group.addEventListener('change', function () { state.group = group.value; apply(); });
   if (by) by.addEventListener('change', function () { state.by = by.value; apply(); });
   if (cause) cause.addEventListener('change', function () { state.cause = cause.value; apply(); });
   var clear = document.getElementById('stt-clear');
-  if (clear) clear.addEventListener('click', function () { state = { cat: '', group: '', by: '', q: '', cause: '' }; if (q) q.value = ''; if (by) by.value = ''; if (cause) cause.value = ''; apply(); });
+  if (clear) clear.addEventListener('click', function () { state = { cat: '', group: '', by: '', q: '', cause: '' }; qs.forEach(function (box) { box.value = ''; }); if (by) by.value = ''; if (cause) cause.value = ''; apply(); });
   // Open all / Close all: the button above the list and the one in the corner bar share one state. They act on the
   // entries the filters show, and the label follows what is open, including entries opened or closed by hand.
   var foldBtns = Array.prototype.slice.call(document.querySelectorAll('.stt-fold-all'));
