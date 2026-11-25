@@ -2,7 +2,7 @@
  "meta": {
   "version": "0.1",
   "date": "2026-11-20",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "n_cases": 498,
   "n_own": 442,
   "n_desk": 56,
@@ -2461,9 +2461,162 @@
    "zone": "soil",
    "zone_name": "Soil",
    "zone_first": true,
-   "zone_n": 1,
+   "zone_n": 2,
    "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path class=\"ln\" opacity=\"0.35\" stroke-dasharray=\"3 3\" d=\"M26,35.5 L114,15\"/><path class=\"ln arrow\" opacity=\"0.5\" d=\"M48,2 V12.5 M44,9 L48,13 L51,9\"/><path class=\"ln arrow\" opacity=\"0.5\" d=\"M74,2 V12.5 M70,9 L74,13 L77,9\"/><path class=\"ln arrow\" opacity=\"0.5\" d=\"M100,2 V12.5 M96,9 L100,13 L103,9\"/><text class=\"q\" x=\"9\" y=\"34.5\">?</text></svg>",
    "glyph_label": "Unknown losses: the field held back what might have been."
+  },
+  {
+   "cat": "overhanging",
+   "name": "Overhanging fruit",
+   "total": 0,
+   "cells": [
+    {
+     "g": "milair",
+     "n": 0,
+     "full": "Military aircraft",
+     "first": true,
+     "d": 0
+    },
+    {
+     "g": "milspace",
+     "n": 0,
+     "full": "Military space systems",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "nuclear",
+     "n": 0,
+     "full": "Nuclear & strategic weapons",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "naval",
+     "n": 0,
+     "full": "Naval (military)",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "biochem",
+     "n": 0,
+     "full": "Biological & chemical weapons",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "intel",
+     "n": 0,
+     "full": "Surveillance, intelligence & espionage",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "weapons",
+     "n": 0,
+     "full": "Other weapons & military systems",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "civair",
+     "n": 0,
+     "full": "Civil aircraft",
+     "first": true,
+     "d": 0
+    },
+    {
+     "g": "civspace",
+     "n": 0,
+     "full": "Civil space systems & exploration",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "land",
+     "n": 0,
+     "full": "Transport & land vehicles",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "maritime",
+     "n": 0,
+     "full": "Civil maritime",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "energy",
+     "n": 0,
+     "full": "Energy",
+     "first": true,
+     "d": 0
+    },
+    {
+     "g": "computing",
+     "n": 0,
+     "full": "Computing, digital & communications",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "build",
+     "n": 0,
+     "full": "Construction, architecture & infrastructure",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "industry",
+     "n": 0,
+     "full": "Industrial, manufacturing & materials",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "agri",
+     "n": 0,
+     "full": "Agriculture",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "health",
+     "n": 0,
+     "full": "Health, medicine & biotechnology",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "enviro",
+     "n": 0,
+     "full": "Environment & fundamental science",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "social",
+     "n": 0,
+     "full": "Organizational & social technologies",
+     "first": false,
+     "d": 0
+    },
+    {
+     "g": "consumer",
+     "n": 0,
+     "full": "Consumer products & novelties",
+     "first": false,
+     "d": 0
+    }
+   ],
+   "zone": "soil",
+   "zone_name": "Soil",
+   "zone_first": false,
+   "zone_n": 2,
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-fade-overhanging-0\" gradientUnits=\"userSpaceOnUse\" x1=\"5\" y1=\"0\" x2=\"38\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.35\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path class=\"ln\" opacity=\"0.4\" stroke-dasharray=\"3 3\" style=\"stroke:url(#stt-fade-overhanging-0)\" d=\"M5,33.5 H38\"/><text class=\"q\" style=\"font-size:13px\" x=\"42\" y=\"34\">?</text><text class=\"q\" style=\"font-size:13px\" x=\"54\" y=\"34\">?</text><text class=\"q\" style=\"font-size:13px\" x=\"66\" y=\"34\">?</text><path d=\"M80.0,36.0 C82.3,35.8 84.7,36.0 87.0,34.5 C91.0,32.0 95.0,8.6 99.0,6.0 C101.3,4.5 103.7,4.7 106.0,4.5 C109.3,4.3 112.7,4.2 116.0,4.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M87.5,22.0 H97.5\"/><path class=\"tk k-dep\" d=\"M90.0,14.0 H100.0\"/><path class=\"tk k-imp\" d=\"M94.1,6.0 H104.1\"/><path class=\"tk k-dec\" d=\"M80.0,35.4 V28.4\"/></svg>",
+   "glyph_label": "Within reach for a long time, yet nobody thought of it (question marks); then the idea arrives and proceeds normally."
   }
  ],
  "legend": [
@@ -3869,6 +4022,16 @@
    ],
    "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path class=\"ln\" opacity=\"0.35\" stroke-dasharray=\"3 3\" d=\"M26,35.5 L114,15\"/><path class=\"ln arrow\" opacity=\"0.5\" d=\"M48,2 V12.5 M44,9 L48,13 L51,9\"/><path class=\"ln arrow\" opacity=\"0.5\" d=\"M74,2 V12.5 M70,9 L74,13 L77,9\"/><path class=\"ln arrow\" opacity=\"0.5\" d=\"M100,2 V12.5 M96,9 L100,13 L103,9\"/><text class=\"q\" x=\"9\" y=\"34.5\">?</text></svg>",
    "glyph_label": "Unknown losses: the field held back what might have been."
+  },
+  {
+   "key": "overhanging",
+   "name": "Overhanging fruit",
+   "definition": "Technologies and ideas that took surprisingly long to arise even as an initial idea, although nothing known stood in the way. Hard to establish: the claim rests on an absence and on a counterfactual, that the idea was within reach much earlier.",
+   "def_line": 0,
+   "count": 0,
+   "domains": [],
+   "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><defs><linearGradient id=\"stt-catfade-overhanging-0\" gradientUnits=\"userSpaceOnUse\" x1=\"5\" y1=\"0\" x2=\"38\" y2=\"0\"><stop offset=\"0\" stop-color=\"currentColor\"/><stop offset=\"0.35\" stop-color=\"currentColor\"/><stop offset=\"1\" stop-color=\"currentColor\" stop-opacity=\"0\"/></linearGradient></defs><path class=\"gnd\" d=\"M2,36.5 H118\"/><path class=\"ln\" opacity=\"0.4\" stroke-dasharray=\"3 3\" style=\"stroke:url(#stt-catfade-overhanging-0)\" d=\"M5,33.5 H38\"/><text class=\"q\" style=\"font-size:13px\" x=\"42\" y=\"34\">?</text><text class=\"q\" style=\"font-size:13px\" x=\"54\" y=\"34\">?</text><text class=\"q\" style=\"font-size:13px\" x=\"66\" y=\"34\">?</text><path d=\"M80.0,36.0 C82.3,35.8 84.7,36.0 87.0,34.5 C91.0,32.0 95.0,8.6 99.0,6.0 C101.3,4.5 103.7,4.7 106.0,4.5 C109.3,4.3 112.7,4.2 116.0,4.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M87.5,22.0 H97.5\"/><path class=\"tk k-dep\" d=\"M90.0,14.0 H100.0\"/><path class=\"tk k-imp\" d=\"M94.1,6.0 H104.1\"/><path class=\"tk k-dec\" d=\"M80.0,35.4 V28.4\"/></svg>",
+   "glyph_label": "Within reach for a long time, yet nobody thought of it (question marks); then the idea arrives and proceeds normally."
   }
  ],
  "nav": [
