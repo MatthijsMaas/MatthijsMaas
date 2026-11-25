@@ -2622,7 +2622,7 @@
  "legend": [
   {
    "svg": "<svg class=\"stt-glyph stt-key-sw\" viewBox=\"0 0 18 18\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path class=\"tk k-dec\" d=\"M9,13.6 V5.6\"/></svg>",
-   "label": "active pursuit"
+   "label": "pursuit decision"
   },
   {
    "svg": "<svg class=\"stt-glyph stt-key-sw\" viewBox=\"0 0 18 18\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path class=\"tk k-pro\" d=\"M3,9 H15\"/></svg>",
