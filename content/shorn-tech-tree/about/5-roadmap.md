@@ -3,6 +3,8 @@ title: "Roadmap and definitions of categories"
 ---
 The categories, arranged as the tree in the figure, from the summit down: the lower a category, the earlier its technologies were cut.
 
+The count of technologies 'abandoned or never (yet) realised' in the introduction covers Withered branches, Inferior leaps, the trunk and the roots. The other categories hold technologies that exist today, at least somewhere, or (Depressed innovation fields) whole fields rather than technologies.
+
 **The narrow summit** (concentrated successes):
 
 - **Steep plateaus** – Achieved by only one or a few actors, leaving global dependence on them (EUV lithography, nuclear icebreakers, jet-engine etc.).
@@ -34,5 +36,5 @@ The categories, arranged as the tree in the figure, from the summit down: the lo
 
 **The soil** (before any seed: field-wide losses, and ideas that were long in coming):
 
-- **Lost 'dark matter' innovations** – i.e. broad classes of innovation suppression by external factors, even though particular technological losses may be hard to discern.
+- **Depressed innovation fields** – i.e. the 'dark matter' of lost innovation: broad classes of innovation suppression by external factors, even though particular technological losses may be hard to discern.
 - **Overhanging fruit** – i.e. technologies and ideas that took surprisingly long to arise even as an initial idea, although nothing known stood in the way. Unlike the categories above, these did arrive: what was lost is the time before anyone thought of them. This is hard to establish, since the claim rests on an absence and on a counterfactual (that the idea was within reach much earlier). Building on lists and suggestions from [Jason Crawford](https://blog.rootsofprogress.org/why-did-it-take-so-long), [Anton Howes](https://www.ageofinvention.xyz/p/age-of-invention-where-be-dragons), [Katja](https://meteuphoric.com/2017/12/28/why-did-everything-take-so-long/) [Grace](https://meteuphoric.com/2017/12/31/16417/) and [Alex Tabarrok](https://marginalrevolution.com/marginalrevolution/2010/11/ideas-behind-their-time.html).
