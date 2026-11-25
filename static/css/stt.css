@@ -188,6 +188,12 @@ p.stt-key { width: auto; display: flex; flex-wrap: wrap; align-items: center; ga
 .stt-dock-bar > .stt-dock-fold, .stt-dock-bar > .stt-dock-prev, .stt-dock-bar > .stt-dock-cur, .stt-dock-bar > .stt-dock-next { border-left: 1px solid var(--stt-rule); }
 /* Open all / Close all: in the bar on wide screens; on phones, where the bar is full, at the top of the category panel */
 .stt-dock-fold { min-width: 5.6rem; justify-content: center; }
+/* Light/dark switch (25 Nov): shows the moon in light mode, the sun in dark mode */
+.stt-dock-bar > .stt-dock-theme { padding: 0 0.75rem; justify-content: center; border-left: 1px solid var(--stt-rule); }
+.stt-dock-theme .stt-sun { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .stt-dock-theme .stt-sun { display: block; } :root:not([data-theme="light"]) .stt-dock-theme .stt-moon { display: none; } }
+:root[data-theme="dark"] .stt-dock-theme .stt-sun { display: block; }
+:root[data-theme="dark"] .stt-dock-theme .stt-moon { display: none; }
 .stt-dock-fold-p { display: none; }
 .stt-dock-cur { max-width: 16rem; }
 .stt-dock-curname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -226,3 +232,10 @@ p.stt-dock-zone { font-size: 0.72rem; line-height: 1.2; text-transform: uppercas
 .stt-changelog > summary h2 { display: inline; margin: 0; }
 .stt-changelog ul { font-size: 1rem; line-height: 1.45; margin: 0.5rem 0 0 1rem; padding-left: 1.05rem; max-width: 40rem; }
 .stt-changelog li { margin: 0.35rem 0; }
+
+/* Dropdown lists follow the page's theme (25 Nov): in dark mode the open list showed light text on white */
+.stt { color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .stt { color-scheme: dark; } }
+:root[data-theme="dark"] .stt { color-scheme: dark; }
+:root[data-theme="light"] .stt { color-scheme: light; }
+.stt select option, .stt select optgroup { background-color: var(--stt-bg); color: inherit; }

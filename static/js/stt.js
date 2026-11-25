@@ -193,6 +193,19 @@
 
   // Corner navigation: Top, previous/next category, and the current category, which opens a list of all categories.
   // It appears once the intro is out of view. Categories emptied by the filters are greyed out and skipped.
+  // Light/dark switch in the corner bar: presses the site's own header button (baseof.html), which stores the choice
+  each('.stt-dock-theme', function (b) {
+    var site = document.getElementById('theme-toggle');
+    function lbl() {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark' ||
+        (!document.documentElement.getAttribute('data-theme') && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      b.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+      b.title = dark ? 'Light mode' : 'Dark mode';
+    }
+    if (!site) { b.hidden = true; return; }
+    b.addEventListener('click', function () { site.click(); lbl(); });
+    lbl();
+  });
   var dock = document.getElementById('stt-dock');
   if (dock) (function () {
     var panel = document.getElementById('stt-dock-panel');

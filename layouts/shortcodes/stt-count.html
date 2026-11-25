@@ -1,2 +1,6 @@
-{{- /* Number of cases in the public draft, counted by the export (data/shorn_tech_tree.json, meta.n_cases). Usage: {{< stt-count >}} */ -}}
-{{- lang.NumFmt 0 site.Data.shorn_tech_tree.meta.n_cases "- . ," -}}
+{{- /* Numbers counted by the export (data/shorn_tech_tree.json, meta). Usage: {{< stt-count >}} for all cases on the page;
+     {{< stt-count "lost" >}} for the technologies abandoned or never (yet) realised (categories listed in the export's LOST_CATS). */ -}}
+{{- $m := site.Data.shorn_tech_tree.meta -}}
+{{- $n := $m.n_cases -}}
+{{- if eq (.Get 0) "lost" }}{{ $n = $m.n_lost }}{{ end -}}
+{{- lang.NumFmt 0 $n "- . ," -}}
