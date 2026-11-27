@@ -5,16 +5,16 @@
   "updated": "2026-11-27",
   "n_cases": 499,
   "n_own": 441,
-  "n_lost": 398,
+  "n_lost": 397,
   "n_fields": 2,
   "n_desk": 58,
-  "n_unchecked": 256,
+  "n_unchecked": 255,
   "n_text_own": 443,
   "n_text_rewritten": 32,
   "n_text_ai": 24,
   "n_found_agents": 6,
   "n_milaero": 299,
-  "edition": "2026-11-27T09:47Z"
+  "edition": "2026-11-27T15:53Z"
  },
  "tiers": [
   {
@@ -329,14 +329,14 @@
   {
    "cat": "bungles",
    "name": "Procurement and deployment bungles",
-   "total": 0,
+   "total": 1,
    "cells": [
     {
      "g": "milair",
-     "n": 0,
+     "n": 1,
      "full": "Military aircraft",
      "first": true,
-     "d": 0
+     "d": 8
     },
     {
      "g": "milspace",
@@ -1400,11 +1400,11 @@
   {
    "cat": "forlorn",
    "name": "Forlorn prototypes",
-   "total": 98,
+   "total": 97,
    "cells": [
     {
      "g": "milair",
-     "n": 14,
+     "n": 13,
      "full": "Military aircraft",
      "first": true,
      "d": 15
@@ -2733,8 +2733,15 @@
    "name": "Procurement and deployment bungles",
    "definition": "Cases where procurement failed, rolled out poorly, a developer failed to deliver, or the result disappointed, while a replacement still exists.",
    "def_line": 1366,
-   "count": 0,
-   "domains": [],
+   "count": 1,
+   "domains": [
+    {
+     "name": "Military aircraft",
+     "ids": [
+      "STT-0248"
+     ]
+    }
+   ],
    "glyph": "<svg class=\"stt-glyph\" viewBox=\"0 0 120 40\" width=\"120\" height=\"40\" aria-hidden=\"true\" focusable=\"false\"><path class=\"gnd\" d=\"M2,36.5 H118\"/><path d=\"M52.0,11.0 C73.3,11.0 94.7,11.0 116.0,11.0\" class=\"ln\" opacity=\"0.38\"/><path d=\"M4.0,36.0 C6.7,35.6 9.3,36.0 12.0,34.5 C17.3,31.6 22.7,16.2 28.0,13.0 C31.3,11.0 34.7,11.0 38.0,11.0 C42.0,11.0 46.0,11.0 50.0,11.0\" class=\"ln\"/><path class=\"tk k-pro\" d=\"M16.1,22.0 H26.1\"/><path class=\"tk k-dep\" d=\"M21.8,14.0 H31.8\"/><path class=\"tk k-cut\" d=\"M47.4,15.4 L52.6,6.6\"/><path class=\"tk k-dec\" d=\"M4.0,35.4 V28.4\"/><path class=\"ln\" d=\"M53,12.5 Q56,20 60,35.5\"/></svg>",
    "glyph_label": "Reaches prototype and deployment, then collapses in procurement or roll-out, while a replacement carries on (faint)."
   },
@@ -2867,14 +2874,14 @@
     {
      "name": "Other weapons & military systems",
      "ids": [
-      "STT-0424",
-      "STT-0425",
       "STT-0426",
       "STT-0427",
       "STT-0428",
       "STT-0429",
       "STT-0430",
       "STT-0431",
+      "STT-0425",
+      "STT-0424",
       "STT-0432"
      ]
     },
@@ -2958,9 +2965,9 @@
       "STT-0460",
       "STT-0461",
       "STT-0337",
-      "STT-0462",
       "STT-0463",
-      "STT-0464"
+      "STT-0464",
+      "STT-0462"
      ]
     }
    ],
@@ -3050,11 +3057,11 @@
     {
      "name": "Energy",
      "ids": [
-      "STT-0356",
       "STT-0357",
       "STT-0358",
       "STT-0359",
-      "STT-0360"
+      "STT-0360",
+      "STT-0356"
      ]
     },
     {
@@ -3159,24 +3166,24 @@
     {
      "name": "Civil aircraft",
      "ids": [
-      "STT-0311",
-      "STT-0312"
+      "STT-0312",
+      "STT-0311"
      ]
     },
     {
      "name": "Military aircraft",
      "ids": [
-      "STT-0313",
       "STT-0314",
-      "STT-0315"
+      "STT-0315",
+      "STT-0313"
      ]
     },
     {
      "name": "Civil space systems & space exploration",
      "ids": [
-      "STT-0316",
       "STT-0317",
-      "STT-0318"
+      "STT-0318",
+      "STT-0316"
      ]
     },
     {
@@ -3256,7 +3263,7 @@
    "name": "Forlorn prototypes",
    "definition": "Technologies that reached a functioning prototype, before being scrapped, never seeing full production and use.",
    "def_line": 518,
-   "count": 98,
+   "count": 97,
    "domains": [
     {
      "name": "Transport & land vehicles",
@@ -3297,7 +3304,6 @@
      "ids": [
       "STT-0235",
       "STT-0236",
-      "STT-0237",
       "STT-0238",
       "STT-0239",
       "STT-0240",
@@ -3308,7 +3314,7 @@
       "STT-0245",
       "STT-0246",
       "STT-0247",
-      "STT-0248"
+      "STT-0237"
      ]
     },
     {
@@ -3328,13 +3334,13 @@
      "name": "Nuclear & strategic weapons, delivery systems & countermeasures",
      "ids": [
       "STT-0252",
-      "STT-0253",
       "STT-0254",
       "STT-0255",
       "STT-0256",
       "STT-0257",
       "STT-0258",
-      "STT-0259"
+      "STT-0259",
+      "STT-0253"
      ]
     },
     {
@@ -3857,8 +3863,8 @@
       "STT-0033",
       "STT-0034",
       "STT-0035",
-      "STT-0036",
       "STT-0037",
+      "STT-0036",
       "STT-0038"
      ]
     },
@@ -4055,6 +4061,11 @@
    "name": "High branches",
    "cats": [
     {
+     "key": "bungles",
+     "name": "Procurement and deployment bungles",
+     "count": 1
+    },
+    {
      "key": "atrophied",
      "name": "Locally atrophied branches",
      "count": 7
@@ -4099,7 +4110,7 @@
     {
      "key": "forlorn",
      "name": "Forlorn prototypes",
-     "count": 98
+     "count": 97
     },
     {
      "key": "devhell",
@@ -4506,6 +4517,26 @@
    "reviewed": "",
    "added_at": "",
    "changed_at": ""
+  },
+  "STT-0248": {
+   "id": "STT-0248",
+   "kind": "own",
+   "cat": "bungles",
+   "dom": "Military aircraft",
+   "group": "milair",
+   "title": "Comanche stealth helicopter programme",
+   "label": "",
+   "qualifier": "",
+   "desc_html": "<a href=\"https://web.archive.org/web/20121006110122if_/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA467794\">RAH-66 Comanche stealth attack helicopter</a> – cancelled in 2004 after 22 years, 6 restructurings, and USD 6.9 bn spent, a year before the first units would roll off the production line (see also <a href=\"https://en.wikipedia.org/wiki/Light_Helicopter_Experimental\">LHX programme</a>, and <a href=\"https://en.wikipedia.org/wiki/Stealth_helicopter\">Wikipedia - Stealth Helicopters</a>)",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://web.archive.org/web/20121006110122if_/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA467794\" title=\"RAH-66 Comanche stealth attack helicopter\">Internet Archive</a>, Wikipedia <a href=\"https://en.wikipedia.org/wiki/Light_Helicopter_Experimental\" title=\"LHX program\">1</a> <a href=\"https://en.wikipedia.org/wiki/Stealth_helicopter\" title=\"Wikipedia - Stealth Helicopters\">2</a>",
+   "sel": "Matthijs",
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check",
+   "reviewed": "2026-11-27",
+   "added_at": "",
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0465": {
    "id": "STT-0465",
@@ -5176,16 +5207,16 @@
    "title": "No country today is known to deploy offensive neutron bombs",
    "label": "",
    "qualifier": "debatable",
-   "desc_html": "But Russia apparently deploys some on ballistic missile defence; moreover, in practice all dial-a-yield warheads that have 10 kiloton or lower as an option, <a href=\"https://en.wikipedia.org/wiki/Neutron_bomb#:~:text=Testing%20of%20the%20W66%20was,part%20of%20the%20Safeguard%20Program.\">can functionally serve as neutron bombs</a>",
+   "desc_html": "Offensive neutron bombs: no country today is known to deploy neutron bombs for offensive purposes; but Russia deploys some on ballistic missile defence interceptors. Furthermore, in practice thermonuclear dial-a-yield warheads that offer 10 kiloton or lower as an option functionally can be used as neutron bombs in use if not in name. <a href=\"https://en.wikipedia.org/wiki/Neutron_bomb#:~:text=Testing%20of%20the%20W66%20was,part%20of%20the%20Safeguard%20Program.\">Wikipedia</a>",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Neutron_bomb#:~:text=Testing%20of%20the%20W66%20was,part%20of%20the%20Safeguard%20Program.\" title=\"can functionally serve as neutron bombs\">Wikipedia</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Neutron_bomb#:~:text=Testing%20of%20the%20W66%20was,part%20of%20the%20Safeguard%20Program.\" title=\"Wikipedia\">Wikipedia</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me",
-   "reviewed": "",
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check",
+   "reviewed": "2026-11-27",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0410": {
    "id": "STT-0410",
@@ -5459,51 +5490,11 @@
    "desc_html": "Steam river tugs hauling themselves and barge strings along a steel chain laid on the riverbed, suited to shallow, fast-flowing rivers. Prototyped in M. Dietz's La Ville de Sens (c.1850), they spread across Europe until more powerful paddle steamers and canalisation displaced them.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Chain_boat\" title=\"Chain-hauled steam river tugs (touage)\">Wikipedia</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Chain_boat\" title=\"Chain-hauled steam river tugs\">Wikipedia</a>",
    "sel": "Matthijs (link collection)",
    "text_by": "AI draft, approved by Matthijs",
    "by_line": "Selected by me; description drafted with AI, approved by me",
    "reviewed": "2026-11-18",
-   "added_at": "",
-   "changed_at": ""
-  },
-  "STT-0424": {
-   "id": "STT-0424",
-   "kind": "desk",
-   "cat": "withered",
-   "dom": "Other weapons & military systems",
-   "group": "weapons",
-   "title": "Flame tanks",
-   "label": "Churchill Crocodile / M67 Zippo",
-   "qualifier": "",
-   "desc_html": "Flame tanks: tanks fitted with flamethrowers (e.g. Churchill Crocodile, M67 Zippo), used widely in WWII against fortifications; range under 150 m, and late-war infantry anti-tank weapons outranged them. Out of the US arsenal since 1978, replaced by thermobaric and other incendiary weapons.",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Flame_tank\" title=\"Vehicle-mounted flamethrower armour\">Wikipedia</a>",
-   "sel": "Matthijs",
-   "text_by": "AI draft, approved by Matthijs",
-   "by_line": "Selected by me; description drafted with AI, approved by me",
-   "reviewed": "2026-11-18",
-   "added_at": "",
-   "changed_at": ""
-  },
-  "STT-0425": {
-   "id": "STT-0425",
-   "kind": "desk",
-   "cat": "withered",
-   "dom": "Other weapons & military systems",
-   "group": "weapons",
-   "title": "Missile tank",
-   "label": "Soviet IT-1 Object 150",
-   "qualifier": "",
-   "desc_html": "Armoured vehicles filling the tank role but armed only with guided missiles. Several nations built prototypes, notably the Soviet Union under Khrushchev; the Soviet IT-1 missile-armed tank destroyer saw limited service: ~220 built 1968–70, withdrawn by 1972.",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Missile_tank\" title=\"Missile-only main battle tank\">1</a> <a href=\"https://en.wikipedia.org/wiki/IT-1\" title=\"IT-1\">2</a>",
-   "sel": "Matthijs",
-   "text_by": "Matthijs, from an AI draft",
-   "by_line": "Selected by me; description by me, from an AI draft",
-   "reviewed": "2026-11-14",
    "added_at": "",
    "changed_at": ""
   },
@@ -5624,6 +5615,46 @@
    "text_by": "Matthijs",
    "by_line": "Selected and written by me",
    "reviewed": "",
+   "added_at": "",
+   "changed_at": ""
+  },
+  "STT-0425": {
+   "id": "STT-0425",
+   "kind": "desk",
+   "cat": "withered",
+   "dom": "Other weapons & military systems",
+   "group": "weapons",
+   "title": "Missile tank",
+   "label": "Soviet IT-1 Object 150",
+   "qualifier": "",
+   "desc_html": "Armoured vehicles filling the tank role but armed only with guided missiles. Several nations built prototypes, notably the Soviet Union under Khrushchev; the Soviet IT-1 missile-armed tank destroyer saw limited service: ~220 built 1968–70, withdrawn by 1972.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Missile_tank\" title=\"Missile tank\">1</a> <a href=\"https://en.wikipedia.org/wiki/IT-1\" title=\"IT-1\">2</a>",
+   "sel": "Matthijs",
+   "text_by": "Matthijs, from an AI draft",
+   "by_line": "Selected by me; description by me, from an AI draft",
+   "reviewed": "2026-11-14",
+   "added_at": "",
+   "changed_at": ""
+  },
+  "STT-0424": {
+   "id": "STT-0424",
+   "kind": "desk",
+   "cat": "withered",
+   "dom": "Other weapons & military systems",
+   "group": "weapons",
+   "title": "Flame tanks",
+   "label": "Churchill Crocodile / M67 Zippo",
+   "qualifier": "",
+   "desc_html": "Flame tanks: tanks fitted with flamethrowers (e.g. Churchill Crocodile, M67 Zippo), used widely in WWII against fortifications; range under 150 m, and late-war infantry anti-tank weapons outranged them. Out of the US arsenal since 1978, replaced by thermobaric and other incendiary weapons.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Flame_tank\" title=\"Flame tanks\">Wikipedia</a>",
+   "sel": "Matthijs",
+   "text_by": "AI draft, approved by Matthijs",
+   "by_line": "Selected by me; description drafted with AI, approved by me",
+   "reviewed": "2026-11-18",
    "added_at": "",
    "changed_at": ""
   },
@@ -6276,7 +6307,7 @@
    "title": "Inflatable furniture",
    "label": "IKEA 'a.i.r' attempts in 1980s-1990s",
    "qualifier": "arguably",
-   "desc_html": "). Cheap, weightless, easy-to-maintain furniture that cut raw material and transport use; but its valves leaked, so it needed constant re-inflating. IKEA withdrew it, then briefly reintroduced a children's line about ten years later.",
+   "desc_html": "Cheap, weightless, easy-to-maintain furniture that cut raw material and transport use; but its valves leaked, so it needed constant re-inflating. IKEA withdrew it, then briefly reintroduced a children's line about ten years later.",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"https://museumoffailure.com/exhibition/ikea-a-i-r\" title=\"inflatable furniture\">Museum of Failure</a>",
@@ -6285,27 +6316,7 @@
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-20",
    "added_at": "",
-   "changed_at": "2026-11-22T10:59Z"
-  },
-  "STT-0462": {
-   "id": "STT-0462",
-   "kind": "candidate",
-   "cat": "withered",
-   "dom": "Consumer products & novelties",
-   "group": "consumer",
-   "title": "IMAX 15/70 rolling-loop film projectors",
-   "label": "IMAX 15/70 film projector (Peter Jones rolling loop, William Shaw), 1970 to 2000s; 41 rooms in 2026",
-   "qualifier": "arguably",
-   "desc_html": "The IMAX 15/70 film projector, built on Peter Jones's late-1960s rolling-loop film transport and scaled by William Shaw, was hand-made a few units yearly for museums. IMAX ended production as institutional demand faded and it pivoted to digital from 2007; 41 rooms remained in 2026.",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "<a href=\"https://gadallon.substack.com/p/who-killed-the-imax-projector\" title=\"IMAX 15/70 rolling-loop film projectors\">gadallon (Substack)</a>",
-   "sel": "Matthijs (link collection)",
-   "text_by": "Matthijs, from an AI draft",
-   "by_line": "Selected by me; description by me, from an AI draft",
-   "reviewed": "2026-11-18",
-   "added_at": "",
-   "changed_at": "2026-11-24T15:01Z"
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0463": {
    "id": "STT-0463",
@@ -6319,7 +6330,7 @@
    "desc_html": "Household bulbs of 1924 could burn for 2,500 hours or more. By early 1925 the Phoebus cartel had codified 1,000 hours for a pear-shaped household bulb and fined factories whose bulbs lasted longer or shorter than the regulated life (<a href=\"https://en.wikipedia.org/wiki/Phoebus_cartel\">Wikipedia</a>).",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Phoebus_cartel\" title=\"Wikipedia\">Wikipedia</a>, <a href=\"https://spectrum.ieee.org/the-great-lightbulb-conspiracy\" title=\"Long-life household incandescent lamps\">IEEE Spectrum</a>",
+   "sources_html": "<a href=\"https://spectrum.ieee.org/the-great-lightbulb-conspiracy\" title=\"Long-life household incandescent lamps\">IEEE Spectrum</a>, <a href=\"https://en.wikipedia.org/wiki/Phoebus_cartel\" title=\"Wikipedia\">Wikipedia</a>",
    "sel": "Benjamin Brady's agents",
    "text_by": "AI draft by the agents, approved by Matthijs",
    "by_line": "Found by Benjamin Brady's agents; description drafted by the agents, approved by me",
@@ -6339,10 +6350,30 @@
    "desc_html": "Telephone newspapers transmitted news and entertainment to subscribers: Paris from 1890, Budapest from 1893, London from 1895. Radio supplanted most; London closed in 1925 and Paris in 1932; Budapest's wire network, destroyed in World War II, ended in 1944 (<a href=\"https://en.wikipedia.org/wiki/Telephone_newspaper\">Wikipedia</a>).",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Telephone_newspaper\" title=\"Wikipedia\">Wikipedia</a>, <a href=\"https://earlyradiohistory.us/sec003.htm\" title=\"Telephone newspapers and theatre-by-telephone services\">Early Radio History</a>",
+   "sources_html": "<a href=\"https://earlyradiohistory.us/sec003.htm\" title=\"Telephone newspapers and theatre-by-telephone services\">Early Radio History</a>, <a href=\"https://en.wikipedia.org/wiki/Telephone_newspaper\" title=\"Wikipedia\">Wikipedia</a>",
    "sel": "Benjamin Brady's agents",
    "text_by": "AI draft by the agents, approved by Matthijs",
    "by_line": "Found by Benjamin Brady's agents; description drafted by the agents, approved by me",
+   "reviewed": "2026-11-18",
+   "added_at": "",
+   "changed_at": "2026-11-24T15:01Z"
+  },
+  "STT-0462": {
+   "id": "STT-0462",
+   "kind": "candidate",
+   "cat": "withered",
+   "dom": "Consumer products & novelties",
+   "group": "consumer",
+   "title": "IMAX 15/70 rolling-loop film projectors",
+   "label": "IMAX 15/70 film projector (Peter Jones rolling loop, William Shaw), 1970 to 2000s; 41 rooms in 2026",
+   "qualifier": "arguably",
+   "desc_html": "The IMAX 15/70 film projector, built on Peter Jones's late-1960s rolling-loop film transport and scaled by William Shaw, was hand-made a few units yearly for museums. IMAX ended production as institutional demand faded and it pivoted to digital from 2007; 41 rooms remained in 2026.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://gadallon.substack.com/p/who-killed-the-imax-projector\" title=\"IMAX 15/70 rolling-loop film projectors\">gadallon (Substack)</a>",
+   "sel": "Matthijs (link collection)",
+   "text_by": "Matthijs, from an AI draft",
+   "by_line": "Selected by me; description by me, from an AI draft",
    "reviewed": "2026-11-18",
    "added_at": "",
    "changed_at": "2026-11-24T15:01Z"
@@ -6687,26 +6718,6 @@
    "added_at": "",
    "changed_at": ""
   },
-  "STT-0356": {
-   "id": "STT-0356",
-   "kind": "desk",
-   "cat": "underpowered",
-   "dom": "Energy",
-   "group": "energy",
-   "title": "Energy storage in superconducting coils",
-   "label": "Superconducting Magnetic Energy Storage (SMES)",
-   "qualifier": "",
-   "desc_html": "Superconducting magnetic energy storage: near-lossless, millisecond-response storage in a superconducting coil, proposed in 1969 for grid load-levelling and first run in 1980 (Bonneville Power Administration). Forces on the coil cap it near 12 kJ/kg, about a hundredth of lithium-ion, so it survives in power-quality and fusion niches.",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "<a href=\"https://jordanwtaylor2.substack.com/p/spooky-superconductor-batteries\" title=\"Energy storage in superconducting coils\">Incautious Optimism</a>",
-   "sel": "Matthijs",
-   "text_by": "AI draft, approved by Matthijs",
-   "by_line": "Selected by me; description drafted with AI, approved by me",
-   "reviewed": "2026-11-16",
-   "added_at": "",
-   "changed_at": ""
-  },
   "STT-0357": {
    "id": "STT-0357",
    "kind": "own",
@@ -6784,6 +6795,26 @@
    "text_by": "Matthijs",
    "by_line": "Selected and written by me",
    "reviewed": "",
+   "added_at": "",
+   "changed_at": ""
+  },
+  "STT-0356": {
+   "id": "STT-0356",
+   "kind": "desk",
+   "cat": "underpowered",
+   "dom": "Energy",
+   "group": "energy",
+   "title": "Energy storage in superconducting coils",
+   "label": "Superconducting Magnetic Energy Storage (SMES)",
+   "qualifier": "",
+   "desc_html": "Superconducting magnetic energy storage: near-lossless, millisecond-response storage in a superconducting coil, proposed in 1969 for grid load-levelling and first run in 1980 (Bonneville Power Administration). Forces on the coil cap it near 12 kJ/kg, about a hundredth of lithium-ion, so it survives in power-quality and fusion niches.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://jordanwtaylor2.substack.com/p/spooky-superconductor-batteries\" title=\"Energy storage in superconducting coils\">Incautious Optimism</a>",
+   "sel": "Matthijs",
+   "text_by": "AI draft, approved by Matthijs",
+   "by_line": "Selected by me; description drafted with AI, approved by me",
+   "reviewed": "2026-11-16",
    "added_at": "",
    "changed_at": ""
   },
@@ -7256,16 +7287,16 @@
    "title": "Engineered microorganisms for open environmental use",
    "label": "",
    "qualifier": "",
-   "desc_html": "<a href=\"https://worksinprogress.co/issue/all-the-microbes-you-cant-have/\">Environmental release of genetically engineered microbes in the US</a> In 1986 US officials placed them under the 1976 Toxic Substances Control Act. Of more than 240 applications filed between 1987 and 2018, only a few were approved for wide use, partly because EPA never published its data requirements.",
+   "desc_html": "In 1986 US officials placed them under the 1976 Toxic Substances Control Act. Of more than 240 applications filed between 1987 and 2018, only a few were approved for wide use, partly because EPA never published its data requirements.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://worksinprogress.co/issue/all-the-microbes-you-cant-have/\" title=\"Environmental release of genetically engineered microbes in the US\">Works in Progress</a>",
+   "sources_html": "<a href=\"https://worksinprogress.co/issue/all-the-microbes-you-cant-have/\" title=\"Engineered microorganisms for open environmental use\">Works in Progress</a>",
    "sel": "Matthijs (link collection)",
    "text_by": "Matthijs, from an AI draft",
    "by_line": "Selected by me; description by me, from an AI draft",
    "reviewed": "",
    "added_at": "",
-   "changed_at": "2026-11-24T15:01Z"
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0309": {
    "id": "STT-0309",
@@ -7327,26 +7358,6 @@
    "added_at": "2026-11-24T15:01Z",
    "changed_at": "2026-11-24T15:01Z"
   },
-  "STT-0311": {
-   "id": "STT-0311",
-   "kind": "desk",
-   "cat": "falsedawn",
-   "dom": "Civil aircraft",
-   "group": "civair",
-   "title": "Stratocruiser-based outsized cargo aircraft",
-   "label": "Aero Spacelines six-engine Super Guppy",
-   "qualifier": "",
-   "desc_html": "Aero Spacelines concept, circa 1968, for a oversize six-engine variant of the Super Guppy to carry 747 components from Wichita, Kansas, to Everett, Washington. It did not come to pass; some thirty years later Boeing instead modified a 747 to carry 787 components.",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "<a href=\"https://www.aerospaceprojectsreview.com/blog/?p=1300\" title=\"Stratocruiser-based outsized cargo aircraft\">Aerospace Projects Review</a>",
-   "sel": "Matthijs",
-   "text_by": "Matthijs, from an AI draft",
-   "by_line": "Selected by me; description by me, from an AI draft",
-   "reviewed": "2026-11-17",
-   "added_at": "",
-   "changed_at": ""
-  },
   "STT-0312": {
    "id": "STT-0312",
    "kind": "own",
@@ -7367,25 +7378,25 @@
    "added_at": "",
    "changed_at": ""
   },
-  "STT-0313": {
-   "id": "STT-0313",
-   "kind": "own",
+  "STT-0311": {
+   "id": "STT-0311",
+   "kind": "desk",
    "cat": "falsedawn",
-   "dom": "Military aircraft",
-   "group": "milair",
-   "title": "Carrier-borne stealth bombers",
-   "label": "A-12 Avenger II; F-117N Seahawk",
+   "dom": "Civil aircraft",
+   "group": "civair",
+   "title": "Stratocruiser-based outsized cargo aircraft",
+   "label": "Aero Spacelines six-engine Super Guppy",
    "qualifier": "",
-   "desc_html": "(cancelled after USD 2bn spent out of a USD 5bn programme); <a href=\"https://www.19fortyfive.com/2026/06/f-117n-seahawk-when-lockheed-tried-to-put-the-stealth-fighter-on-navy-carriers-and-the-navy-said-no-twice/\">F-117 Nighthawks adapted for carriers</a> (<a href=\"https://nationalinterest.org/blog/buzz/f-117-nighthawk-stealth-fighter-flying-aircraft-carriers-it-could-have-happened-211065\">F-117N Seahawk</a>), allegedly because of the <a href=\"https://www.19fortyfive.com/2026/06/f-117n-seahawk-when-lockheed-tried-to-put-the-stealth-fighter-on-navy-carriers-and-the-navy-said-no-twice/\">Navy's institutional preference</a> for an 'ideal' (if delayed) programme over re-configured available platforms: only a generation later, in 2019, did the stealth-capable F-35C get deployed on carriers",
+   "desc_html": "Aero Spacelines concept, circa 1968, for an oversize six-engine variant of the Super Guppy to carry 747 components from Wichita, Kansas, to Everett, Washington. It did not come to pass; some thirty years later Boeing instead modified a 747 to carry 787 components.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.19fortyfive.com/2026/06/f-117n-seahawk-when-lockheed-tried-to-put-the-stealth-fighter-on-navy-carriers-and-the-navy-said-no-twice/\" title=\"F-117 Nighthawks adapted for carriers\">19FortyFive</a>, <a href=\"https://nationalinterest.org/blog/buzz/f-117-nighthawk-stealth-fighter-flying-aircraft-carriers-it-could-have-happened-211065\" title=\"F-117N Seahawk\">The National Interest</a>, <a href=\"https://en.wikipedia.org/wiki/McDonnell_Douglas_A-12_Avenger_II\" title=\"carrier-borne\">Wikipedia</a>, <a href=\"https://books.google.dk/books/about/The_5_Billion_Misunderstanding.html?hl=da&amp;id=2ZDfAAAAMAAJ&amp;redir_esc=y\" title=\"stealth bombers\">Google Books</a>",
+   "sources_html": "<a href=\"https://www.aerospaceprojectsreview.com/blog/?p=1300\" title=\"Stratocruiser-based outsized cargo aircraft\">Aerospace Projects Review</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs (revised after a source check)",
-   "by_line": "Written by me, revised after a source check",
-   "reviewed": "2026-11-18",
+   "text_by": "Matthijs, from an AI draft",
+   "by_line": "Selected by me; description by me, from an AI draft",
+   "reviewed": "2026-11-17",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0314": {
    "id": "STT-0314",
@@ -7427,23 +7438,23 @@
    "added_at": "",
    "changed_at": ""
   },
-  "STT-0316": {
-   "id": "STT-0316",
-   "kind": "desk",
+  "STT-0313": {
+   "id": "STT-0313",
+   "kind": "own",
    "cat": "falsedawn",
-   "dom": "Civil space systems & space exploration",
-   "group": "civspace",
-   "title": "Recoverable & reusable first-stage booster rockets",
-   "label": "Saturn V S-IC stage recovery",
+   "dom": "Military aircraft",
+   "group": "milair",
+   "title": "Carrier-borne stealth bombers",
+   "label": "A-12 Avenger II; F-117N Seahawk",
    "qualifier": "",
-   "desc_html": "Boeing's 1960s concept for recovering NASA's Saturn V S-IC first stage: large fins with drag brakes to hold it nose-down, parachutes, and retro rockets for terminal braking before splashdown, followed by refurbishment. Concept only; later revisited differently by SpaceX's Falcon 9.",
+   "desc_html": "(cancelled after USD 2bn spent out of a USD 5bn programme); <a href=\"https://www.19fortyfive.com/2026/06/f-117n-seahawk-when-lockheed-tried-to-put-the-stealth-fighter-on-navy-carriers-and-the-navy-said-no-twice/\">F-117 Nighthawks adapted for carriers</a> (<a href=\"https://nationalinterest.org/blog/buzz/f-117-nighthawk-stealth-fighter-flying-aircraft-carriers-it-could-have-happened-211065\">F-117N Seahawk</a>), allegedly because of the <a href=\"https://www.19fortyfive.com/2026/06/f-117n-seahawk-when-lockheed-tried-to-put-the-stealth-fighter-on-navy-carriers-and-the-navy-said-no-twice/\">Navy's institutional preference</a> for an 'ideal' (if delayed) programme over re-configured available platforms: only a generation later, in 2019, did the stealth-capable F-35C get deployed on carriers",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.aerospaceprojectsreview.com/blog/?p=4625\" title=\"Saturn V first-stage recovery and reuse\">Aerospace Projects Review</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/McDonnell_Douglas_A-12_Avenger_II\" title=\"carrier-borne\">Wikipedia</a>, <a href=\"https://books.google.dk/books/about/The_5_Billion_Misunderstanding.html?hl=da&amp;id=2ZDfAAAAMAAJ&amp;redir_esc=y\" title=\"stealth bombers\">Google Books</a>, <a href=\"https://www.19fortyfive.com/2026/06/f-117n-seahawk-when-lockheed-tried-to-put-the-stealth-fighter-on-navy-carriers-and-the-navy-said-no-twice/\" title=\"F-117 Nighthawks adapted for carriers\">19FortyFive</a>, <a href=\"https://nationalinterest.org/blog/buzz/f-117-nighthawk-stealth-fighter-flying-aircraft-carriers-it-could-have-happened-211065\" title=\"F-117N Seahawk\">The National Interest</a>",
    "sel": "Matthijs",
-   "text_by": "AI draft, approved by Matthijs",
-   "by_line": "Selected by me; description drafted with AI, approved by me",
-   "reviewed": "2026-11-17",
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check",
+   "reviewed": "2026-11-18",
    "added_at": "",
    "changed_at": ""
   },
@@ -7484,6 +7495,26 @@
    "text_by": "Matthijs",
    "by_line": "Selected and written by me",
    "reviewed": "",
+   "added_at": "",
+   "changed_at": ""
+  },
+  "STT-0316": {
+   "id": "STT-0316",
+   "kind": "desk",
+   "cat": "falsedawn",
+   "dom": "Civil space systems & space exploration",
+   "group": "civspace",
+   "title": "Recoverable & reusable first-stage booster rockets",
+   "label": "Saturn V S-IC stage recovery",
+   "qualifier": "",
+   "desc_html": "Boeing's 1960s concept for recovering NASA's Saturn V S-IC first stage: large fins with drag brakes to hold it nose-down, parachutes, and retro rockets for terminal braking before splashdown, followed by refurbishment. Concept only; later revisited differently by SpaceX's Falcon 9.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://www.aerospaceprojectsreview.com/blog/?p=4625\" title=\"Recoverable &amp; reusable first-stage booster rockets\">Aerospace Projects Review</a>",
+   "sel": "Matthijs",
+   "text_by": "AI draft, approved by Matthijs",
+   "by_line": "Selected by me; description drafted with AI, approved by me",
+   "reviewed": "2026-11-17",
    "added_at": "",
    "changed_at": ""
   },
@@ -7836,7 +7867,7 @@
    "title": "Injection-moulded plastic bicycles",
    "label": "Itera",
    "qualifier": "",
-   "desc_html": "1970s–80s injection-moulded designs such as the Itera failed commercially; though reinforced plastic composites are today used in racing bicycle frames and wheels)",
+   "desc_html": "1970s–80s injection-moulded designs such as the Itera failed commercially; though reinforced plastic composites are today used in racing bicycle frames and wheels",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Plastic_bicycle\" title=\"Injection-moulded plastic bicycles\">Wikipedia</a>, <a href=\"https://journals.sagepub.com/doi/10.1177/030631292022002011\" title=\"&#x27;Itera&#x27;\">SAGE Journals</a>",
@@ -7845,7 +7876,7 @@
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-20",
    "added_at": "",
-   "changed_at": "2026-11-22T10:59Z"
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0211": {
    "id": "STT-0211",
@@ -8179,7 +8210,7 @@
    "desc_html": "Enabling extremely short take-off, but which failed federal certification requirements",
    "subs_html": "",
    "notes_html": "<p class=\"stt-note\"><span class=\"stt-note-tag\">Check note</span> NASA research indicated the lift and field-length gains did not offset deficiencies in climb and high-speed ability and identified problems meeting general-aviation certification requirements; interested firms did not provide the necessary downpayment for CCW-5 production.</p>",
-   "sources_html": "<a href=\"https://www.youtube.com/watch?v=algugNAoXSQ\" title=\"CCW-1 and CCW-2\">YouTube</a>, Wikipedia <a href=\"https://en.wikipedia.org/wiki/Custer_Channel_Wing\" title=\"half-barrel\">1</a> <a href=\"https://en.wikipedia.org/wiki/Channel_wing\" title=\"&#x27;channel&#x27; wings\">2</a>",
+   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Custer_Channel_Wing\" title=\"half-barrel\">1</a> <a href=\"https://en.wikipedia.org/wiki/Channel_wing\" title=\"&#x27;channel&#x27; wings\">2</a>, <a href=\"https://www.youtube.com/watch?v=algugNAoXSQ\" title=\"CCW-1 and CCW-2\">YouTube</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs (revised after a source check)",
    "by_line": "Written by me, revised after a source check",
@@ -8359,31 +8390,11 @@
    "desc_html": "Experimental Soviet transport aircraft with rotors above the wing tips, combining helicopter take-off with fixed-wing cruise; it set eight world records but was abandoned after two fatal crashes (1962, 1964) linked to control problems, with the Mi-6 helicopter already filling the heavy-helicopter role. See also <a href=\"https://youtube.com/watch?v=3a6sK6DENH8\">video on the Soviet hybrid helicopter-plane lineage</a>",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://youtube.com/watch?v=3a6sK6DENH8\" title=\"video on the Soviet hybrid helicopter-plane lineage\">YouTube</a>, <a href=\"https://en.wikipedia.org/wiki/Kamov_Ka-22\" title=\"Soviet hybrid rotorcraft\">Wikipedia</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Kamov_Ka-22\" title=\"Soviet hybrid rotorcraft\">Wikipedia</a>, <a href=\"https://youtube.com/watch?v=3a6sK6DENH8\" title=\"video on the Soviet hybrid helicopter-plane lineage\">YouTube</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs, from an AI draft",
    "by_line": "Selected by me; description by me, from an AI draft",
    "reviewed": "2026-11-11",
-   "added_at": "",
-   "changed_at": ""
-  },
-  "STT-0237": {
-   "id": "STT-0237",
-   "kind": "desk",
-   "cat": "forlorn",
-   "dom": "Military aircraft",
-   "group": "milair",
-   "title": "Annular-wing tail-sitter VTOL aircraft",
-   "label": "SNECMA Coléoptère / Hiller VXT-8",
-   "qualifier": "",
-   "desc_html": "Annular-wing tail-sitter VTOL (coleopter). The SNECMA Coléoptère first flew in May 1959 and crashed on a test flight that July; no replacement was built. Hiller's US VXT-8 reached only a mock-up, the Navy losing interest as turbine helicopters improved.",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Coleopter\" title=\"Annular-wing tail-sitter VTOL\">Wikipedia</a>, <a href=\"http://www.aviastar.org/air/france/snecma_coleoptere.php\" title=\"Aviastar\">Aviastar</a>",
-   "sel": "Matthijs",
-   "text_by": "Matthijs, from an AI draft",
-   "by_line": "Selected by me; description by me, from an AI draft",
-   "reviewed": "2026-11-17",
    "added_at": "",
    "changed_at": ""
   },
@@ -8587,23 +8598,23 @@
    "added_at": "",
    "changed_at": ""
   },
-  "STT-0248": {
-   "id": "STT-0248",
-   "kind": "own",
+  "STT-0237": {
+   "id": "STT-0237",
+   "kind": "desk",
    "cat": "forlorn",
    "dom": "Military aircraft",
    "group": "milair",
-   "title": "Comanche stealth helicopter programme",
-   "label": "",
+   "title": "Annular-wing tail-sitter VTOL aircraft",
+   "label": "SNECMA Coléoptère / Hiller VXT-8",
    "qualifier": "",
-   "desc_html": "Cancelled in 2004 after USD 7.9bn$ spent, just before the first units would roll off the production line (see also <a href=\"https://en.wikipedia.org/wiki/Light_Helicopter_Experimental\">LHX programme</a>)",
+   "desc_html": "Annular-wing tail-sitter VTOL (coleopter). The SNECMA Coléoptère first flew in May 1959 and crashed on a test flight that July; no replacement was built. Hiller's US VXT-8 reached only a mock-up, the Navy losing interest as turbine helicopters improved.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://web.archive.org/web/20121006110122if_/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA467794\" title=\"Comanche stealth helicopter program\">Internet Archive</a>, <a href=\"https://en.wikipedia.org/wiki/Light_Helicopter_Experimental\" title=\"LHX program\">Wikipedia</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Coleopter\" title=\"Annular-wing tail-sitter VTOL aircraft\">Wikipedia</a>, <a href=\"http://www.aviastar.org/air/france/snecma_coleoptere.php\" title=\"Aviastar\">Aviastar</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me",
-   "reviewed": "",
+   "text_by": "Matthijs, from an AI draft",
+   "by_line": "Selected by me; description by me, from an AI draft",
+   "reviewed": "2026-11-17",
    "added_at": "",
    "changed_at": ""
   },
@@ -8683,26 +8694,6 @@
    "sel": "Matthijs",
    "text_by": "AI draft, approved by Matthijs",
    "by_line": "Selected by me; description drafted with AI, approved by me",
-   "reviewed": "2026-11-18",
-   "added_at": "",
-   "changed_at": ""
-  },
-  "STT-0253": {
-   "id": "STT-0253",
-   "kind": "desk",
-   "cat": "forlorn",
-   "dom": "Nuclear & strategic weapons, delivery systems & countermeasures",
-   "group": "nuclear",
-   "title": "ICBM anti-missile defence systems based on a \"wall of rods\" shotgun",
-   "label": "Soviet Mozyr ABM system",
-   "qualifier": "",
-   "desc_html": "Mozyr: Soviet lowest-echelon defence of ICBM silos, developed from the early 1980s by Kolomna's KBM design bureau: four 500-barrel assemblies firing coherent streams of tungsten rod elements at incoming warheads. Tested from 1987 at DEEP-1, downing a warhead; discussed for revival in 2022.",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "<a href=\"https://vpk.name/en/591501_mozyr-will-the-most-unusual-anti-missile-system-be-revived.html\" title=\"Unguided &quot;wall of shrapnel&quot; missile defense\">VPK News</a>",
-   "sel": "Matthijs",
-   "text_by": "Matthijs, from an AI draft",
-   "by_line": "Selected by me; description by me, from an AI draft",
    "reviewed": "2026-11-18",
    "added_at": "",
    "changed_at": ""
@@ -8824,6 +8815,26 @@
    "text_by": "Matthijs",
    "by_line": "Selected and written by me",
    "reviewed": "",
+   "added_at": "",
+   "changed_at": ""
+  },
+  "STT-0253": {
+   "id": "STT-0253",
+   "kind": "desk",
+   "cat": "forlorn",
+   "dom": "Nuclear & strategic weapons, delivery systems & countermeasures",
+   "group": "nuclear",
+   "title": "ICBM anti-missile defence systems based on a \"wall of rods\" shotgun",
+   "label": "Soviet Mozyr ABM system",
+   "qualifier": "",
+   "desc_html": "Mozyr: Soviet lowest-echelon defence of ICBM silos, developed from the early 1980s by Kolomna's KBM design bureau: four 500-barrel assemblies firing coherent streams of tungsten rod elements at incoming warheads. Tested from 1987 at DEEP-1, downing a warhead; discussed for revival in 2022.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://vpk.name/en/591501_mozyr-will-the-most-unusual-anti-missile-system-be-revived.html\" title=\"ICBM anti-missile defense systems based on a &quot;wall of rods&quot; shotgun\">VPK News</a>",
+   "sel": "Matthijs",
+   "text_by": "Matthijs, from an AI draft",
+   "by_line": "Selected by me; description by me, from an AI draft",
+   "reviewed": "2026-11-18",
    "added_at": "",
    "changed_at": ""
   },
@@ -9699,7 +9710,7 @@
    "desc_html": "Guelph researchers made the first Enviropig in 1999, a transgenic pig engineered to produce less-polluting waste; the project cost over $5 million. In 2012 its main industry sponsor quit funding and the university said the herd might be euthanised (<a href=\"https://doi.org/10.1038/90788\">doi.org, 2001</a>).",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://doi.org/10.1038/90788\" title=\"doi.org, 2001\">DOI</a>, <a href=\"https://www.theglobeandmail.com/news/national/university-of-guelph-left-foraging-for-enviropig-funding/article4097328/\" title=\"Transgenic pig that excretes less phosphorus\">The Globe and Mail</a>",
+   "sources_html": "<a href=\"https://www.theglobeandmail.com/news/national/university-of-guelph-left-foraging-for-enviropig-funding/article4097328/\" title=\"Transgenic pig\">The Globe and Mail</a>, <a href=\"https://doi.org/10.1038/90788\" title=\"doi.org, 2001\">DOI</a>",
    "sel": "Benjamin Brady's agents",
    "text_by": "AI draft by the agents, approved by Matthijs",
    "by_line": "Found by Benjamin Brady's agents; description drafted by the agents, approved by me",
@@ -10216,16 +10227,16 @@
    "title": "US nuclear spacecraft propulsion: nuclear thermal",
    "label": "Project Timberwind / SNTP",
    "qualifier": "",
-   "desc_html": "<a href=\"https://en.wikipedia.org/wiki/Project_Timberwind#Space_Nuclear_Thermal_Propulsion_Program\">Project Timberwind</a>, SNTP, Rover/NERVA (1955-73) to develop nuclear-powered spacecraft propulsion relying on the thermal energy of nuclear reactions instead of the chemical energy of propellants. Most recently, in 2025 NASA/DARPA's <a href=\"https://en.wikipedia.org/wiki/Demonstration_Rocket_for_Agile_Cislunar_Operations\">DRACO</a> flight demonstrator was cancelled because of technical and regulatory challenges.",
+   "desc_html": "<a href=\"https://en.wikipedia.org/wiki/Project_Timberwind#Space_Nuclear_Thermal_Propulsion_Program\">Project Timberwind</a>, SNTP, Rover/NERVA (1955-73) to develop nuclear-powered spacecraft propulsion relying on the thermal energy of nuclear reactions instead of the chemical energy of propellants. Most recently, in 2025 NASA/DARPA's <a href=\"https://en.wikipedia.org/wiki/Demonstration_Rocket_for_Agile_Cislunar_Operations\">DRACO</a> flight demonstrator was cancelled because of its cost, as well as technical and regulatory challenges.",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Project_Timberwind#Space_Nuclear_Thermal_Propulsion_Program\" title=\"Project Timberwind\">1</a> <a href=\"https://en.wikipedia.org/wiki/Demonstration_Rocket_for_Agile_Cislunar_Operations\" title=\"DRACO\">2</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs",
    "by_line": "Written by me; split into its own entry",
-   "reviewed": "2026-11-26",
+   "reviewed": "2026-11-27",
    "added_at": "2026-11-27T09:47Z",
-   "changed_at": "2026-11-27T09:47Z"
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0500": {
    "id": "STT-0500",
@@ -10519,7 +10530,7 @@
    "desc_html": "Wave energy converters in many forms: Islay's Limpet (250 kW, 2000–2011), Denmark's Wave Dragon (2003–2010), Aquamarine's Oyster, and Pelamis, whose Portuguese farm was wrecked by weather. Machines must be able to survive hundred-year storms, so costs stay high.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://jordanwtaylor2.substack.com/p/salt-and-battery-wave-energy-and\" title=\"wave energy\">Incautious Optimism</a>",
+   "sources_html": "<a href=\"https://jordanwtaylor2.substack.com/p/salt-and-battery-wave-energy-and\" title=\"Wave energy converters\">Incautious Optimism</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs, from an AI draft",
    "by_line": "Selected by me; description by me, from an AI draft",
@@ -11179,7 +11190,7 @@
    "desc_html": "Incl. a <a href=\"https://en.wikipedia.org/wiki/Space_Station_Freedom\">much more ambitious version</a> of the International Space Station.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Space_Station_Freedom\" title=\"much more ambitious version\">1</a> <a href=\"https://en.wikipedia.org/wiki/Skylab_B\" title=\"Skylab B\">2</a>",
+   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Skylab_B\" title=\"Skylab B\">1</a> <a href=\"https://en.wikipedia.org/wiki/Space_Station_Freedom\" title=\"much more ambitious version\">2</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs",
    "by_line": "Selected and written by me",
@@ -11399,7 +11410,7 @@
    "desc_html": "1962 Truax design study for a 150 m, two-stage, sea-launched rocket built of steel sheet in a shipyard, 550 t to LEO, validated by TRW; never built, as budget pressures closed the Future Projects Branch. (more generally: the <a href=\"https://en.wikipedia.org/wiki/Big_dumb_booster\">'big dumb booster' design-philosophy overview</a>)",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Big_dumb_booster\" title=\"&#x27;big dumb booster&#x27; design-philosophy overview\">1</a> <a href=\"https://en.wikipedia.org/wiki/Sea_Dragon_%28rocket%29\" title=\"Sea-launched super-heavy steel-shipyard rocket\">2</a>",
+   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Sea_Dragon_%28rocket%29\" title=\"Sea-launched super-heavy steel-shipyard rocket\">1</a> <a href=\"https://en.wikipedia.org/wiki/Big_dumb_booster\" title=\"&#x27;big dumb booster&#x27; design-philosophy overview\">2</a>",
    "sel": "Matthijs",
    "text_by": "AI draft, approved by Matthijs",
    "by_line": "Selected by me; description drafted with AI, approved by me",
@@ -11676,7 +11687,7 @@
    "title": "Space-based midcourse strategic anti-ballistic missile defence",
    "label": "numerous programmes, e.g. Zenith Star, Skif-DM, Prometheus, Casaba-Howitzer, BAMBI, Smart Rocks and Brilliant Pebbles",
    "qualifier": "",
-   "desc_html": "Involving, amongst others:",
+   "desc_html": "Numerous forms of space-based midcourse strategic anti-ballistic missile defence; involving, amongst others:",
    "subs_html": "<ul><li>Orbital <a href=\"https://www.thespacereview.com/article/4598/1\">missile platforms</a></li><li>Orbital <a href=\"https://nationalinterest.org/blog/reboot/zenith-star-americas-1980s-attempt-weaponizing-lasers-space-194375\">chemical laser</a><a href=\"https://www.smithsonianmag.com/air-space-magazine/soviet-star-wars-8758185/\">battle stations</a> ('Zenith Star'; <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=521\">mocked up at full scale</a>)</li><li>Nuclear-bomb-powered <a href=\"https://en.wikipedia.org/wiki/Project_Excalibur\">X-ray lasers</a></li><li><a href=\"https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.59.S1\">Directed-energy weapons</a></li><li><a href=\"https://www.aerospaceprojectsreview.com/blog/?p=1420\">Swarms</a> of <a href=\"https://en.wikipedia.org/wiki/Brilliant_Pebbles#Smart_Rocks\">small, rocket-powered</a> <a href=\"http://www.aerospaceprojectsreview.com/blog/?p=1420\">kinetic impactor satellites</a> or <a href=\"https://en.wikipedia.org/wiki/Project_BAMBI\">interceptors dragging wire webs</a></li><li><a href=\"https://en.wikipedia.org/wiki/Strategic_Defense_Initiative\">Hypervelocity</a> <a href=\"https://commons.wikimedia.org/wiki/File:Space_railgun.jpg\">railguns</a></li><li><a href=\"https://atomic-skies.blogspot.com/2015/03/third-generation-nuclear-weapons.html\">Shaped-charge 'nuclear shotguns'</a>, using hydrogen bombs to project plasma beams (e.g. <a href=\"https://en.wikipedia.org/wiki/Casaba-Howitzer\">Casaba-Howitzer</a>' concepts), or kinetic impactors (Project <a href=\"https://atomic-skies.blogspot.com/2015/03/third-generation-nuclear-weapons.html#:~:text=.%5BBr2%5D-,PROMETHEUS,-PROMETHEUS%20was%20Los\">Prometheus</a>) towards a target</li></ul>",
    "notes_html": "",
    "sources_html": "<a href=\"https://www.thespacereview.com/article/4598/1\" title=\"missile platforms\">The Space Review</a>, <a href=\"https://nationalinterest.org/blog/reboot/zenith-star-americas-1980s-attempt-weaponizing-lasers-space-194375\" title=\"chemical laser\">The National Interest</a>, <a href=\"https://www.smithsonianmag.com/air-space-magazine/soviet-star-wars-8758185/\" title=\"battle stations\">Smithsonian</a>, Aerospace Projects Review <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=521\" title=\"mocked up at full scale\">1</a> <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=1420\" title=\"swarms\">2</a> <a href=\"http://www.aerospaceprojectsreview.com/blog/?p=1420\" title=\"kinetic impactor satellites\">3</a>, Wikipedia <a href=\"https://en.wikipedia.org/wiki/Project_Excalibur\" title=\"X-ray lasers\">1</a> <a href=\"https://en.wikipedia.org/wiki/Brilliant_Pebbles#Smart_Rocks\" title=\"small, rocket-powered\">2</a> <a href=\"https://en.wikipedia.org/wiki/Project_BAMBI\" title=\"interceptors dragging wire webs\">3</a> <a href=\"https://en.wikipedia.org/wiki/Strategic_Defense_Initiative\" title=\"hypervelocity\">4</a> <a href=\"https://en.wikipedia.org/wiki/Casaba-Howitzer\" title=\"Casaba-Howitzer\">5</a>, <a href=\"https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.59.S1\" title=\"directed-energy weapons\">journals.aps.org</a>, <a href=\"https://commons.wikimedia.org/wiki/File:Space_railgun.jpg\" title=\"railguns\">commons.wikimedia.org</a>, atomic-skies (Blogspot) <a href=\"https://atomic-skies.blogspot.com/2015/03/third-generation-nuclear-weapons.html\" title=\"shaped-charge &#x27;nuclear shotguns&#x27;\">1</a> <a href=\"https://atomic-skies.blogspot.com/2015/03/third-generation-nuclear-weapons.html#:~:text=.%5BBr2%5D-,PROMETHEUS,-PROMETHEUS%20was%20Los\" title=\"Prometheus\">2</a>",
@@ -11685,7 +11696,7 @@
    "by_line": "Selected and written by me",
    "reviewed": "2026-11-20",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0112": {
    "id": "STT-0112",
@@ -12239,7 +12250,7 @@
    "desc_html": "A 1990s USDA and Delta &amp; Pine Land system to make second-generation seeds infertile or lose traits, patented in 1998; in 2001 an FAO study found it not yet realised, though several components worked. After protest from farmers, environmental groups and development agencies, <a href=\"https://www.nature.com/articles/nbt1199_1054\">Monsanto pledged in October 1999</a> not to commercialise it. A <a href=\"https://www.cbd.int/decision/cop/?id=7147\">2000 CBD recommendation</a>, reaffirmed in 2006, asks parties to approve neither field tests nor commercial use until scientific assessments are done; <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm\">Brazil</a> bans its use, sale, registration, patenting and licensing, and <a href=\"https://www.wipo.int/wipolex/en/text/339105\">India</a> bars registering such varieties. Never commercialised, which <a href=\"https://en.wikipedia.org/wiki/Genetic_use_restriction_technology\">Wikipedia</a> ties to the political and scientific controversy.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.nature.com/articles/nbt1199_1054\" title=\"Monsanto pledged in October 1999\">Nature</a>, <a href=\"https://www.cbd.int/decision/cop/?id=7147\" title=\"2000 CBD recommendation\">cbd.int</a>, <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm\" title=\"Brazil\">planalto.gov.br</a>, <a href=\"https://www.wipo.int/wipolex/en/text/339105\" title=\"India\">wipo.int</a>, <a href=\"https://en.wikipedia.org/wiki/Genetic_use_restriction_technology\" title=\"Wikipedia\">Wikipedia</a>, <a href=\"https://www.fao.org/tempref/docrep/fao/meeting/014/y7661f.pdf\" title=\"Genetic use restriction technology (&#x27;Terminator&#x27; sterile-seed system)\">fao.org</a>",
+   "sources_html": "<a href=\"https://www.fao.org/tempref/docrep/fao/meeting/014/y7661f.pdf\" title=\"Genetic use restriction technology (&#x27;Terminator&#x27; sterile seeds)\">fao.org</a>, <a href=\"https://www.nature.com/articles/nbt1199_1054\" title=\"Monsanto pledged in October 1999\">Nature</a>, <a href=\"https://www.cbd.int/decision/cop/?id=7147\" title=\"2000 CBD recommendation\">cbd.int</a>, <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm\" title=\"Brazil\">planalto.gov.br</a>, <a href=\"https://www.wipo.int/wipolex/en/text/339105\" title=\"India\">wipo.int</a>, <a href=\"https://en.wikipedia.org/wiki/Genetic_use_restriction_technology\" title=\"Wikipedia\">Wikipedia</a>",
    "sel": "Benjamin Brady's agents",
    "text_by": "AI draft by the agents, approved by Matthijs",
    "by_line": "Found by Benjamin Brady's agents; description drafted by the agents, approved by me",
@@ -12739,7 +12750,7 @@
    "desc_html": "Vehicles, mostly maglev, running through partially evacuated tubes, theoretically at up to 4,000 km/h (2,500 mph); proposed since 1906 and built as scale models since 1917, with test tracks (a 2 km line in China, 2023) but no working line.",
    "subs_html": "<ul><li>Including proposed applications for high-speed trans-continental transport. For instance, <a href=\"https://www.rand.org/pubs/papers/P4874.html\">RAND in 1972 proposed</a> the transcontinental <a href=\"https://www.thedrive.com/news/nyc-to-la-in-21-minutes-inside-rands-wild-1970s-proposal-for-a-14000-mph-vacuum-train\">Very High Speed Transit System</a> ('RAND VHST / Salter, 1972'), developed by 1978 into Planetran (<a href=\"https://www.sciencedirect.com/science/article/abs/pii/001632877890006X\">Salter 1978</a>): carriages levitated and driven by electromagnetic fields in evacuated tunnels, coast to coast in 21 minutes at up to 14,000 mph; Salter put the high-speed network at $250 billion and judged politics harder than engineering. Never built.</li></ul>",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.rand.org/pubs/papers/P4874.html\" title=\"RAND in 1972 proposed\">RAND</a>, <a href=\"https://www.thedrive.com/news/nyc-to-la-in-21-minutes-inside-rands-wild-1970s-proposal-for-a-14000-mph-vacuum-train\" title=\"Very High Speed Transit System\">The Drive</a>, <a href=\"https://www.sciencedirect.com/science/article/abs/pii/001632877890006X\" title=\"Salter 1978\">ScienceDirect</a>, <a href=\"https://en.wikipedia.org/wiki/Vactrain\" title=\"Vactrain (Vacuum Tube Train)\">Wikipedia</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Vactrain\" title=\"Maglev in air evacuated tubes\">Wikipedia</a>, <a href=\"https://www.rand.org/pubs/papers/P4874.html\" title=\"RAND in 1972 proposed\">RAND</a>, <a href=\"https://www.thedrive.com/news/nyc-to-la-in-21-minutes-inside-rands-wild-1970s-proposal-for-a-14000-mph-vacuum-train\" title=\"Very High Speed Transit System\">The Drive</a>, <a href=\"https://www.sciencedirect.com/science/article/abs/pii/001632877890006X\" title=\"Salter 1978\">ScienceDirect</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs, from an AI draft",
    "by_line": "Selected by me; description by me, from an AI draft",
@@ -12899,7 +12910,7 @@
    "desc_html": "(e.g. <a href=\"https://medicman11.artstation.com/projects/DvYRbE?album_id=2299386\">Fairchild M-121</a>), using detachable auxiliary wings that doubled as fuel tanks (1948). Considered too unconventional and killed by LeMay's backing for the B-52.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://medicman11.artstation.com/projects/DvYRbE?album_id=2299386\" title=\"Fairchild M-121\">ArtStation</a>, <a href=\"https://www.barnesandnoble.com/w/american-secret-projects-4-tony-buttler/1140351884\" title=\"Heavy bombers launched from jet-assisted rail-carts with detachable auxiliary wings\">Barnes &amp; Noble (book)</a>",
+   "sources_html": "<a href=\"https://www.barnesandnoble.com/w/american-secret-projects-4-tony-buttler/1140351884\" title=\"Heavy bombers launched from jet-assisted rail-carts with detachable auxiliary wings\">Barnes &amp; Noble (book)</a>, <a href=\"https://medicman11.artstation.com/projects/DvYRbE?album_id=2299386\" title=\"Fairchild M-121\">ArtStation</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs (revised after a source check)",
    "by_line": "Written by me, revised after a source check",
@@ -12987,6 +12998,26 @@
    "added_at": "",
    "changed_at": ""
   },
+  "STT-0037": {
+   "id": "STT-0037",
+   "kind": "desk",
+   "cat": "crushed",
+   "dom": "Military aircraft",
+   "group": "milair",
+   "title": "VTOL aircraft using augmentor-wings and air cushion landing systems",
+   "label": "Bell TAC VTOL",
+   "qualifier": "",
+   "desc_html": "Bell 'TAC VTOL' concept, late 1960s or early 1970s: a heavily armed VTOL aircraft using augmenter technology for vertical thrust and an air cushion landing system, dating from Bell's push for such landing systems and before the augmenter-wing XFV-12's failure.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://www.aerospaceprojectsreview.com/blog/?p=557\" title=\"VTOL aircraft using augmentor-wings and air cushion landing systems\">Aerospace Projects Review</a>",
+   "sel": "Matthijs",
+   "text_by": "Matthijs, from an AI draft",
+   "by_line": "Selected by me; description by me, from an AI draft",
+   "reviewed": "2026-11-17",
+   "added_at": "",
+   "changed_at": ""
+  },
   "STT-0036": {
    "id": "STT-0036",
    "kind": "own",
@@ -13004,26 +13035,6 @@
    "text_by": "Matthijs (revised after a source check)",
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-18",
-   "added_at": "",
-   "changed_at": ""
-  },
-  "STT-0037": {
-   "id": "STT-0037",
-   "kind": "desk",
-   "cat": "crushed",
-   "dom": "Military aircraft",
-   "group": "milair",
-   "title": "VTOL aircraft using augmentor-wings and air cushion landing systems",
-   "label": "Bell TAC VTOL",
-   "qualifier": "",
-   "desc_html": "Bell 'TAC VTOL' concept, late 1960s or early 1970s: a heavily armed VTOL aircraft using augmenter technology for vertical thrust and an air cushion landing system, dating from Bell's push for such landing systems and before the augmenter-wing XFV-12's failure.",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "<a href=\"https://www.aerospaceprojectsreview.com/blog/?p=557\" title=\"Bell tactical tiltrotor concept\">Aerospace Projects Review</a>",
-   "sel": "Matthijs",
-   "text_by": "Matthijs, from an AI draft",
-   "by_line": "Selected by me; description by me, from an AI draft",
-   "reviewed": "2026-11-17",
    "added_at": "",
    "changed_at": ""
   },
@@ -13116,16 +13127,16 @@
    "title": "Numerous NASA proposals for ambitious follow-ups to the Moon Landings",
    "label": "e.g. NASA 1969 seminar 'After the Moon - What?'",
    "qualifier": "",
-   "desc_html": "Including spaceplane space shuttles; orbital transfer nuclear spaced shuttles; space tugs; by 1979, several permanent and modular space stations hosting 'several tens or even hundreds of people' in low earth, polar, and geosynchronous orbit; a reusable Mars mission architecture; in-orbit repair and satellite servicing and in-space refuelling architecture (see also <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=4768\">source</a>)",
+   "desc_html": "Numerous NASA proposals for ambitious follow-ups after the Moon landings, as developed in their <a href=\"https://libarchstor2.uah.edu/digitalcollections/items/show/1137\">1969 seminar 'After the Moon - What?'</a>, including: spaceplane space shuttles; orbital transfer nuclear space shuttles; space tugs; by 1979, several permanent and modular space stations hosting 'several tens or even hundreds of people' in low earth, polar, and geosynchronous orbit; a reusable Mars mission architecture; in-orbit repair and satellite servicing and in-space refueling architecture (see also <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=4768\">source</a>)",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://libarchstor2.uah.edu/digitalcollections/items/show/1137\" title=\"After the Moon - What?\">UAH Archives</a>, <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=4768\" title=\"source\">Aerospace Projects Review</a>",
+   "sources_html": "<a href=\"https://libarchstor2.uah.edu/digitalcollections/items/show/1137\" title=\"1969 seminar &#x27;After the Moon - What?&#x27;\">UAH Archives</a>, <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=4768\" title=\"source\">Aerospace Projects Review</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs",
    "by_line": "Selected and written by me",
-   "reviewed": "",
+   "reviewed": "2026-11-27",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0043": {
    "id": "STT-0043",
@@ -13179,7 +13190,7 @@
    "desc_html": "A 1989 'dual keel' Space Station concept, with a partially enclosed hangar below and an aeroshell-equipped Mars vehicle above, intended as an assembly station and launch point for manned Moon and Mars missions, powered by photovoltaic arrays and solar dynamic generators. Concept only.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.aerospaceprojectsreview.com/blog/?p=1275\" title=\"Mars-mission orbital staging station\">Aerospace Projects Review</a>",
+   "sources_html": "<a href=\"https://www.aerospaceprojectsreview.com/blog/?p=1275\" title=\"Space Station for staging manned interplanetary missions\">Aerospace Projects Review</a>",
    "sel": "Matthijs",
    "text_by": "AI draft, approved by Matthijs",
    "by_line": "Selected by me; description drafted with AI, approved by me",
@@ -13216,7 +13227,7 @@
    "title": "Manned combat interceptor & satellite sabotage spacecraft for \"covert space denial\"",
    "label": "",
    "qualifier": "",
-   "desc_html": "A 1964–65 Grumman study, later Navy-funded, of a modified Apollo Lunar Module to inspect and disable enemy satellites with a remote arm; more ambitious proposals included a 1963 <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=548\">manned space fighter</a> concept, a variable-geometry combat spaceplane). Such interceptors were abandoned under SALT 1.",
+   "desc_html": "A 1964–65 Grumman study, later Navy-funded, of a modified Apollo Lunar Module to inspect and disable enemy satellites with a remote arm; more ambitious proposals included a 1963 <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=548\">manned space fighter</a> concept and a variable-geometry combat spaceplane. Such interceptors were abandoned under SALT 1.",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"http://www.astronautix.com/a/apollolmcsd.html\" title=\"manned combat interceptor &amp; satellite sabotage spacecraft\">Astronautix</a>, <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=548\" title=\"manned space fighter\">Aerospace Projects Review</a>",
@@ -13225,7 +13236,7 @@
    "by_line": "Selected by me; description by me, from an AI draft",
    "reviewed": "2026-11-16",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0047": {
    "id": "STT-0047",
@@ -13559,7 +13570,7 @@
    "desc_html": "1990s US Navy/DARPA concept for a kilometre-long modular floating sea base built from semi-submersible platforms that could be moved or towed together to form an airfield and logistics hub anywhere in the world; \"the largest floating offshore structure ever conceived by maritime engineers\". Studies in the late 90's concluded it was technically feasible and could be built by the US defence industry, at a full cost (for a 2km long MOB) $5–8 billion.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.globalsecurity.org/military/systems/ship/mob.htm\" title=\"MOB\">GlobalSecurity.org</a>, <a href=\"https://en.wikipedia.org/wiki/Mobile_offshore_base\" title=\"Mobile offshore base\">Wikipedia</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Mobile_offshore_base\" title=\"Mobile offshore base\">Wikipedia</a>, <a href=\"https://www.globalsecurity.org/military/systems/ship/mob.htm\" title=\"MOB\">GlobalSecurity.org</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs",
    "by_line": "Selected and written by me",
@@ -13593,19 +13604,19 @@
    "cat": "crushed",
    "dom": "Other weapons & military systems",
    "group": "weapons",
-   "title": "Nondetectable fragmenting (glass or plastic) bullets that leave fragments that are harder …",
+   "title": "Nondetectable fragmenting (glass or plastic) bullets",
    "label": "",
    "qualifier": "",
-   "desc_html": "<a href=\"https://doi.org/10.1080/01402390.2024.2442683\">Nondetectable fragmenting (glass or plastic) bullets</a> that leave fragments that are harder to detect by X-ray and remove surgically. Banned by Protocol I to the 1980 Convention on Certain Conventional Weapons, but widely considered that this was an anticipatory ban on a 'phantom weapon' that no state had seriously decided to pursue",
+   "desc_html": "They leave fragments that are harder to detect by X-ray and therefore extremely difficult to remove surgically. Banned by Protocol I to the 1980 Convention on Certain Conventional Weapons, though often considered an anticipatory ban on a 'phantom weapon' that no state had decided to seriously pursue.",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"https://doi.org/10.1080/01402390.2024.2442683\" title=\"nondetectable fragmenting (glass or plastic) bullets\">DOI</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me",
-   "reviewed": "",
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check",
+   "reviewed": "2026-11-27",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0066": {
    "id": "STT-0066",
@@ -13839,7 +13850,7 @@
    "desc_html": "A 242-m, 120,000-ton near-space \"aerospace carrier\" launching smaller aircraft, the centrepiece of the Nantianmen Project, an aviation futures imagining programme run since 2017 through videos, concept art and full-scale mock-ups; none of it has been demonstrated (<a href=\"https://centerforchinaanalysis.asiasociety.org/p/pla-watch-23-june-10-2026\">Center for China Analysis 2026</a>).",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://centerforchinaanalysis.asiasociety.org/p/pla-watch-23-june-10-2026\" title=\"Center for China Analysis 2026\">Center for China Analysis</a>, <a href=\"https://nationalinterest.org/blog/buzz/beijing-wants-believe-building-flying-aircraft-carriers-bw-091725\" title=\"Near-space flying aircraft carrier\">The National Interest</a>",
+   "sources_html": "<a href=\"https://nationalinterest.org/blog/buzz/beijing-wants-believe-building-flying-aircraft-carriers-bw-091725\" title=\"Near-space &#x27;aerospace carrier&#x27; ship\">The National Interest</a>, <a href=\"https://centerforchinaanalysis.asiasociety.org/p/pla-watch-23-june-10-2026\" title=\"Center for China Analysis 2026\">Center for China Analysis</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs, from an AI draft",
    "by_line": "Selected by me; description by me, from an AI draft",
@@ -13859,7 +13870,7 @@
    "desc_html": "Proposed nuclear-powered, guided-missile warship armed with nuclear-armed cruise missiles, hypersonic missiles, railguns, and laser cannons, along with a hangar for VTOL aircraft. Widely <a href=\"https://www.laserwars.net/p/trump-laser-battleship-mirage\">considered</a> a <a href=\"https://www.csis.org/analysis/golden-fleets-battleship-will-never-sail\">fledgling vanity project</a> that a future administration will cut before it is ever laid down",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.laserwars.net/p/trump-laser-battleship-mirage\" title=\"considered\">Laser Wars</a>, <a href=\"https://www.csis.org/analysis/golden-fleets-battleship-will-never-sail\" title=\"fledgling vanity project\">CSIS</a>, <a href=\"https://en.wikipedia.org/wiki/Trump-class_battleship\" title=\"Trump-class &#x27;battleship&#x27;\">Wikipedia</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Trump-class_battleship\" title=\"Trump-class &#x27;battleship&#x27;\">Wikipedia</a>, <a href=\"https://www.laserwars.net/p/trump-laser-battleship-mirage\" title=\"considered\">Laser Wars</a>, <a href=\"https://www.csis.org/analysis/golden-fleets-battleship-will-never-sail\" title=\"fledgling vanity project\">CSIS</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs (revised after a source check)",
    "by_line": "Written by me, revised after a source check",
@@ -13879,7 +13890,7 @@
    "desc_html": "",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "Springer <a href=\"https://link.springer.com/book/10.1007/978-3-540-68918-8\" title=\"giant crossbow\">1</a> <a href=\"https://link.springer.com/chapter/10.1057/9780230625372_13\" title=\"war machines\">2</a>, <a href=\"https://en.wikipedia.org/wiki/Leonardo%27s_aerial_screw\" title=\"aerial screw\">Wikipedia</a>, <a href=\"https://www.cambridge.org/core/journals/british-journal-for-the-history-of-science/article/archimedes-weapons-of-war-and-leonardo/BF5D85111E6B8138DC587B485C0C8F90\" title=\"Architronito steam cannon\">Cambridge University Press</a>",
+   "sources_html": "Springer <a href=\"https://link.springer.com/chapter/10.1057/9780230625372_13\" title=\"war machines\">1</a> <a href=\"https://link.springer.com/book/10.1007/978-3-540-68918-8\" title=\"giant crossbow\">2</a>, <a href=\"https://en.wikipedia.org/wiki/Leonardo%27s_aerial_screw\" title=\"aerial screw\">Wikipedia</a>, <a href=\"https://www.cambridge.org/core/journals/british-journal-for-the-history-of-science/article/archimedes-weapons-of-war-and-leonardo/BF5D85111E6B8138DC587B485C0C8F90\" title=\"Architronito steam cannon\">Cambridge University Press</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs (revised after a source check)",
    "by_line": "Written by me, revised after a source check",
@@ -14055,7 +14066,7 @@
    "group": "build",
    "title": "NEOM 'The Line' megastructure",
    "label": "",
-   "qualifier": "possible countercase",
+   "qualifier": "arguably",
    "desc_html": "The envisioned proposal for <a href=\"https://www.astralcodexten.com/p/absurdity-bias-neom-edition\">'The Line'</a> was a megastructure 170 km long, 200 m wide, and 500 m high, housing 9 million residents. It has been described as <a href=\"https://www.astralcodexten.com/p/model-city-monday-8122\">unserious</a> in its ambition, and potentially assuming construction costs that are an order of magnitude lower than achievable with modern building techniques. In 2024, ambitions were significantly <a href=\"https://www.bloomberg.com/news/articles/2024-04-05/saudis-scale-back-ambition-for-1-5-trillion-desert-project-neom\">scaled back</a>; by 2025, after USD 50 bn spent, and with funding drying up, <a href=\"https://ig.ft.com/saudi-neom-line/\">work had effectively stopped</a>.",
    "subs_html": "",
    "notes_html": "",
@@ -14065,7 +14076,7 @@
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-25",
    "added_at": "",
-   "changed_at": "2026-11-27T09:47Z"
+   "changed_at": "2026-11-27T15:53Z"
   },
   "STT-0020": {
    "id": "STT-0020",
