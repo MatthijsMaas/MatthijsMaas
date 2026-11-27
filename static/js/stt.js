@@ -12,7 +12,7 @@
 
   var cases = Array.prototype.slice.call(document.querySelectorAll('.stt-case'));
   if (!cases.length) return;
-  var state = { cat: '', group: '', by: '', q: '', cause: '' };
+  var state = { cat: '', group: '', by: '', q: '', cause: '', fresh: false };
   var q = document.getElementById('stt-q');
   var qs = Array.prototype.slice.call(document.querySelectorAll('input.stt-q'));   // above the figure and above the list: one search
   var group = document.getElementById('stt-group');
@@ -32,6 +32,60 @@
     c._text = text.toLowerCase();
   });
 
+  // 'Who wrote it' list, with the review filter in the same list (27 Nov)
+  function byOk(c) {
+    if (!state.by) return true;
+    if (state.by === 'rev') return !!c.dataset.rev;
+    if (state.by === 'norev') return !c.dataset.rev;
+    return c.dataset.by === state.by;
+  }
+
+  // New since your last visit (27 Nov). The browser keeps, in its own storage and nowhere else, which edition of the
+  // list the reader saw in their previous session (a session ends after 6 hours away). A case added or revised in a
+  // later edition gets a dot: filled if added, a ring if revised. On a first visit, the last 14 days count instead.
+  // Nothing at or before the launch (20 Nov 2026) is marked: the export leaves those stamps empty.
+  var edition = (document.querySelector('article.stt') || {}).dataset ? document.querySelector('article.stt').dataset.edition : '';
+  var since = '', sinceVisit = false;
+  (function () {
+    var now = Date.now(), v = null;
+    try { v = JSON.parse(localStorage.getItem('stt-visits') || 'null'); } catch (e) { v = null; }
+    if (!v || !v.t) v = { prev: '', cur: edition, t: now };
+    else if (now - v.t > 6 * 3600 * 1000) v = { prev: v.cur || '', cur: edition, t: now };
+    else v.cur = edition;
+    try { localStorage.setItem('stt-visits', JSON.stringify(v)); } catch (e) {}
+    if (v.prev) { since = v.prev; sinceVisit = true; }
+    else since = new Date(now - 14 * 86400 * 1000).toISOString().slice(0, 16) + 'Z';
+  })();
+  var nFresh = 0;
+  function day(stamp) { var d = new Date(stamp.slice(0, 10) + 'T12:00:00Z'); return d.getUTCDate() + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()]; }
+  cases.forEach(function (c) {
+    var a = c.dataset.added || '', ch = c.dataset.changed || '', dot = c.querySelector('summary .stt-newdot');
+    var kind = a && a > since ? 'added' : (ch && ch > since ? 'revised' : '');
+    c._fresh = !!kind;
+    if (!dot) return;
+    dot.hidden = !kind;
+    if (!kind) return;
+    nFresh++;
+    dot.classList.toggle('rev', kind === 'revised');
+    var lbl = (kind === 'added' ? 'Added ' + day(a) : 'Revised ' + day(ch)) + (sinceVisit ? ', since your last visit' : '');
+    dot.setAttribute('aria-label', lbl); dot.title = lbl;
+  });
+  var newline = document.getElementById('stt-newline');
+  if (newline && (nFresh || sinceVisit)) {
+    var nt = newline.querySelector('.stt-newtext'), nb = newline.querySelector('.stt-newonly');
+    var when = sinceVisit ? 'since your last visit (' + day(since) + ')' : 'in the last 14 days';
+    nt.textContent = nFresh ? nFresh + (nFresh === 1 ? ' case' : ' cases') + ' added or revised ' + when + '.' : 'Nothing added or revised ' + when + '.';
+    if (!nFresh) { nb.hidden = true; newline.querySelector('.stt-newdot').hidden = true; }
+    newline.hidden = false;
+    nb.addEventListener('click', function () { state.fresh = !state.fresh; apply(); });
+  }
+  function syncFresh() {
+    var nb = newline && newline.querySelector('.stt-newonly');
+    if (!nb) return;
+    nb.setAttribute('aria-pressed', state.fresh ? 'true' : 'false');
+    nb.textContent = state.fresh ? 'Show all cases' : 'Show only these';
+  }
+
   // The figure follows the search and the 'who wrote it' and review filters (not the row and column picks, which it
   // shows itself): each dot is resized to the matching cases, on the same scale as the full figure, and empty rows fade.
   var cellN = {}, maxN = 0;
@@ -40,9 +94,9 @@
   function dotSize(n) { return n ? Math.round(5 + 12 * Math.sqrt(n / maxN)) : 0; }
   var note = document.getElementById('stt-q-note');
   function shapeMatrix() {
-    var on = !!(state.q || state.by || state.cause), n = {}, all = 0;
+    var on = !!(state.q || state.by || state.cause || state.fresh), n = {}, all = 0;
     cases.forEach(function (c) {
-      if ((!state.by || c.dataset.by === state.by) && (!state.cause || c.dataset.cause === state.cause) &&
+      if (byOk(c) && (!state.cause || c.dataset.cause === state.cause) && (!state.fresh || c._fresh) &&
           (!state.q || c._text.indexOf(state.q) !== -1)) {
         var k = c.dataset.cat + '|' + c.dataset.group; n[k] = (n[k] || 0) + 1; all++;
       }
@@ -74,7 +128,7 @@
     cases.forEach(function (c) {
       var ok = (!state.cat || c.dataset.cat === state.cat) &&
                (!state.group || c.dataset.group === state.group) &&
-               (!state.by || c.dataset.by === state.by) &&
+               byOk(c) && (!state.fresh || c._fresh) &&
                (!state.cause || c.dataset.cause === state.cause) &&
                (!state.q || c._text.indexOf(state.q) !== -1);
       c.classList.toggle('stt-hidden', !ok);
@@ -168,6 +222,7 @@
   });
   document.addEventListener('toggle', syncFoldSoon, true);
   onApply.push(syncFold);
+  onApply.push(syncFresh);
   // The changelog is folded; links to it (the 'Changelog' link in the margin, or #changelog in the address) open it
   var changelog = document.querySelector('#changelog details');
   function openChangelog() { if (changelog && location.hash === '#changelog') changelog.open = true; }

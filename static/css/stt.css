@@ -239,3 +239,17 @@ p.stt-dock-zone { font-size: 0.72rem; line-height: 1.2; text-transform: uppercas
 :root[data-theme="dark"] .stt { color-scheme: dark; }
 :root[data-theme="light"] .stt { color-scheme: light; }
 .stt select option, .stt select optgroup { background-color: var(--stt-bg); color: inherit; }
+
+/* New since your last visit (27 Nov): a filled dot for an added case, a ring for a revised one, before the name */
+.stt-newdot { display: inline-block; width: 0.46em; height: 0.46em; margin: 0 0.42em 0.12em 0.05em; border-radius: 50%; vertical-align: middle; background: #0072b2; border: 1.5px solid #0072b2; box-sizing: border-box; }
+.stt-newdot.rev { background: transparent; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .stt-newdot { background: #4081d2; border-color: #4081d2; } :root:not([data-theme="light"]) .stt-newdot.rev { background: transparent; } }
+:root[data-theme="dark"] .stt-newdot { background: #4081d2; border-color: #4081d2; }
+:root[data-theme="dark"] .stt-newdot.rev { background: transparent; }
+.stt-newline { width: auto; margin: 0.2rem 0 0.4rem; font-size: 1.05rem; }
+.stt-newline .stt-newdot { margin-left: 0; }
+.stt-newonly { font: inherit; font-size: 0.98rem; color: inherit; background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 0.15em; cursor: pointer; }
+.stt-newonly[aria-pressed="true"] { font-style: italic; }
+/* Reviewed by me (27 Nov): a quiet tick in the entry's bottom line */
+.stt-reviewed { white-space: nowrap; }
+.stt-tick { vertical-align: -0.05em; margin-right: 0.25em; }
