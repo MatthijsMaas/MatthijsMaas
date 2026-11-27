@@ -2,18 +2,18 @@
  "meta": {
   "version": "0.1",
   "date": "2026-11-20",
-  "updated": "2026-11-25",
-  "n_cases": 498,
-  "n_own": 442,
-  "n_lost": 396,
+  "updated": "2026-11-27",
+  "n_cases": 499,
+  "n_own": 441,
+  "n_lost": 398,
   "n_fields": 2,
-  "n_desk": 56,
-  "n_unchecked": 258,
-  "n_text_own": 442,
+  "n_desk": 58,
+  "n_unchecked": 256,
+  "n_text_own": 443,
   "n_text_rewritten": 32,
   "n_text_ai": 24,
   "n_found_agents": 6,
-  "n_milaero": 298
+  "n_milaero": 299
  },
  "tiers": [
   {
@@ -175,7 +175,7 @@
   {
    "cat": "steep",
    "name": "Steep plateaus",
-   "total": 19,
+   "total": 18,
    "cells": [
     {
      "g": "milair",
@@ -235,10 +235,10 @@
     },
     {
      "g": "civspace",
-     "n": 2,
+     "n": 1,
      "full": "Civil space systems & exploration",
      "first": false,
-     "d": 9
+     "d": 8
     },
     {
      "g": "land",
@@ -1552,7 +1552,7 @@
   {
    "cat": "devhell",
    "name": "Development hell",
-   "total": 50,
+   "total": 52,
    "cells": [
     {
      "g": "milair",
@@ -1612,10 +1612,10 @@
     },
     {
      "g": "civspace",
-     "n": 11,
+     "n": 13,
      "full": "Civil space systems & exploration",
      "first": false,
-     "d": 14
+     "d": 15
     },
     {
      "g": "land",
@@ -2653,7 +2653,7 @@
    "name": "Steep plateaus",
    "definition": "Technologies that were eventually achieved by one or a few parties, but which frustrated most parties that tried their hand at them.",
    "def_line": 1436,
-   "count": 19,
+   "count": 18,
    "domains": [
     {
      "name": "Transport & land vehicles",
@@ -2680,7 +2680,6 @@
     {
      "name": "Civil space systems & space exploration",
      "ids": [
-      "STT-0482",
       "STT-0483"
      ]
     },
@@ -3450,7 +3449,7 @@
    "name": "Development hell",
    "definition": "Technologies that have seen sustained, continuous and costly attempts for development for decades, which (to date) have all failed. They differ from abandoned development in that there are still active programs.",
    "def_line": 756,
-   "count": 50,
+   "count": 52,
    "domains": [
     {
      "name": "Transport & land vehicles",
@@ -3489,7 +3488,9 @@
       "STT-0177",
       "STT-0178",
       "STT-0179",
-      "STT-0180"
+      "STT-0180",
+      "STT-0499",
+      "STT-0500"
      ]
     },
     {
@@ -4044,7 +4045,7 @@
     {
      "key": "steep",
      "name": "Steep plateaus",
-     "count": 19
+     "count": 18
     }
    ]
   },
@@ -4102,7 +4103,7 @@
     {
      "key": "devhell",
      "name": "Development hell",
-     "count": 50
+     "count": 52
     },
     {
      "key": "abandoned",
@@ -4260,23 +4261,6 @@
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"https://en.wikipedia.org/wiki/British_Aerospace_Nimrod_AEW3\" title=\"airborne early warning system\">Wikipedia</a>",
-   "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me"
-  },
-  "STT-0482": {
-   "id": "STT-0482",
-   "kind": "own",
-   "cat": "steep",
-   "dom": "Civil space systems & space exploration",
-   "group": "civspace",
-   "title": "US repeated attempts to develop nuclear-powered spacecraft propulsion",
-   "label": "",
-   "qualifier": "",
-   "desc_html": "",
-   "subs_html": "",
-   "notes_html": "",
-   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Project_Timberwind#Space_Nuclear_Thermal_Propulsion_Program\" title=\"repeated\">1</a> <a href=\"https://en.wikipedia.org/wiki/Project_Prometheus\" title=\"attempts\">2</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs",
    "by_line": "Selected and written by me"
@@ -7178,7 +7162,7 @@
    "dom": "Construction, architecture & infrastructure",
    "group": "build",
    "title": "Panama Canal",
-   "label": "initial failed attempt by Ferdinand de Lessep",
+   "label": "1st failed construction effort by Ferdinand de Lesseps",
    "qualifier": "",
    "desc_html": "",
    "subs_html": "",
@@ -9313,6 +9297,40 @@
    "text_by": "Matthijs",
    "by_line": "Selected and written by me"
   },
+  "STT-0499": {
+   "id": "STT-0499",
+   "kind": "split",
+   "cat": "devhell",
+   "dom": "Civil space systems & space exploration",
+   "group": "civspace",
+   "title": "US nuclear spacecraft propulsion: nuclear thermal",
+   "label": "Project Timberwind / SNTP",
+   "qualifier": "",
+   "desc_html": "<a href=\"https://en.wikipedia.org/wiki/Project_Timberwind#Space_Nuclear_Thermal_Propulsion_Program\">Project Timberwind</a>, SNTP, Rover/NERVA (1955-73) to develop nuclear-powered spacecraft propulsion relying on the thermal energy of nuclear reactions instead of the chemical energy of propellants. Most recently, in 2025 NASA/DARPA's <a href=\"https://en.wikipedia.org/wiki/Demonstration_Rocket_for_Agile_Cislunar_Operations\">DRACO</a> flight demonstrator was cancelled because of technical and regulatory challenges.",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Project_Timberwind#Space_Nuclear_Thermal_Propulsion_Program\" title=\"Project Timberwind\">1</a> <a href=\"https://en.wikipedia.org/wiki/Demonstration_Rocket_for_Agile_Cislunar_Operations\" title=\"DRACO\">2</a>",
+   "sel": "Matthijs",
+   "text_by": "Matthijs",
+   "by_line": "Written by me; split into its own entry"
+  },
+  "STT-0500": {
+   "id": "STT-0500",
+   "kind": "split",
+   "cat": "devhell",
+   "dom": "Civil space systems & space exploration",
+   "group": "civspace",
+   "title": "US nuclear spacecraft propulsion: nuclear-electric",
+   "label": "Project Prometheus",
+   "qualifier": "",
+   "desc_html": "<a href=\"https://en.wikipedia.org/wiki/Project_Prometheus\">2003-2005 'Project Prometheus'</a>, aimed at developing nuclear-electric spacecraft propulsion systems (i.e. nuclear-energy-powered ion engines) for long-duration space missions. Cancelled because of budgetary pressures on NASA. (see also <a href=\"https://www.scientificamerican.com/video/nasas-nuclear-option-may-be-crucial-for-getting-humans-to-mars/\">source</a>).",
+   "subs_html": "",
+   "notes_html": "",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Project_Prometheus\" title=\"2003-2005 &#x27;Project Prometheus&#x27;\">Wikipedia</a>, <a href=\"https://www.scientificamerican.com/video/nasas-nuclear-option-may-be-crucial-for-getting-humans-to-mars/\" title=\"source\">Scientific American</a>",
+   "sel": "Matthijs",
+   "text_by": "Matthijs",
+   "by_line": "Written by me; split into its own entry"
+  },
   "STT-0181": {
    "id": "STT-0181",
    "kind": "own",
@@ -10101,13 +10119,13 @@
    "cat": "abandoned",
    "dom": "Civil space systems & space exploration",
    "group": "civspace",
-   "title": "Second US spacestation",
-   "label": "",
+   "title": "More ambitious US space stations",
+   "label": "Skylab B; Space Station Freedom",
    "qualifier": "",
-   "desc_html": "A <a href=\"https://en.wikipedia.org/wiki/Space_Station_Freedom\">much more ambitious version</a> of the International Space Station",
+   "desc_html": "Incl. a <a href=\"https://en.wikipedia.org/wiki/Space_Station_Freedom\">much more ambitious version</a> of the International Space Station.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Skylab_B\" title=\"second US spacestation\">1</a> <a href=\"https://en.wikipedia.org/wiki/Space_Station_Freedom\" title=\"much more ambitious version\">2</a>",
+   "sources_html": "Wikipedia <a href=\"https://en.wikipedia.org/wiki/Space_Station_Freedom\" title=\"much more ambitious version\">1</a> <a href=\"https://en.wikipedia.org/wiki/Skylab_B\" title=\"Skylab B\">2</a>",
    "sel": "Matthijs",
    "text_by": "Matthijs",
    "by_line": "Selected and written by me"
@@ -10373,16 +10391,16 @@
    "cat": "abandoned",
    "dom": "Military space systems",
    "group": "milspace",
-   "title": "One-man space stations / piloted spy satelites",
-   "label": "",
+   "title": "Micro-space stations",
+   "label": "McDonnell's 1960 One-Man Space Station",
    "qualifier": "",
-   "desc_html": "",
+   "desc_html": "Likely a civilian version of a proposed piloted spy satellite",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.wired.com/2014/09/one-man-space-station-1960/\" title=\"one-man space stations\">Wired</a>",
+   "sources_html": "<a href=\"https://www.wired.com/2014/09/one-man-space-station-1960/\" title=\"One-man space stations\">Wired</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me"
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check"
   },
   "STT-0103": {
    "id": "STT-0103",
@@ -11461,16 +11479,16 @@
    "cat": "crushed",
    "dom": "Civil aircraft",
    "group": "civair",
-   "title": "Airline travel through an aerial relay system to reduce major hub airport congestion",
-   "label": "",
+   "title": "Aerial relay system",
+   "label": "ARS",
    "qualifier": "",
-   "desc_html": "i.e. <a href=\"https://dspace.mit.edu/handle/1721.1/67997\">a series of airline 'liners' continuously cruise at set altitudes and predetermined schedules</a>, these are met by small 'feeder' aircraft carying aloft passengers, which dock in the liners and are fully carried along to their destination",
+   "desc_html": "A <a href=\"https://scispace.com/pdf/the-u-s-aviation-system-to-the-year-2000-2pxg1zeb5i.pdf\">concept</a> for a more efficient airline travel system that reduces major hub airport congestion, using an aerial relay system, whereby <a href=\"https://dspace.mit.edu/handle/1721.1/67997\">a series of airborne 'liners' continuously cruise at set altitudes and predetermined schedules</a>, and are met by small 'feeder' aircraft carrying aloft passengers and fuel, which dock the liners for in-flight exchange of passengers, baggage and fuel, as well as accepting passengers for its own base.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://ntrs.nasa.gov/citations/19790063908\" title=\"aerial relay system\">NASA NTRS</a>, <a href=\"https://dspace.mit.edu/handle/1721.1/67997\" title=\"a series of airline &#x27;liners&#x27; continuously cruise at set altitudes and predetermined schedules\">MIT DSpace</a>",
+   "sources_html": "<a href=\"https://scispace.com/pdf/the-u-s-aviation-system-to-the-year-2000-2pxg1zeb5i.pdf\" title=\"concept\">scispace.com</a>, <a href=\"https://dspace.mit.edu/handle/1721.1/67997\" title=\"a series of airborne &#x27;liners&#x27; continuously cruise at set altitudes and predetermined schedules\">MIT DSpace</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me"
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check"
   },
   "STT-0026": {
    "id": "STT-0026",
@@ -11563,16 +11581,16 @@
    "cat": "crushed",
    "dom": "Military aircraft",
    "group": "milair",
-   "title": "Heavy bombers launched from jet-assistedd railcarts using detachable auxiliary wings/fuel tanks",
-   "label": "",
+   "title": "Heavy bombers launched from jet-assisted rail-carts with detachable auxiliary wings",
+   "label": "Fairchild M-121 (1948)",
    "qualifier": "",
-   "desc_html": "<a href=\"https://medicman11.artstation.com/projects/DvYRbE?album_id=2299386\">Fairchild M-121</a> (1948); considered too unconventional and killed by LeMay's backing for B-52",
+   "desc_html": "(e.g. <a href=\"https://medicman11.artstation.com/projects/DvYRbE?album_id=2299386\">Fairchild M-121</a>), using detachable auxiliary wings that doubled as fuel tanks (1948). Considered too unconventional and killed by LeMay's backing for the B-52.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://www.barnesandnoble.com/w/american-secret-projects-4-tony-buttler/1140351884\" title=\"heavy bombers launched from jet-assistedd railcarts\">Barnes &amp; Noble (book)</a>, <a href=\"https://medicman11.artstation.com/projects/DvYRbE?album_id=2299386\" title=\"Fairchild M-121\">ArtStation</a>",
+   "sources_html": "<a href=\"https://medicman11.artstation.com/projects/DvYRbE?album_id=2299386\" title=\"Fairchild M-121\">ArtStation</a>, <a href=\"https://www.barnesandnoble.com/w/american-secret-projects-4-tony-buttler/1140351884\" title=\"Heavy bombers launched from jet-assisted rail-carts with detachable auxiliary wings\">Barnes &amp; Noble (book)</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me"
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check"
   },
   "STT-0032": {
    "id": "STT-0032",
@@ -12413,16 +12431,16 @@
    "cat": "performative",
    "dom": "Other weapons & military systems",
    "group": "weapons",
-   "title": "Many German WWII-era late-stage 'Wunderwaffe' have been interpreted as performative proposals",
+   "title": "Wunderwaffe ('Wonder Weapons')",
    "label": "",
    "qualifier": "",
-   "desc_html": "Either advertised for propaganda purposes, or pushed by engineers eager to demonstrate their importance to the war effort in order to avoid conscription to the Eastern Front.",
+   "desc_html": "Many German late-WWII weapon designs have been described as performative proposals, either advertised by the regime for propaganda purposes, or pushed by engineers eager to demonstrate their importance to the war effort in order to avoid conscription to the front.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Wunderwaffe\" title=\"Wunderwaffe\">Wikipedia</a>",
+   "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Wunderwaffe\" title=\"Wunderwaffe (&#x27;Wonder Weapons&#x27;)\">Wikipedia</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me"
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check"
   },
   "STT-0012": {
    "id": "STT-0012",
@@ -12549,16 +12567,16 @@
    "cat": "performative",
    "dom": "Construction, architecture & infrastructure",
    "group": "build",
-   "title": "Neom 'the Line' megastructure",
+   "title": "NEOM 'The Line' megastructure",
    "label": "",
    "qualifier": "possible countercase",
-   "desc_html": "The envisioned proposal for The Line--\"<a href=\"https://www.astralcodexten.com/p/absurdity-bias-neom-edition\">a skyscraper the height of WTC1t and the length of Ireland</a>\"--was <a href=\"https://www.astralcodexten.com/p/model-city-monday-8122\">wildly unserious</a> in its ambition, and amongst others assumes construction costs that are 10x lower than achievable with modern building techniques. -- and indeed, by 2024 ambitions were significantly <a href=\"https://www.bloomberg.com/news/articles/2024-04-05/saudis-scale-back-ambition-for-1-5-trillion-desert-project-neom\">scaled back</a>; by 2025, after USD 50 bn spent, and funding drying up, <a href=\"https://ig.ft.com/saudi-neom-line/\">work had effectively stopped</a>. (arguably a case of abandoned development)",
+   "desc_html": "The envisioned proposal for <a href=\"https://www.astralcodexten.com/p/absurdity-bias-neom-edition\">'The Line'</a> was a megastructure 170 km long, 200 m wide, and 500 m high, housing 9 million residents. It has been described as <a href=\"https://www.astralcodexten.com/p/model-city-monday-8122\">unserious</a> in its ambition, and potentially assuming construction costs that are an order of magnitude lower than achievable with modern building techniques. In 2024, ambitions were significantly <a href=\"https://www.bloomberg.com/news/articles/2024-04-05/saudis-scale-back-ambition-for-1-5-trillion-desert-project-neom\">scaled back</a>; by 2025, after USD 50 bn spent, and with funding drying up, <a href=\"https://ig.ft.com/saudi-neom-line/\">work had effectively stopped</a>.",
    "subs_html": "",
    "notes_html": "",
-   "sources_html": "Astral Codex Ten <a href=\"https://www.astralcodexten.com/p/absurdity-bias-neom-edition\" title=\"a skyscraper the height of WTC1t and the length of Ireland\">1</a> <a href=\"https://www.astralcodexten.com/p/model-city-monday-8122\" title=\"wildly unserious\">2</a>, <a href=\"https://www.bloomberg.com/news/articles/2024-04-05/saudis-scale-back-ambition-for-1-5-trillion-desert-project-neom\" title=\"scaled back\">Bloomberg</a>, <a href=\"https://ig.ft.com/saudi-neom-line/\" title=\"work had effectively stopped\">Financial Times</a>",
+   "sources_html": "Astral Codex Ten <a href=\"https://www.astralcodexten.com/p/absurdity-bias-neom-edition\" title=\"&#x27;The Line&#x27;\">1</a> <a href=\"https://www.astralcodexten.com/p/model-city-monday-8122\" title=\"unserious\">2</a>, <a href=\"https://www.bloomberg.com/news/articles/2024-04-05/saudis-scale-back-ambition-for-1-5-trillion-desert-project-neom\" title=\"scaled back\">Bloomberg</a>, <a href=\"https://ig.ft.com/saudi-neom-line/\" title=\"work had effectively stopped\">Financial Times</a>",
    "sel": "Matthijs",
-   "text_by": "Matthijs",
-   "by_line": "Selected and written by me"
+   "text_by": "Matthijs (revised after a source check)",
+   "by_line": "Written by me, revised after a source check"
   },
   "STT-0020": {
    "id": "STT-0020",
