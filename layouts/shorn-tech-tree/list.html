@@ -71,6 +71,7 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 <select id="stt-cause" aria-label="Stated causes of abandonment (review lists)"><option value="">All entries</option><option value="A">List A: stated cause, never checked</option><option value="B">List B: cause not supported by its source</option></select>{{ end }}
 </section>
 <p class="stt-newline" id="stt-newline" hidden><span class="stt-newdot" aria-hidden="true"></span><span class="stt-newtext"></span> <button type="button" class="stt-newonly" aria-pressed="false">Show only these</button></p>
+<p class="stt-key stt-listkey" id="stt-listkey"><span class="stt-key-lead">Marks in the list:</span> <span class="stt-key-item"><span class="stt-newdot" aria-hidden="true"></span>added <span class="stt-key-when">since your last visit</span></span> <span class="stt-key-item"><span class="stt-newdot rev" aria-hidden="true"></span>revised <span class="stt-key-when">since your last visit</span></span> <span class="stt-key-item"><svg class="stt-tick" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true" focusable="false"><path d="M2 6.4 4.8 9.2 10 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>reviewed by me</span></p>
 <p class="stt-count" id="stt-count" aria-live="polite">{{ $m.n_cases }} cases</p>
 {{ if .Params.review_overlay }}<p class="stt-legend" id="stt-legend">Review status (preview only): <span class="k k-unchecked">not checked against a source</span> <span class="k k-flagged">checked: problems flagged</span> <span class="k k-minor">checked: minor issues</span> <span class="k k-ok">checked or reviewed</span></p>{{ end }}
 
@@ -116,7 +117,7 @@ Cite as: Maas, M. (2026). <em>The Shorn Tech Tree{{ with .Params.subtitle }}: {{
 <section id="changelog">
 <details class="stt-fold stt-changelog"><summary><h2>Changelog</h2></summary>
 <ul>
-<li>27 November 2026, second update: a dot marks cases added or revised since your last visit (or in the last 14 days, on a first visit), with a filter; a tick in each entry’s bottom line marks the entries I have reviewed, with a filter.</li>
+<li>27 November 2026, second update: a dot marks cases added or revised since your last visit (or in the last 14 days, on a first visit), with a filter; a tick in each entry’s bottom line marks the entries I have reviewed, with a filter; a key to both above the list.</li>
 <li>27 November 2026: seven entries revised (STT-0011 Wunderwaffe, STT-0019 NEOM ‘The Line’, STT-0025 aerial relay system, STT-0031 rail-launched heavy bombers, STT-0086 US space stations, STT-0102 micro-space stations, STT-0329 Panama Canal); STT-0482 (US nuclear spacecraft propulsion) split into STT-0499 (nuclear thermal) and STT-0500 (nuclear-electric). 499 cases.</li>
 <li>25 November 2026, third update: “Lost ‘dark matter’ innovations” renamed “Depressed innovation fields”; the introduction counts the technologies abandoned or never (yet) realised; a new glyph for Procurement and deployment bungles (collapse at roll-out, while a replacement carries on); a light/dark switch in the corner bar; readable dropdown lists in dark mode.</li>
 <li>25 November 2026, second update: in the key, ‘active pursuit’ becomes ‘pursuit decision’, so it does not read as ‘still being pursued’.</li>

@@ -70,6 +70,7 @@
     var lbl = (kind === 'added' ? 'Added ' + day(a) : 'Revised ' + day(ch)) + (sinceVisit ? ', since your last visit' : '');
     dot.setAttribute('aria-label', lbl); dot.title = lbl;
   });
+  if (!sinceVisit) Array.prototype.forEach.call(document.querySelectorAll('#stt-listkey .stt-key-when'), function (w) { w.textContent = 'in the last 14 days'; });
   var newline = document.getElementById('stt-newline');
   if (newline && (nFresh || sinceVisit)) {
     var nt = newline.querySelector('.stt-newtext'), nb = newline.querySelector('.stt-newonly');

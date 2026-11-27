@@ -5,6 +5,8 @@ This page contains a long list of technologies; reading from the top may be a bi
 
 Cases are not presented strongly chronologically, but they are categorized along 'type of abandonment (high water mark)', and, for each, the type or domain of technology.
 
+**Marks in the list.** A blue dot before a case's name means it was added since your last visit; a blue ring, that it was revised since then (on a first visit, both cover the last 14 days). Your browser keeps the date of your last visit itself; nothing is sent anywhere. A tick and 'Reviewed by me' in an entry's bottom line mean I have gone through that entry myself and approved, rewritten or kept it; entries without the tick still await that pass.
+
 **Things to keep in mind when reading this list.** I recommend you try and read this list imagining that you don't already know the eventual outcome:
 
 - try and imagine living at the time and hearing that a particular technology or project had just received a major government grant or private investment (as indeed many did); and then see how you feel about the scientific basis, technological feasibility, and economic or military utility or competitiveness of each proposal.

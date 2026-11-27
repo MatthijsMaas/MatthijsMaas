@@ -242,7 +242,7 @@ p.stt-dock-zone { font-size: 0.72rem; line-height: 1.2; text-transform: uppercas
 
 /* New since your last visit (27 Nov): a filled dot for an added case, a ring for a revised one, before the name */
 .stt-newdot { display: inline-block; width: 0.46em; height: 0.46em; margin: 0 0.42em 0.12em 0.05em; border-radius: 50%; vertical-align: middle; background: #0072b2; border: 1.5px solid #0072b2; box-sizing: border-box; }
-.stt-newdot.rev { background: transparent; }
+.stt-newdot.rev { background: transparent; border-width: 2px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .stt-newdot { background: #4081d2; border-color: #4081d2; } :root:not([data-theme="light"]) .stt-newdot.rev { background: transparent; } }
 :root[data-theme="dark"] .stt-newdot { background: #4081d2; border-color: #4081d2; }
 :root[data-theme="dark"] .stt-newdot.rev { background: transparent; }
@@ -252,4 +252,7 @@ p.stt-dock-zone { font-size: 0.72rem; line-height: 1.2; text-transform: uppercas
 .stt-newonly[aria-pressed="true"] { font-style: italic; }
 /* Reviewed by me (27 Nov): a quiet tick in the entry's bottom line */
 .stt-reviewed { white-space: nowrap; }
+p.stt-listkey { margin: 0.1rem 0 0.35rem; font-size: 0.92rem; }
+.stt-listkey .stt-newdot { margin-left: 0; margin-right: 0.3em; }
+.stt-listkey .stt-tick { margin-right: 0.3em; }
 .stt-tick { vertical-align: -0.05em; margin-right: 0.25em; }
