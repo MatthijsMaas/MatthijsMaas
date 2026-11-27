@@ -14,7 +14,7 @@
   "n_text_ai": 24,
   "n_found_agents": 6,
   "n_milaero": 299,
-  "edition": "2026-11-27T15:53Z"
+  "edition": "2026-11-27T20:04Z"
  },
  "tiers": [
   {
@@ -4524,10 +4524,10 @@
    "cat": "bungles",
    "dom": "Military aircraft",
    "group": "milair",
-   "title": "Comanche stealth helicopter programme",
+   "title": "RAH-66 Comanche stealth attack helicopter",
    "label": "",
    "qualifier": "",
-   "desc_html": "<a href=\"https://web.archive.org/web/20121006110122if_/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA467794\">RAH-66 Comanche stealth attack helicopter</a> – cancelled in 2004 after 22 years, 6 restructurings, and USD 6.9 bn spent, a year before the first units would roll off the production line (see also <a href=\"https://en.wikipedia.org/wiki/Light_Helicopter_Experimental\">LHX programme</a>, and <a href=\"https://en.wikipedia.org/wiki/Stealth_helicopter\">Wikipedia - Stealth Helicopters</a>)",
+   "desc_html": "Cancelled in 2004 after 22 years, 6 restructurings, and USD 6.9 bn spent, a year before the first units would roll off the production line (see also <a href=\"https://en.wikipedia.org/wiki/Light_Helicopter_Experimental\">LHX programme</a>, and <a href=\"https://en.wikipedia.org/wiki/Stealth_helicopter\">Wikipedia - Stealth Helicopters</a>)",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"https://web.archive.org/web/20121006110122if_/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA467794\" title=\"RAH-66 Comanche stealth attack helicopter\">Internet Archive</a>, Wikipedia <a href=\"https://en.wikipedia.org/wiki/Light_Helicopter_Experimental\" title=\"LHX program\">1</a> <a href=\"https://en.wikipedia.org/wiki/Stealth_helicopter\" title=\"Wikipedia - Stealth Helicopters\">2</a>",
@@ -4536,7 +4536,7 @@
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-27",
    "added_at": "",
-   "changed_at": "2026-11-27T15:53Z"
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0465": {
    "id": "STT-0465",
@@ -5204,10 +5204,10 @@
    "cat": "withered",
    "dom": "Nuclear & strategic weapons, delivery systems & countermeasures",
    "group": "nuclear",
-   "title": "No country today is known to deploy offensive neutron bombs",
+   "title": "Offensive neutron bombs",
    "label": "",
    "qualifier": "debatable",
-   "desc_html": "Offensive neutron bombs: no country today is known to deploy neutron bombs for offensive purposes; but Russia deploys some on ballistic missile defence interceptors. Furthermore, in practice thermonuclear dial-a-yield warheads that offer 10 kiloton or lower as an option functionally can be used as neutron bombs in use if not in name. <a href=\"https://en.wikipedia.org/wiki/Neutron_bomb#:~:text=Testing%20of%20the%20W66%20was,part%20of%20the%20Safeguard%20Program.\">Wikipedia</a>",
+   "desc_html": "No country today is known to deploy neutron bombs for offensive purposes; but Russia deploys some on ballistic missile defence interceptors. Furthermore, in practice thermonuclear dial-a-yield warheads that offer 10 kiloton or lower as an option functionally can be used as neutron bombs in use if not in name. <a href=\"https://en.wikipedia.org/wiki/Neutron_bomb#:~:text=Testing%20of%20the%20W66%20was,part%20of%20the%20Safeguard%20Program.\">Wikipedia</a>",
    "subs_html": "",
    "notes_html": "",
    "sources_html": "<a href=\"https://en.wikipedia.org/wiki/Neutron_bomb#:~:text=Testing%20of%20the%20W66%20was,part%20of%20the%20Safeguard%20Program.\" title=\"Wikipedia\">Wikipedia</a>",
@@ -5216,7 +5216,7 @@
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-27",
    "added_at": "",
-   "changed_at": "2026-11-27T15:53Z"
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0410": {
    "id": "STT-0410",
@@ -7624,7 +7624,7 @@
    "cat": "falsedawn",
    "dom": "Energy",
    "group": "energy",
-   "title": "Off-Grid Compressed Air Energy Storage",
+   "title": "Off-grid compressed-air energy storage",
    "label": "",
    "qualifier": "",
    "desc_html": "Small-scale compressed air storage (CAES), notably low-pressure near-isothermal designs, which have been proposed as a long-lived, low-maintenance alternative to chemical batteries for off-grid energy storage. Still early-stage research with experimental setups and no commercial products.",
@@ -7636,7 +7636,7 @@
    "by_line": "Selected by me; description by me, from an AI draft",
    "reviewed": "2026-11-08",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0325": {
    "id": "STT-0325",
@@ -8385,7 +8385,7 @@
    "dom": "Military aircraft",
    "group": "milair",
    "title": "'Helicopter Plane' hybrid rotorcraft",
-   "label": "Kamov Ka-22 & KA-35",
+   "label": "Kamov Ka-22",
    "qualifier": "",
    "desc_html": "Experimental Soviet transport aircraft with rotors above the wing tips, combining helicopter take-off with fixed-wing cruise; it set eight world records but was abandoned after two fatal crashes (1962, 1964) linked to control problems, with the Mi-6 helicopter already filling the heavy-helicopter role. See also <a href=\"https://youtube.com/watch?v=3a6sK6DENH8\">video on the Soviet hybrid helicopter-plane lineage</a>",
    "subs_html": "",
@@ -8396,7 +8396,7 @@
    "by_line": "Selected by me; description by me, from an AI draft",
    "reviewed": "2026-11-11",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0238": {
    "id": "STT-0238",
@@ -8684,7 +8684,7 @@
    "cat": "forlorn",
    "dom": "Nuclear & strategic weapons, delivery systems & countermeasures",
    "group": "nuclear",
-   "title": "Air-launched (i.e. more stealthy) anti-satellite missiles",
+   "title": "Air-launched anti-satellite missiles",
    "label": "ASM-135 ASAT, launched by F-15",
    "qualifier": "",
    "desc_html": "Air-launched anti-satellite missile carried by USAF F-15s; destroyed the Solwind P78-1 satellite in a September 1985 test. Congress banned tests against space targets in December 1985, and the Reagan Administration cancelled the programme in 1988 over technical problems, testing delays and cost growth.",
@@ -8696,7 +8696,7 @@
    "by_line": "Selected by me; description drafted with AI, approved by me",
    "reviewed": "2026-11-18",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0254": {
    "id": "STT-0254",
@@ -11504,7 +11504,7 @@
    "cat": "abandoned",
    "dom": "Military space systems",
    "group": "milspace",
-   "title": "Micro-space stations",
+   "title": "One-man space stations",
    "label": "McDonnell's 1960 One-Man Space Station",
    "qualifier": "",
    "desc_html": "Likely a civilian version of a proposed piloted spy satellite",
@@ -11516,7 +11516,7 @@
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-25",
    "added_at": "",
-   "changed_at": "2026-11-27T09:47Z"
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0103": {
    "id": "STT-0103",
@@ -13004,7 +13004,7 @@
    "cat": "crushed",
    "dom": "Military aircraft",
    "group": "milair",
-   "title": "VTOL aircraft using augmentor-wings and air cushion landing systems",
+   "title": "VTOL aircraft using augmenter wings and air-cushion landing systems",
    "label": "Bell TAC VTOL",
    "qualifier": "",
    "desc_html": "Bell 'TAC VTOL' concept, late 1960s or early 1970s: a heavily armed VTOL aircraft using augmenter technology for vertical thrust and an air cushion landing system, dating from Bell's push for such landing systems and before the augmenter-wing XFV-12's failure.",
@@ -13016,7 +13016,7 @@
    "by_line": "Selected by me; description by me, from an AI draft",
    "reviewed": "2026-11-17",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0036": {
    "id": "STT-0036",
@@ -13124,8 +13124,8 @@
    "cat": "crushed",
    "dom": "Civil space systems & space exploration",
    "group": "civspace",
-   "title": "Numerous NASA proposals for ambitious follow-ups to the Moon Landings",
-   "label": "e.g. NASA 1969 seminar 'After the Moon - What?'",
+   "title": "Ambitious NASA follow-ups beyond the Moon Landings",
+   "label": "NASA 1969 seminar 'After the Moon - What?'",
    "qualifier": "",
    "desc_html": "Numerous NASA proposals for ambitious follow-ups after the Moon landings, as developed in their <a href=\"https://libarchstor2.uah.edu/digitalcollections/items/show/1137\">1969 seminar 'After the Moon - What?'</a>, including: spaceplane space shuttles; orbital transfer nuclear space shuttles; space tugs; by 1979, several permanent and modular space stations hosting 'several tens or even hundreds of people' in low earth, polar, and geosynchronous orbit; a reusable Mars mission architecture; in-orbit repair and satellite servicing and in-space refueling architecture (see also <a href=\"https://www.aerospaceprojectsreview.com/blog/?p=4768\">source</a>)",
    "subs_html": "",
@@ -13136,7 +13136,7 @@
    "by_line": "Selected and written by me",
    "reviewed": "2026-11-27",
    "added_at": "",
-   "changed_at": "2026-11-27T15:53Z"
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0043": {
    "id": "STT-0043",
@@ -13864,7 +13864,7 @@
    "cat": "performative",
    "dom": "Naval (military)",
    "group": "naval",
-   "title": "'Trump-class battleship'",
+   "title": "Trump-class 'battleship'",
    "label": "",
    "qualifier": "arguably",
    "desc_html": "Proposed nuclear-powered, guided-missile warship armed with nuclear-armed cruise missiles, hypersonic missiles, railguns, and laser cannons, along with a hangar for VTOL aircraft. Widely <a href=\"https://www.laserwars.net/p/trump-laser-battleship-mirage\">considered</a> a <a href=\"https://www.csis.org/analysis/golden-fleets-battleship-will-never-sail\">fledgling vanity project</a> that a future administration will cut before it is ever laid down",
@@ -13876,7 +13876,7 @@
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-19",
    "added_at": "",
-   "changed_at": "2026-11-24T15:01Z"
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0010": {
    "id": "STT-0010",
@@ -13884,7 +13884,7 @@
    "cat": "performative",
    "dom": "Other weapons & military systems",
    "group": "weapons",
-   "title": "Leonardo Da Vinci's war machines",
+   "title": "Leonardo da Vinci's war machines",
    "label": "giant crossbow; aerial screw Architronito steam cannon",
    "qualifier": "",
    "desc_html": "",
@@ -13896,7 +13896,7 @@
    "by_line": "Written by me, revised after a source check",
    "reviewed": "2026-11-20",
    "added_at": "",
-   "changed_at": ""
+   "changed_at": "2026-11-27T20:04Z"
   },
   "STT-0011": {
    "id": "STT-0011",
